@@ -1569,7 +1569,7 @@
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;Используя возможности подменю файл, выполнила следующие операции:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;-Посмотрела содержимое файла Student.cpp c помощью команды просмотр файла.(рис.22-23)&lt;/p&gt;
+&lt;p&gt;-Посмотрела содержимое файла Student.cpp c помощью команды просмотр файла.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1588,31 +1588,10 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc24.jpg&#34; alt=&#34;22.Открытие команды просмотр файла&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc25.jpg&#34; alt=&#34;Просмотр файла&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc25.jpg&#34; alt=&#34;23.Просмотр файла&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-{ #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;-Отредактировала файл Student.cpp с помощью команды правка, не сохранив изменения.(рис.24-26)&lt;/p&gt;
+&lt;p&gt;-Отредактировала файл Student.cpp с помощью команды правка, не сохранив изменения.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1634,6 +1613,7 @@
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc26.jpg&#34; alt=&#34;24.Команда правка&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
+&lt;p&gt;-С помощью команды создание каталога создала каталог ~/lab7.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1652,9 +1632,10 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc27.jpg&#34; alt=&#34;25.Открытие файла в режиме редактирования&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc29.jpg&#34; alt=&#34;Команда создание каталога&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
+&lt;p&gt;-С помощью команды копирование скопировала два выделенных мной снимка экрана в созданный мной в прошлом пункте каталог ~/lab7.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1673,72 +1654,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc28.jpg&#34; alt=&#34;26.Изменения не сохранены&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-{ #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;-С помощью команды создание каталога создала каталог ~/lab7.(рис.27-28)&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc29.jpg&#34; alt=&#34;27.Команда создание каталога&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-{ #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc30.jpg&#34; alt=&#34;28.Указание пути к каталогу и его названия&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-{ #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;-С помощью команды копирование(рис.29) скопировала два выделенных мной снимка экрана в созданный мной в прошлом пункте каталог ~/lab7.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc32.jpg&#34; alt=&#34;29.Копирование файлов в новый каталог&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc32.jpg&#34; alt=&#34;Копирование файлов в новый каталог&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
