@@ -1380,9 +1380,9 @@
     
     <item>
       <title>Лабораторная работа №7</title>
-      <link>https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/</link>
+      <link>https://EugeniaVel.github.io/project/lab7/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/</guid>
+      <guid>https://EugeniaVel.github.io/project/lab7/</guid>
       <description>&lt;h1 id=&#34;теоретическое-введение&#34;&gt;Теоретическое введение&lt;/h1&gt;
 &lt;p&gt;Midnight Commander (или mc) — псевдографическая командная оболочка для UNIX/Linux
 систем.&lt;/p&gt;
@@ -1419,10 +1419,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Информация о mc&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_292d03d8dcb6c462d6b2eab265f665fe.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_b02011e86c5dc618cef5cf1429b2a53f.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_292d03d8dcb6c462d6b2eab265f665fe.webp&#34;
+               /project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_20ae4deb5fbc0afe6d9b185c3f998c35.webp 400w,
+               /project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_345e890b1055baa25163ecf0bb7192ba.webp 760w,
+               /project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_20ae4deb5fbc0afe6d9b185c3f998c35.webp&#34;
                width=&#34;760&#34;
                height=&#34;363&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1450,10 +1450,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Меню mc&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_e65ccf13315f5e6914eb40deea5b97a3.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_76d9df1048d763c5d84a600bc99e2212.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_e65ccf13315f5e6914eb40deea5b97a3.webp&#34;
+               /project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_9565dea13ac8301e501a2470a79b9816.webp 400w,
+               /project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_423347ac5c782f6a9c7cc7633c122cc5.webp 760w,
+               /project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_9565dea13ac8301e501a2470a79b9816.webp&#34;
                width=&#34;760&#34;
                height=&#34;364&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1489,10 +1489,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда быстрый просмотр&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_504655fd78586e775e144d0f7dff971c.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_5f5f1dd9c1e773059ebeb22b8430560f.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_504655fd78586e775e144d0f7dff971c.webp&#34;
+               /project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_c7cb21d11aa2eed413f944efa72c13c3.webp 400w,
+               /project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_1293e23976559a60bfaa60b64e2e4ab9.webp 760w,
+               /project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_c7cb21d11aa2eed413f944efa72c13c3.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1519,10 +1519,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Дерево каталогов&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_22431283831521ed573bd2dab2f7196a.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_d15b29ff45ad6a782edcde54081fab01.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_22431283831521ed573bd2dab2f7196a.webp&#34;
+               /project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_de56b193ab9c0468469d0c3c2dcf50d6.webp 400w,
+               /project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_1d85327cddace9cae20c3e9f1db7b014.webp 760w,
+               /project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_de56b193ab9c0468469d0c3c2dcf50d6.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1548,10 +1548,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда формат списка&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_c4252ed3a566a9354d032c17c763269e.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_01efcab7c43dd9fb3fee4b5cdb1ba920.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_c4252ed3a566a9354d032c17c763269e.webp&#34;
+               /project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_5768ea3986870f24032c3a7a3fca225f.webp 400w,
+               /project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_f7456e20a71729c48e4f0a0c696c8082.webp 760w,
+               /project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_5768ea3986870f24032c3a7a3fca225f.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1577,10 +1577,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда порядок сортировки&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1c0e302f1047e51fc8cf9c30f94c948f.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_d84b4e13779357f55514fe4773ebfb8a.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1c0e302f1047e51fc8cf9c30f94c948f.webp&#34;
+               /project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_ada17ac6c7a6cc9ec49efc720891adf5.webp 400w,
+               /project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_03becbe35b30b863612362ee97eb02ce.webp 760w,
+               /project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_ada17ac6c7a6cc9ec49efc720891adf5.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1606,10 +1606,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда фильтр&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_39f3ffa0fd2af29ba8ca89b69f3f3060.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_fb012088647cedef75ceecc337e52fad.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_39f3ffa0fd2af29ba8ca89b69f3f3060.webp&#34;
+               /project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_83bc2fb4ef8be6c610acad86e06d75b4.webp 400w,
+               /project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_74f6b8d96197ac5d36f35d04f623d9ab.webp 760w,
+               /project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_83bc2fb4ef8be6c610acad86e06d75b4.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1638,10 +1638,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Просмотр файла&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_18957b5bb7731478691e1599b45c3b69.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_eafc1c40e4dd28ff716351a970861b86.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_18957b5bb7731478691e1599b45c3b69.webp&#34;
+               /project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_2532c070cb6bc9261dc328dae2852ae6.webp 400w,
+               /project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_ffcf5601f43ef8fc69cdcb8acae72337.webp 760w,
+               /project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_2532c070cb6bc9261dc328dae2852ae6.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1667,10 +1667,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда правка&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_ef7c56a99c27606ef0002ebea2012a6f.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_8f2fb08e8115d42930213501e4adc12c.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_ef7c56a99c27606ef0002ebea2012a6f.webp&#34;
+               /project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_76fdeee3f895b5125fb7146fda900fab.webp 400w,
+               /project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_0bec9325958a4085216be0945b8d67e0.webp 760w,
+               /project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_76fdeee3f895b5125fb7146fda900fab.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1696,10 +1696,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда создание каталога&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_082e779ad707535c92e31b1d4beed4df.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_3075d3e73ab124ed019bdb4f3ea85ba7.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_082e779ad707535c92e31b1d4beed4df.webp&#34;
+               /project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_0097640869a3fbdeaac23baf6eb16a71.webp 400w,
+               /project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_4b1486c31bcdf9392a438eb1d54e5e44.webp 760w,
+               /project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_0097640869a3fbdeaac23baf6eb16a71.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1725,10 +1725,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Копирование файлов в новый каталог&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_8e70433ec1ac9f3821e80cbc6bec59b1.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_9653a657bb72fe9ba84073148451bc26.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_8e70433ec1ac9f3821e80cbc6bec59b1.webp&#34;
+               /project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_ca4c20e1869142b491cd39c3fb076eee.webp 400w,
+               /project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_adedfca1ba361e6eb560ed13f0fe8f0b.webp 760w,
+               /project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_ca4c20e1869142b491cd39c3fb076eee.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1759,10 +1759,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда каталоги быстрого доступа&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_ab8852d509075798b811e0462ebf6f54.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_9504df6a9fbfd238a4671afe20678e48.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_ab8852d509075798b811e0462ebf6f54.webp&#34;
+               /project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_b3db75a010cdb051c1d7bf72764fe06e.webp 400w,
+               /project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_7a6dee8da214674923245779f30c07da.webp 760w,
+               /project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_b3db75a010cdb051c1d7bf72764fe06e.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1788,10 +1788,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Файл меню&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_626e84b0e696fe4f66348b930f32f986.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_878880e848bee472348e96d50b704203.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_626e84b0e696fe4f66348b930f32f986.webp&#34;
+               /project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_10d11209fcea67b938fa1c6e80178f5c.webp 400w,
+               /project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_031bd3584518154258a6c07512b68805.webp 760w,
+               /project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_10d11209fcea67b938fa1c6e80178f5c.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1816,10 +1816,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Файл расширений&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_f0e8642c6eb8a4a7dedbb79987574df2.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_8b160e4dae0dda781f06653c45f1e044.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_f0e8642c6eb8a4a7dedbb79987574df2.webp&#34;
+               /project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_ba15e812839b2ad617676fb0353f7c52.webp 400w,
+               /project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_f34919a0d5dc7793a386fe7feb77a6ab.webp 760w,
+               /project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_ba15e812839b2ad617676fb0353f7c52.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1847,10 +1847,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Настройки панели&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_f46206bfcf5695da2540cc63401c1e81.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_42b2aceee685b69dc8619df2a394d1e6.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_f46206bfcf5695da2540cc63401c1e81.webp&#34;
+               /project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_fd153d41ac3e45b25fe58adff913a5b3.webp 400w,
+               /project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_427ca3e18a137e8eb5d69019ec8ee742.webp 760w,
+               /project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_fd153d41ac3e45b25fe58adff913a5b3.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1884,10 +1884,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Открытие файла в редакторе mcedit&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_6be9b9f5e37032fee00bf1a31872aeec.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_42ac213046fb1a9dfb795dd0791d88c6.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_6be9b9f5e37032fee00bf1a31872aeec.webp&#34;
+               /project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_29cac1a1124db955b036cb42d58eff47.webp 400w,
+               /project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_50621f7b1a5709375153dd9816838808.webp 760w,
+               /project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_29cac1a1124db955b036cb42d58eff47.webp&#34;
                width=&#34;330&#34;
                height=&#34;27&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1934,10 +1934,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда включения/выключения подсветки синтаксиса, подсвеченный синтаксис&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_ef79f36779653ef7cca5e78235e117ac.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_6f4274db8d5b14d46a3924ca0f7d75c1.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_ef79f36779653ef7cca5e78235e117ac.webp&#34;
+               /project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_faf6053b58342953ded056e607247fc1.webp 400w,
+               /project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_1c9e8bcc767b75f50c52e050696cf82f.webp 760w,
+               /project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_faf6053b58342953ded056e607247fc1.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1962,10 +1962,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Выключение подсветки синтаксиса&#34; srcset=&#34;
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_58a209fc73592935abe252f855a3ffb6.webp 400w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_6a4124ee32d75e6393cdf670e20e0534.webp 760w,
-               /project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_58a209fc73592935abe252f855a3ffb6.webp&#34;
+               /project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_b5c0af9dd90f3c276d35b28b6f64aedc.webp 400w,
+               /project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_7b68857b4e1d9836aa7353302b4c0305.webp 760w,
+               /project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_b5c0af9dd90f3c276d35b28b6f64aedc.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2230,19 +2230,6 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Project</title>
-      <link>https://EugeniaVel.github.io/project/example-4-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://EugeniaVel.github.io/project/example-4-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
