@@ -1,0 +1,2438 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Eugenia Velikodneva" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Освоение основных возможностей командной оболочки Midnight Commander. Приобретение навыков практической работы по просмотру каталогов и файлов; манипуляций с ними." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@wowchemy" />
+    <meta property="twitter:creator" content="@wowchemy" />
+  
+  <meta property="og:site_name" content="Academic" />
+  <meta property="og:url" content="https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/" />
+  <meta property="og:title" content="Лабораторная работа №10 | Academic" />
+  <meta property="og:description" content="Освоение основных возможностей командной оболочки Midnight Commander. Приобретение навыков практической работы по просмотру каталогов и файлов; манипуляций с ними." /><meta property="og:image" content="https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/featured.jpg" />
+    <meta property="twitter:image" content="https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-05-14T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-05-14T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/"
+  },
+  "headline": "Лабораторная работа №10",
+  
+  "image": [
+    "https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/featured.jpg"
+  ],
+  
+  "datePublished": "2022-05-14T00:00:00Z",
+  "dateModified": "2022-05-14T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Eugenia Velikodneva"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://EugeniaVel.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Освоение основных возможностей командной оболочки Midnight Commander. Приобретение навыков практической работы по просмотру каталогов и файлов; манипуляций с ними."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Лабораторная работа №10 | Academic</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="947c142087abe7b490ba0e16a1da23e0" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Academic</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Academic</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Лабораторная работа №10</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 14,2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>Follow</a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+  <div style="position: relative">
+    <img src="/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_720x2500_fit_q75_h2_lanczos.webp" width="720" height="405" alt="" class="featured-image">
+    <span class="article-header-caption">Photo by rawpixel on Unsplash</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="теоретическое-введение">Теоретическое введение</h1>
+<p>Midnight Commander (или mc) — псевдографическая командная оболочка для UNIX/Linux
+систем.</p>
+<p>Над панелями располагается меню, доступ к которому осуществляется с помощью
+клавиши F9 . Под панелями внизу расположены управляющие экранные кнопки, ассоци-
+ированные с функциональными клавишами F1 – F10. Над ними располагается
+командная строка, предназначенная для ввода команд.</p>
+<p>Панель в mc отображает список файлов текущего каталога. Абсолютный путь к этому
+каталогу отображается в заголовке панели. У активной панели заголовок и одна из её
+строк подсвечиваются. Управление панелями осуществляется с помощью определённых
+комбинаций клавиш или пунктов меню mc.</p>
+<p>Перейти в строку меню панелей mc можно с помощью функциональной клавиши F9 .
+В строке меню имеются пять меню: Левая панель , Файл , Команда , Настройки и Правая панель.</p>
+<h1 id="выполнение-лабораторной-работы">Выполнение лабораторной работы</h1>
+<ol>
+<li>Изучила информацию о Midnight Commander, вызвав man mc в командной строке.</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc2.jpg" alt="Информация о mc" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<ol start="2">
+<li>Запустила из командной строки mc, изучила его структуру и меню.</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc4.jpg" alt="Меню mc" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<ol start="3">
+<li></li>
+</ol>
+<p>б)С помощью комбинации клавиш shift и стрелок вверх-вниз выделила каталог ~/work/study в правой панели, затем с помощью той же комбинации отменила выделение каталога.</p>
+<p>в)С помощью клавиши f5 скопировала файл Student.cpp из каталога ~/work/study/2021-2022/Операционные системы в каталог ~/work.</p>
+<p>г)С помощью клавиши f6 переместила файл Student.cpp из каталога ~/work в домашний каталог.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc10.jpg" alt="10.Перемещение файла в другой каталог" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>д)С помощью комбинации клавиш shift и space посмотрела размер домашнего каталога.(рис.11)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc11.jpg" alt="11.Просмотр размера домашнего каталога" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<ol start="4">
+<li>Выполнила команды:</li>
+</ol>
+<p>а)Быстрый просмотр.(рис.12) С её помощью вывела на левую панель содержание файла Student.cpp из домашнего каталога.(рис.13)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc12.jpg" alt="12.Команда быстрый просмотр" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc13.jpg" alt="13.Вывод содержания файла из правой панели на левую" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>б)Информация. С её помощью вывела на экран информацию об одном из снимков экрана.(рис.14)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc14.jpg" alt="14.Вывод на левую панель информации о файле из правой панели" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>в)Дерево каталогов. С её помощью посмотрела содержание домашнего каталога в виде дерева каталогов.(рис.15)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc15.jpg" alt="15.Дерево каталогов" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>г)Формат списка.(рис.16) С её помощью я изменила формат выводимого списка файлов и каталогов на укороченный.(рис.17)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc16.jpg" alt="16.Команда формат списка" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc17.jpg" alt="17.Изменение формата списка файлов" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>д)Порядок сортировки.(рис.18) С её помощью изменила порядок сортировки файлов и каталогов в домашнем каталоге.(рис.19)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc18.jpg" alt="18.Команда порядок сортировки" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc19.jpg" alt="19.Изменение порядка сортировки каталогов и файлов в домашнем каталоге" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>е)Фильтр.(рис.20) С её помощью вывела на экран файлы из домашнего каталога только с расширением .cpp .(рис.21)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc21.jpg" alt="20.Команда фильтр" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc22.jpg" alt="21.Вывод только файлов с расширением .cpp и каталогов" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<ol start="5">
+<li>Используя возможности подменю файл, выполнила следующие операции:</li>
+</ol>
+<p>-Посмотрела содержимое файла Student.cpp c помощью команды просмотр файла.(рис.22-23)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc24.jpg" alt="22.Открытие команды просмотр файла" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc25.jpg" alt="23.Просмотр файла" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>-Отредактировала файл Student.cpp с помощью команды правка, не сохранив изменения.(рис.24-26)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc26.jpg" alt="24.Команда правка" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc27.jpg" alt="25.Открытие файла в режиме редактирования" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc28.jpg" alt="26.Изменения не сохранены" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>-С помощью команды создание каталога создала каталог ~/lab7.(рис.27-28)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc29.jpg" alt="27.Команда создание каталога" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc30.jpg" alt="28.Указание пути к каталогу и его названия" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>-С помощью команды копирование(рис.29) скопировала два выделенных мной снимка экрана в созданный мной в прошлом пункте каталог ~/lab7.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc32.jpg" alt="29.Копирование файлов в новый каталог" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<ol start="6">
+<li>Используя возможности подменю команда, выполнила следующие операции:</li>
+</ol>
+<p>-С помощью команды поиск файла в домашнем каталоге рекурсивно нашла все файлы с расширением .txt.(рис.30-31)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc33.jpg" alt="30.Указание параметров поиска" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc34.jpg" alt="31.Результат поиска" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>-С помощью команды история, посмотрела историю команд, однако не получила вывод ни одной команды, поэтому не смогла выполнить задание до конца.(рис.32)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc35.png" alt="32.История(в левом нижнем углу)" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>-С помощью команды каталоги быстрого доступа, куда я предварительно добавила домашний каталог, переместилась в него.(рис.33-34)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc36.jpg" alt="33.Команда каталоги быстрого доступа" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc37.jpg" alt="34.Каталоги быстрого доступа" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>-С помощью команды редактировать файл меню посмотрела содержимое файла меню.(рис.35) Команда позволяет отредактировать контекстное меню пользователя, вызываемое по клавише F2. С помощью команды редактировать файл расширений посмотрела содержимое файла расширений.(рис.36) Команда позволяет позволяет задать с помощью определённого синтаксиса действия при запуске файлов с определённым расширением.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc38.jpg" alt="35.Файл меню" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc39.jpg" alt="36.Файл расширений" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<ol start="7">
+<li>Вызвала подменю настройки. В настройках панели нашла команду показывать скрытые файлы.(рис.37) и другие команды, определяющие структуру экрана mc.(Например, изменение темы mc)</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc40.jpg" alt="37.Настройки панели" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<h1 id="задание-по-встроенному-редактору-mc">Задание по встроенному редактору mc</h1>
+<ol>
+<li>С помощью команды touch создала файл text.txt в домашнем каталоге.(рис.38)</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc41.jpg" alt="38.Создание файла" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<ol start="2">
+<li>Открыла файл в редакторе с помощью команды mc -e(можно также использовать команду mcedit).(рис.39)</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc42.jpg" alt="39.Открытие файла в редакторе mcedit" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<ol start="3">
+<li>Вставила в файл текст шаблона по лабораторной работе.(рис.40)</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc43.jpg" alt="40.Вставка в файл текста" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<ol start="4">
+<li></li>
+</ol>
+<p>4.1. С помощью комбинации клавиш ctrl-y удалила первую строку в тексте файла.(рис.41)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc44.jpg" alt="41.Удаление первой строки в тексте файла" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>4.2. С помощью клавиши f3 выделила фрагмент текста файла (один абзац) и с помощью клавиши f5 скопировала его на первую строку.(рис.42)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc45.jpg" alt="42.Копирование фрагмента текста" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>4.3. С помощью клавиши f3 выделила фрагмент текста файла (один абзац) и с помощью клавиши f6 переместила его на следующей строке после второго абзаца.(рис.43)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc46.jpg" alt="43.Перемещение фрагмента текста" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>4.4. С помощью клавиши f2 сохранила изменения в файле.(рис.44)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc47.jpg" alt="44.Сохранение изменений в файле" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>4.5. С помощью комбинации клавиш ctrl-u отменила перемещение абзаца, сделанное в подпункте 4.3.(рис.45)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc48.jpg" alt="45.Отмена перемещения абзаца" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>4.6. С помощью комбинации клавиш ctrl-end перешла в конец файла(рис.46) и ввела своё ФИО(рис.47)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc49.jpg" alt="46.Переход в конец файла" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc50.jpg" alt="47.Ввод ФИО" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>4.7. С помощью комбинации клавиш ctrl-home перешла в начало файла(рис.48) и ввела название своей группы.(рис.49)</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc51.jpg" alt="48.Переход в начало файла" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc66.jpg" alt="49.Ввод названия группы" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>4.8. Сохранила файл с помощью клавиши f2 и закрыла файл с помощью клавиши f10.</p>
+<ol start="5">
+<li>
+<p>Открыла файл Student.cpp на языке С++.</p>
+</li>
+<li>
+<p>Используя меню редактора(подменю команда), выключила подсветку синтаксиса, так как она изначально была включена.(рис.50-51)</p>
+</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc52.jpg" alt="50.Команда включения/выключения подсветки синтаксиса, подсвеченный синтаксис" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/oc53.jpg" alt="51.Выключение подсветки синтаксиса" loading="lazy" data-zoomable /></div>
+  </div></figure>
+{ #fig:001 width=70% }</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/&amp;text=%d0%9b%d0%b0%d0%b1%d0%be%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%20%e2%84%9610" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/&amp;t=%d0%9b%d0%b0%d0%b1%d0%be%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%20%e2%84%9610" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%d0%9b%d0%b0%d0%b1%d0%be%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%20%e2%84%9610&amp;body=https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/&amp;title=%d0%9b%d0%b0%d0%b1%d0%be%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%20%e2%84%9610" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%d0%9b%d0%b0%d0%b1%d0%be%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%20%e2%84%9610%20https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://EugeniaVel.github.io/project/example-3-%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/&amp;title=%d0%9b%d0%b0%d0%b1%d0%be%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%20%e2%84%9610" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://EugeniaVel.github.io"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu0417cbe2728bcd12e6965426e9077b67_221223_270x270_fill_q75_lanczos_center.jpg" alt="Eugenia Velikodneva"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://EugeniaVel.github.io">Eugenia Velikodneva</a></h5>
+      <h6 class="card-subtitle">Student of Peoples&rsquo; Friendship University of Russia</h6>
+      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/EugeniaVel" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.elibrary.ru/defaultx.asp?" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/my-orcid?orcid=0000-0002-6694-8692" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.mendeley.com/settings/account/" target="_blank" rel="noopener">
+        <i class="ai ai-mendeley"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Eugenia-Velikodneva" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://independent.academia.edu/EugeniaVel" target="_blank" rel="noopener">
+        <i class="ai ai-academia"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://arxiv.org/" target="_blank" rel="noopener">
+        <i class="ai ai-arxiv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.53d67dc2cb1ebceb89d5e2aba2f86112.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.ab2f2890dbe3e2e83579366d3d6e8fd9.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>
