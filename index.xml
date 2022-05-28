@@ -33,7 +33,1329 @@
     </item>
     
     <item>
-      <title>Example Project</title>
+      <title>Лабораторная работа №11</title>
+      <link>https://EugeniaVel.github.io/project/lab11/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://EugeniaVel.github.io/project/lab11/</guid>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Изучить основы программирования в оболочке ОС UNIX. Научится писать более сложные командные файлы с использованием логических управляющих конструкций и циклов.&lt;/p&gt;
+&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Создала три файла: a.txt(рис.1) для чтения из него текста, b.txt(рис.2) в качестве шаблона и bb для записи в него результатов работы программы. Создала файл l11n1 и добавила право на исполнение.(рис.3) Написала код для командного файла, который будет анализировать строку с ключами -i,-o,-p,-C,-n, где i - файл для прочтения из него данных, o - файл для вывода данных, p - шаблон для поиска, C - опция для того, чтобы различать большие и малые буквы, n - опция подсчёта строк.(рис.4) Проверила работу файла:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Без опций -C и -n.(рис.5)&lt;/li&gt;
+&lt;li&gt;Без опции -n, но с опцией -C.(рис.6)&lt;/li&gt;
+&lt;li&gt;Со всеми опциями.(рис.7)&lt;/li&gt;
+&lt;li&gt;Без опции -C, но с опцией -n.(рис.8)&lt;/li&gt;
+&lt;li&gt;Без указания шаблона.(рис.9)&lt;/li&gt;
+&lt;li&gt;Без указания файла для прочтения.(рис.10)&lt;/li&gt;
+&lt;li&gt;Без указания файла для записи.(рис.11)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc1.jpg&#34; alt=&#34;1.Файл для чтения текста&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc2.jpg&#34; alt=&#34;2.Шаблон для поиска&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc3.jpg&#34; alt=&#34;3.Создание командного файла и добавление права на исполнение&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc4.jpg&#34; alt=&#34;4.Исходный код&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc5.jpg&#34; alt=&#34;5.Работа командного файла без опций -C и -n&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc6.jpg&#34; alt=&#34;6.Работа командного файла без опции -n, но с опцией -C&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc7.jpg&#34; alt=&#34;7.Работа командного файла со всеми опциями&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc8.jpg&#34; alt=&#34;8.Работа командного файла без опции -C, но с опцией -n&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc9.jpg&#34; alt=&#34;9.Работа командного файла без указания шаблона&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc10.jpg&#34; alt=&#34;10.Работа командного файла без указания файла для прочтения&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc11.jpg&#34; alt=&#34;11.Работа командного файла без указания файла для записи&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Создала файл l11n2 и добавила право на исполнение.(рис.12) Написала программу на C, которая вводит число определяет, является ли оно больше нуля, меньше или равно, и с помощью exit(n) при завершении передаёт информацию о коде завершения в оболочку.(рис.13) Скомпилировала программу с помощью gcc.(рис.14) Написала командный файл, который вызывает созданный на C файл, с помощью $? анализирует код завершения предыдущей программы и выводит информацию о том, какое число было введено.(рис.15) Проверила работу программы на трёх числах, одно из которых меньше нуля, другое - больше и третье равно нулю.(рис.16)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc12.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc14.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc13.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc15.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc16.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Создала файл l11n3 и добавила право на исполнение.(рис.17) Написала командный файл, который создаёт или удаляет указанное число файлов с указанным названием.(рис.18) Проверила работу файла с опцией -m - создание файлов(рис.19), -r - удаление файлов(рис.20) , -t - неправильная опция.(рис.21)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc17.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc18.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc19.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc20.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc21.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Создала файл l11n3 и добавила право на исполнение.(рис.22) Написала командный файл, который архивирует все файлы в указанной папке.(рис.23) Проверила работу программы на каталоге n4.(рис.24-25) Модифицировала файл так, чтобы он архивировал только те файлы, которые были изменены в течение последних семи дней.(рис.26) Проверила работу файла на каталоге blog.(рис.27-28)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc22.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc23.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc24.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc25.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc26.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc27.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc28.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Лабораторная работа №4</title>
+      <link>https://EugeniaVel.github.io/project/lab4/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://EugeniaVel.github.io/project/lab4/</guid>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Приобретение практических навыков взаимодействия пользователя с системой посредством командной строки.&lt;/p&gt;
+&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;С помощью команды cd перешла в домашний каталог. С помощью команды pwd узнала полное имя каталога, в котором нахожусь.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Определение полного имени домашнего каталога&#34; srcset=&#34;
+               /project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_92bd4364dcc115f789b3f831019ee3f8.webp 400w,
+               /project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_3a971159d5d67f1912cb95c3eeae4765.webp 760w,
+               /project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_92bd4364dcc115f789b3f831019ee3f8.webp&#34;
+               width=&#34;661&#34;
+               height=&#34;123&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;2.1. С помощью команды cd перешла в каталог /tmp.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Переход в каталог /tmp и вывод на экран его содержимого&#34; srcset=&#34;
+               /project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_45029bd5acf7fc75dc82d4a716cb3fd4.webp 400w,
+               /project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_7da06a16bb7942cb16323557085b7d2e.webp 760w,
+               /project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_45029bd5acf7fc75dc82d4a716cb3fd4.webp&#34;
+               width=&#34;661&#34;
+               height=&#34;328&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;2.2 С помощью команды ls без опций вывела на экран содержимое каталога /tmp. Опция -a позволяет посмотреть абсолютно всё содержимое каталога, даже скрытые файлы. Опция -l позволяет вывести на экран подробную информацию о файлах и каталогах. Опция -F выводит на экран указатель того, как запускается файл или каталог. Соответственно, при использовании всех трёх опций сразу можно увидеть все каталоги и файлы с подробной информацией о них и укзанным типом файла.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Вывод на экран содержимого каталога /tmp со скрытыми файлами&#34; srcset=&#34;
+               /project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_3b1551e2feb85a2e65336d741f01081b.webp 400w,
+               /project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_adc70b0856012b0705e234f71f0faecb.webp 760w,
+               /project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_3b1551e2feb85a2e65336d741f01081b.webp&#34;
+               width=&#34;661&#34;
+               height=&#34;504&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Вывод на экран содержимого каталога /tmp с подробной информацией о файлах и каталогах&#34; srcset=&#34;
+               /project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_d475a1a79d85de5af69150e24d0d9ce9.webp 400w,
+               /project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_c79b815f5228d34e89b4158d12461f6f.webp 760w,
+               /project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_d475a1a79d85de5af69150e24d0d9ce9.webp&#34;
+               width=&#34;661&#34;
+               height=&#34;293&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.Вывод на экран содержимого каталога /tmp со скрытыми файлами, подробной информацией о файлах и каталогах и с указателем типа файла/каталога&#34; srcset=&#34;
+               /project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_5ae217fca2e775821f3f76fe7230b638.webp 400w,
+               /project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_24e153968029cb0134569dea4ff5fbca.webp 760w,
+               /project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_5ae217fca2e775821f3f76fe7230b638.webp&#34;
+               width=&#34;661&#34;
+               height=&#34;706&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;2.3 С помощью команды cd перешла в каталог /var/spool, посмотрела его содержимое с помощью ls и среди каталогов не нашла подкаталог cron.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Переход в каталог /var/spool, просмотр его содержимого&#34; srcset=&#34;
+               /project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_8fb1bd008d8414a902892bbd6eb35f8a.webp 400w,
+               /project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_767b776f25e422be12daca1c8ad17212.webp 760w,
+               /project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_8fb1bd008d8414a902892bbd6eb35f8a.webp&#34;
+               width=&#34;661&#34;
+               height=&#34;55&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;2.4 С помощью команды cd перешла в домашний каталог, с помощью команды ls без опций посмотрела содержимое домашнего каталога и с помощью опции -l посмотрела, кто является владельцем файлов и подкаталогов(evvelikodneva)&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Переход в домашний каталог, просмотр его содержимого, просмотр содержимого с подробной информацией, включающей в себя имя владельца файлов и каталогов&#34; srcset=&#34;
+               /project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_9996ac0e0ab816dd7e19ec6a2796bfa2.webp 400w,
+               /project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_facb993a6f72a471c79ddde011101436.webp 760w,
+               /project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_9996ac0e0ab816dd7e19ec6a2796bfa2.webp&#34;
+               width=&#34;649&#34;
+               height=&#34;292&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;3.1. С помощью команды mkdir создала в домашнем каталоге подкаталог newdir.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Создание подкаталога newdir в домашнем каталоге&#34; srcset=&#34;
+               /project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_4e72b6487133fa9f3a48d3813c40b714.webp 400w,
+               /project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_6f6390d33bac9407212dc7ff541b3126.webp 760w,
+               /project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_4e72b6487133fa9f3a48d3813c40b714.webp&#34;
+               width=&#34;327&#34;
+               height=&#34;24&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;3.2. Перешла в каталог newdir и в нём с помощью команды mkdir создала подкаталог morefun.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;9.Создание подкаталога morefun в каталоге newdir&#34; srcset=&#34;
+               /project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_e064802a18631c3dbaf698ce3202c715.webp 400w,
+               /project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_40f0c8edd1baec63a6addeffbed0ebd1.webp 760w,
+               /project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_e064802a18631c3dbaf698ce3202c715.webp&#34;
+               width=&#34;368&#34;
+               height=&#34;40&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;3.3. С помощью команды cd ~ перешла в домашний каталог. В нём с помощью команды mkdir создала сразу три каталога letters, memos и misk. Проверила их создание с помощью команды ls.
+Затем с помощью команды rm -r удалила сразу три каталога (letters, memos и misk) и проверила их удаление с помощью команды ls.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Создание и удаление трёх каталогов, проверка их создания и удаления в домашнем каталоге&#34; srcset=&#34;
+               /project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_e06a215a7cf5d6bcaed63065bc0aadea.webp 400w,
+               /project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_1a82041adad2bfd6ec5feae10b79517c.webp 760w,
+               /project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_e06a215a7cf5d6bcaed63065bc0aadea.webp&#34;
+               width=&#34;556&#34;
+               height=&#34;182&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;3.4. Попробовала удалить каталог newdir с помощью команды rmdir, однако сделать это не удалось, так как каталог не был пустым.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Попытка удалить каталог newdir&#34; srcset=&#34;
+               /project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_79e6d975b5362115206a189bdb91c0e1.webp 400w,
+               /project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_b094ebe4cfcbcd86b00162c4f1e89984.webp 760w,
+               /project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_79e6d975b5362115206a189bdb91c0e1.webp&#34;
+               width=&#34;556&#34;
+               height=&#34;40&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;3.5. Удалила каталог ~/newdir/morefun, проверила его удаление с помощью команды ls. Каталог morefun был успешно удалён из каталога newdir.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12.Удаление каталога morefun и проверка его успешного удаления&#34; srcset=&#34;
+               /project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_d8221db7e0467cf768c6ae99a521d86e.webp 400w,
+               /project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_b02245c6016a9fb2583c7f4541766e9f.webp 760w,
+               /project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_d8221db7e0467cf768c6ae99a521d86e.webp&#34;
+               width=&#34;557&#34;
+               height=&#34;105&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;С помощью команды man ls посмотрела список опций и их описание, затем нашла опцию -R, которая выводит содержимое не только указанного каталога, но и его подкаталогов. Проверила, как эта опция работает.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Просмотр списка опций и нахождение нужной опции&#34; srcset=&#34;
+               /project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_c6e8f2d0366d352e3623d8b5964f7f65.webp 400w,
+               /project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_8149e24640f690893396e2c33b95c347.webp 760w,
+               /project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_c6e8f2d0366d352e3623d8b5964f7f65.webp&#34;
+               width=&#34;657&#34;
+               height=&#34;483&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14.Проверка работы опции вывода содержимого не только указанного каталога, но и его подкаталогов&#34; srcset=&#34;
+               /project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_dc89acc9291c7cf40e5c559f73ce496a.webp 400w,
+               /project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_0666aabd4de1c976bca8ff994bd1b456.webp 760w,
+               /project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_dc89acc9291c7cf40e5c559f73ce496a.webp&#34;
+               width=&#34;457&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;С помощью команды man ls посмотрела список опций и их описание, затем нашла опцию -t, которая сортирует выводимый список по времени последнего изменения, и опцию -l, которая выводит развёрнутое описание файлов. (рис.15-16) Проверила, как эти опции работают.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.Просмотр списка опций и нахождение нужной опции&#34; srcset=&#34;
+               /project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_55adda9ce7ad849b866074afcb1f1086.webp 400w,
+               /project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_5a208395efd7fb544b8efeb302e51204.webp 760w,
+               /project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_55adda9ce7ad849b866074afcb1f1086.webp&#34;
+               width=&#34;657&#34;
+               height=&#34;483&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Просмотр списка опций и нахождение нужной опции&#34; srcset=&#34;
+               /project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_279a6760726537c0f42064255ddf502f.webp 400w,
+               /project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_bc41a9e644e20dc2a2c1eef16450179b.webp 760w,
+               /project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_279a6760726537c0f42064255ddf502f.webp&#34;
+               width=&#34;657&#34;
+               height=&#34;483&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.Проверка работы опций&#34; srcset=&#34;
+               /project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_4afd67b22cb84ac6b70e38750b02887b.webp 400w,
+               /project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_117ebb7ba80ea0ad363d4f3153d12dad.webp 760w,
+               /project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_4afd67b22cb84ac6b70e38750b02887b.webp&#34;
+               width=&#34;657&#34;
+               height=&#34;255&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Использовала команду man для просмотра списка опций следующих команд:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;cd&lt;/p&gt;
+&lt;p&gt;-P - позволяет следовать по символическим ссылкам перед тем, как будут обработаны все переходы &amp;ldquo;..&amp;rdquo;;&lt;/p&gt;
+&lt;p&gt;-L - переходит по символическим ссылкам только после того, как были обработаны &amp;ldquo;..&amp;rdquo;;&lt;/p&gt;
+&lt;p&gt;-e - если папку, в которую нужно перейти не удалось найти - выдает ошибку.&lt;/p&gt;
+&lt;p&gt;pwd&lt;/p&gt;
+&lt;p&gt;-L, &amp;ndash;logical - брать директорию из переменной окружения, даже если она содержит символические ссылки;&lt;/p&gt;
+&lt;p&gt;-P - отбрасывать все символические ссылки&lt;/p&gt;
+&lt;p&gt;mkdir&lt;/p&gt;
+&lt;p&gt;-m (&amp;ndash;mode=режим) - назначить режим доступа (права). По умолчанию mod принимает значение 0777, что обеспечивает неограниченные права.&lt;/p&gt;
+&lt;p&gt;-p (&amp;ndash;parents) - не показывать ошибки, а также их игнорировать.&lt;/p&gt;
+&lt;p&gt;-z  (&amp;ndash;context=CTX ) принимает контекст SELinux для каталога по умолчанию.&lt;/p&gt;
+&lt;p&gt;-v (&amp;ndash;verbose) - выводить сообщение о каждом новым каталоге.&lt;/p&gt;
+&lt;p&gt;rmdir&lt;/p&gt;
+&lt;p&gt;-p	Позволяет удалить каталог и вышележащие каталоги, оказавшиеся пустыми. На стандартный вывод выдается сообщение об удалении всех указанных в маршруте каталогов или о сохранении части из них по каким-либо причинам.&lt;/p&gt;
+&lt;p&gt;-s	Подавление сообщения, выдаваемого при действии опции -p.&lt;/p&gt;
+&lt;p&gt;rm&lt;/p&gt;
+&lt;p&gt;-f	Команда не выдает сообщений, когда удаляемый файл не существует, не запрашивает подтверждения при удалении файлов, на запись в которые нет прав. Если нет права и на запись в каталог, файлы не удаляются. Сообщение об ошибке выдается лишь при попытке удалить каталог, на запись в который нет прав (см. опцию -r).&lt;/p&gt;
+&lt;p&gt;-r	Происходит рекурсивное удаление всех каталогов и подкаталогов, перечисленных в списке аргументов. Сначала каталоги опустошаются, затем удаляются. Подтверждение при удалении файлов, на запись в которые нет прав, не запрашивается, если задана опция -f или стандартный ввод не назначен на терминал и не задана опция -i. При удалении непустых каталогов команда rm -r предпочтительнее команды rmdir, так как последняя способна удалить только пустой каталог. Но команда rm -r может доставить немало острых впечатлений при ошибочном указании каталога!&lt;/p&gt;
+&lt;p&gt;-i	Перед удалением каждого файла запрашивается подтверждение. Опция -i устраняет действие опции -f; она действует даже тогда, когда стандартный ввод не назначен на терминал.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;18.Список опций команды cd&#34; srcset=&#34;
+               /project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_b88207cba0cd4bad030e3545fa472a0f.webp 400w,
+               /project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_728d0e94550a91a54c121a557a525264.webp 760w,
+               /project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_b88207cba0cd4bad030e3545fa472a0f.webp&#34;
+               width=&#34;657&#34;
+               height=&#34;734&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;19.Список опций команды pwd&#34; srcset=&#34;
+               /project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_7ed9ba8de4ad349cd7525766a550a534.webp 400w,
+               /project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_382a39170338b36b1fae297739338615.webp 760w,
+               /project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_7ed9ba8de4ad349cd7525766a550a534.webp&#34;
+               width=&#34;657&#34;
+               height=&#34;734&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;20.Список опций команды mkdir&#34; srcset=&#34;
+               /project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_497ae7e0b614048f0ff990b70dc97a75.webp 400w,
+               /project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_c6242a1240de5ddc9402c3dd6736c109.webp 760w,
+               /project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_497ae7e0b614048f0ff990b70dc97a75.webp&#34;
+               width=&#34;657&#34;
+               height=&#34;734&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;21.Список опций команды rmdir&#34; srcset=&#34;
+               /project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_964596f9a8092bbc49fe946e6b311aa8.webp 400w,
+               /project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_af0f7e4d0f0c9176575f255b5ed0134f.webp 760w,
+               /project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_964596f9a8092bbc49fe946e6b311aa8.webp&#34;
+               width=&#34;657&#34;
+               height=&#34;661&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;22.Список опций команды rm&#34; srcset=&#34;
+               /project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_c12ece71f19634e2d4dc4a58a2be2c96.webp 400w,
+               /project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_94b4cb8f2ee151d39da5a85db70585e5.webp 760w,
+               /project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_c12ece71f19634e2d4dc4a58a2be2c96.webp&#34;
+               width=&#34;657&#34;
+               height=&#34;734&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;С помощью команды history посмотрела историю выполнения команд. Выполнила следующие команды с изменениями:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;mkdir(добавила -v(опция, которая выводит описание проделанных команд))&lt;/p&gt;
+&lt;p&gt;rm -r(добавила -v)&lt;/p&gt;
+&lt;p&gt;rmdir(добавила -p(опция, которая позволяет удалять каталоги с их содержимым) и -v)&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;23.Выполнение команды history и других команд, которые уже были использованы, с разными опциями&#34; srcset=&#34;
+               /project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_d3b9b35ab9ad77872ad63821dabed3ce.webp 400w,
+               /project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_f4db4c12567f59477ec12a164129e5c7.webp 760w,
+               /project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_d3b9b35ab9ad77872ad63821dabed3ce.webp&#34;
+               width=&#34;657&#34;
+               height=&#34;735&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Лабораторная работа №6</title>
       <link>https://EugeniaVel.github.io/project/lab6/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/project/lab6/</guid>
@@ -673,10 +1995,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Создание нового каталога&#34; srcset=&#34;
-               /project/lab8/image/oc1_hub457e091f4b52c259f9489d65ae61ba3_13845_231e5540332576a2afb99fe80e566401.webp 400w,
-               /project/lab8/image/oc1_hub457e091f4b52c259f9489d65ae61ba3_13845_b791e81519e7939d63d05a5791720dac.webp 760w,
+               /project/lab8/image/oc1_hub457e091f4b52c259f9489d65ae61ba3_13845_2e28884a1b6cfb12a83777d9a4effa1e.webp 400w,
+               /project/lab8/image/oc1_hub457e091f4b52c259f9489d65ae61ba3_13845_18a4a856a0ef15b5f4b44dfe34710991.webp 760w,
                /project/lab8/image/oc1_hub457e091f4b52c259f9489d65ae61ba3_13845_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc1_hub457e091f4b52c259f9489d65ae61ba3_13845_231e5540332576a2afb99fe80e566401.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc1_hub457e091f4b52c259f9489d65ae61ba3_13845_2e28884a1b6cfb12a83777d9a4effa1e.webp&#34;
                width=&#34;656&#34;
                height=&#34;66&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -704,10 +2026,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Переход в каталог ~/work/os/lab06&#34; srcset=&#34;
-               /project/lab8/image/oc2_hu9a6e138a431fd14b5247661968578afe_9053_a3305fa8ab34647f7b09d43071c5f25c.webp 400w,
-               /project/lab8/image/oc2_hu9a6e138a431fd14b5247661968578afe_9053_2596b063993e4bc7029ef510617f2225.webp 760w,
+               /project/lab8/image/oc2_hu9a6e138a431fd14b5247661968578afe_9053_11ee72f9f4d03fdf93cabb66204a1aaf.webp 400w,
+               /project/lab8/image/oc2_hu9a6e138a431fd14b5247661968578afe_9053_63a3adca1c1723c51b43bb8a765e314a.webp 760w,
                /project/lab8/image/oc2_hu9a6e138a431fd14b5247661968578afe_9053_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc2_hu9a6e138a431fd14b5247661968578afe_9053_a3305fa8ab34647f7b09d43071c5f25c.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc2_hu9a6e138a431fd14b5247661968578afe_9053_11ee72f9f4d03fdf93cabb66204a1aaf.webp&#34;
                width=&#34;347&#34;
                height=&#34;39&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -735,10 +2057,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Вызов vi для нового файла&#34; srcset=&#34;
-               /project/lab8/image/oc3_hu0464f30be4953d2a0c678f16ac294f7e_8492_a25f4d223d5742a301b6f82d8bc2ee3c.webp 400w,
-               /project/lab8/image/oc3_hu0464f30be4953d2a0c678f16ac294f7e_8492_2df5d6cf355c6ad0fc66cd1fadd7f0ce.webp 760w,
+               /project/lab8/image/oc3_hu0464f30be4953d2a0c678f16ac294f7e_8492_c1e708a685a9ca05eb05997d8a398f58.webp 400w,
+               /project/lab8/image/oc3_hu0464f30be4953d2a0c678f16ac294f7e_8492_e50d167887f8b14e254c66ec5f791be5.webp 760w,
                /project/lab8/image/oc3_hu0464f30be4953d2a0c678f16ac294f7e_8492_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc3_hu0464f30be4953d2a0c678f16ac294f7e_8492_a25f4d223d5742a301b6f82d8bc2ee3c.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc3_hu0464f30be4953d2a0c678f16ac294f7e_8492_c1e708a685a9ca05eb05997d8a398f58.webp&#34;
                width=&#34;347&#34;
                height=&#34;39&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -763,10 +2085,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Открытие нового файла в vi&#34; srcset=&#34;
-               /project/lab8/image/oc4_hu8c2f697fe7ca349ad8b8f0ce80b25630_25463_5e93d676ff074d1eacf5f22a991f1dc2.webp 400w,
-               /project/lab8/image/oc4_hu8c2f697fe7ca349ad8b8f0ce80b25630_25463_1ce9e92c4ae7942414d3d8b14be10d1b.webp 760w,
+               /project/lab8/image/oc4_hu8c2f697fe7ca349ad8b8f0ce80b25630_25463_76efe910451ad6f71d0c3224f787d002.webp 400w,
+               /project/lab8/image/oc4_hu8c2f697fe7ca349ad8b8f0ce80b25630_25463_a347a86e67c6c6a6c0b14fa0f003262a.webp 760w,
                /project/lab8/image/oc4_hu8c2f697fe7ca349ad8b8f0ce80b25630_25463_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc4_hu8c2f697fe7ca349ad8b8f0ce80b25630_25463_5e93d676ff074d1eacf5f22a991f1dc2.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc4_hu8c2f697fe7ca349ad8b8f0ce80b25630_25463_76efe910451ad6f71d0c3224f787d002.webp&#34;
                width=&#34;650&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -794,10 +2116,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.Ввод текста в vi&#34; srcset=&#34;
-               /project/lab8/image/oc5_huf0a1f3ce59830b5889587243ba2351ae_33969_fb62d596fae71cd4c2aec807f05c18bb.webp 400w,
-               /project/lab8/image/oc5_huf0a1f3ce59830b5889587243ba2351ae_33969_29906bcc44f23d3f2a8c5ff252f95c44.webp 760w,
+               /project/lab8/image/oc5_huf0a1f3ce59830b5889587243ba2351ae_33969_4ebe415fb50ec4105550df0b69bfc92a.webp 400w,
+               /project/lab8/image/oc5_huf0a1f3ce59830b5889587243ba2351ae_33969_01f24cab85b2a52dc483aae450ec8ca5.webp 760w,
                /project/lab8/image/oc5_huf0a1f3ce59830b5889587243ba2351ae_33969_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc5_huf0a1f3ce59830b5889587243ba2351ae_33969_fb62d596fae71cd4c2aec807f05c18bb.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc5_huf0a1f3ce59830b5889587243ba2351ae_33969_4ebe415fb50ec4105550df0b69bfc92a.webp&#34;
                width=&#34;648&#34;
                height=&#34;443&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -825,10 +2147,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Переход в командный режим&#34; srcset=&#34;
-               /project/lab8/image/oc6_huf0a1f3ce59830b5889587243ba2351ae_32813_82341dea4a5acc4dd4879819a0438cc2.webp 400w,
-               /project/lab8/image/oc6_huf0a1f3ce59830b5889587243ba2351ae_32813_1fb53355d90f2d3fb6ad567a9b58d7ae.webp 760w,
+               /project/lab8/image/oc6_huf0a1f3ce59830b5889587243ba2351ae_32813_14ecce2023ec038a5c2d5178d50a19aa.webp 400w,
+               /project/lab8/image/oc6_huf0a1f3ce59830b5889587243ba2351ae_32813_f53241a6a5ebaf5dac526ad265b3b7a8.webp 760w,
                /project/lab8/image/oc6_huf0a1f3ce59830b5889587243ba2351ae_32813_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc6_huf0a1f3ce59830b5889587243ba2351ae_32813_82341dea4a5acc4dd4879819a0438cc2.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc6_huf0a1f3ce59830b5889587243ba2351ae_32813_14ecce2023ec038a5c2d5178d50a19aa.webp&#34;
                width=&#34;648&#34;
                height=&#34;443&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -856,10 +2178,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Переход в режим последней строки&#34; srcset=&#34;
-               /project/lab8/image/oc7_huf0a1f3ce59830b5889587243ba2351ae_33142_a1959a440176f6d51cf99563387c0fef.webp 400w,
-               /project/lab8/image/oc7_huf0a1f3ce59830b5889587243ba2351ae_33142_0b68c8cc0208bacfd9924df298ec133a.webp 760w,
+               /project/lab8/image/oc7_huf0a1f3ce59830b5889587243ba2351ae_33142_7d1bf12bb92037e979a9a500db396d32.webp 400w,
+               /project/lab8/image/oc7_huf0a1f3ce59830b5889587243ba2351ae_33142_21c77aac754d3c0105de46d2af1bda06.webp 760w,
                /project/lab8/image/oc7_huf0a1f3ce59830b5889587243ba2351ae_33142_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc7_huf0a1f3ce59830b5889587243ba2351ae_33142_a1959a440176f6d51cf99563387c0fef.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc7_huf0a1f3ce59830b5889587243ba2351ae_33142_7d1bf12bb92037e979a9a500db396d32.webp&#34;
                width=&#34;648&#34;
                height=&#34;443&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -887,10 +2209,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Команда для сохранения файла и завершения работы&#34; srcset=&#34;
-               /project/lab8/image/oc8_hubdafdca6ded312dae36d24220499fca1_34152_b7d98b3f32cef68385dcec403b257ddf.webp 400w,
-               /project/lab8/image/oc8_hubdafdca6ded312dae36d24220499fca1_34152_ed3b2edf645b0421217182415874c54c.webp 760w,
+               /project/lab8/image/oc8_hubdafdca6ded312dae36d24220499fca1_34152_0c5d3fdf456058e121cf707dfa1ddcac.webp 400w,
+               /project/lab8/image/oc8_hubdafdca6ded312dae36d24220499fca1_34152_94894f5df89555be9d54ce8c20f7bcdd.webp 760w,
                /project/lab8/image/oc8_hubdafdca6ded312dae36d24220499fca1_34152_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc8_hubdafdca6ded312dae36d24220499fca1_34152_b7d98b3f32cef68385dcec403b257ddf.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc8_hubdafdca6ded312dae36d24220499fca1_34152_0c5d3fdf456058e121cf707dfa1ddcac.webp&#34;
                width=&#34;645&#34;
                height=&#34;443&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -918,10 +2240,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;9.Сделала файл исполняемым&#34; srcset=&#34;
-               /project/lab8/image/oc9_hu0c5573d7974a354c1bda8b51c3ba514f_10073_e6a7b390155bedb553b953512a81fd0d.webp 400w,
-               /project/lab8/image/oc9_hu0c5573d7974a354c1bda8b51c3ba514f_10073_66e8b1f6ebc57379c728c00a95f3bd92.webp 760w,
+               /project/lab8/image/oc9_hu0c5573d7974a354c1bda8b51c3ba514f_10073_71649b058f30dba0f7fffdd1c3ca7f87.webp 400w,
+               /project/lab8/image/oc9_hu0c5573d7974a354c1bda8b51c3ba514f_10073_b11e41ba23d733e524b8e8a9881b5e99.webp 760w,
                /project/lab8/image/oc9_hu0c5573d7974a354c1bda8b51c3ba514f_10073_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc9_hu0c5573d7974a354c1bda8b51c3ba514f_10073_e6a7b390155bedb553b953512a81fd0d.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc9_hu0c5573d7974a354c1bda8b51c3ba514f_10073_71649b058f30dba0f7fffdd1c3ca7f87.webp&#34;
                width=&#34;402&#34;
                height=&#34;41&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -950,10 +2272,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Вызов vi для редактирования файла&#34; srcset=&#34;
-               /project/lab8/image/oc10_hue029ff0c15c2700f8e7702b72296f444_5271_bf3853b112d67db80c6a5ca588efa326.webp 400w,
-               /project/lab8/image/oc10_hue029ff0c15c2700f8e7702b72296f444_5271_72316a93bb477de722b94103f724797c.webp 760w,
+               /project/lab8/image/oc10_hue029ff0c15c2700f8e7702b72296f444_5271_b448ab706766b5944833d43429f18ee0.webp 400w,
+               /project/lab8/image/oc10_hue029ff0c15c2700f8e7702b72296f444_5271_193e71f1203f119ba96d9e3f4a531680.webp 760w,
                /project/lab8/image/oc10_hue029ff0c15c2700f8e7702b72296f444_5271_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc10_hue029ff0c15c2700f8e7702b72296f444_5271_bf3853b112d67db80c6a5ca588efa326.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc10_hue029ff0c15c2700f8e7702b72296f444_5271_b448ab706766b5944833d43429f18ee0.webp&#34;
                width=&#34;420&#34;
                height=&#34;23&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -981,10 +2303,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Установка курсора в конце слова HELL во второй строке&#34; srcset=&#34;
-               /project/lab8/image/oc11_hu4b12b745def5daa7f88d411cf0baf268_28349_e0647764874a4b5ce9874b76c8198587.webp 400w,
-               /project/lab8/image/oc11_hu4b12b745def5daa7f88d411cf0baf268_28349_4c03c83ae902b132cbddd59a40c0e13f.webp 760w,
+               /project/lab8/image/oc11_hu4b12b745def5daa7f88d411cf0baf268_28349_7b7d78189fa223e0df9b0dc90ef1ad4c.webp 400w,
+               /project/lab8/image/oc11_hu4b12b745def5daa7f88d411cf0baf268_28349_02810075ce2d1674cd745d7a0727be7f.webp 760w,
                /project/lab8/image/oc11_hu4b12b745def5daa7f88d411cf0baf268_28349_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc11_hu4b12b745def5daa7f88d411cf0baf268_28349_e0647764874a4b5ce9874b76c8198587.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc11_hu4b12b745def5daa7f88d411cf0baf268_28349_7b7d78189fa223e0df9b0dc90ef1ad4c.webp&#34;
                width=&#34;636&#34;
                height=&#34;435&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1012,10 +2334,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12.Замена слова HELL на HELLO&#34; srcset=&#34;
-               /project/lab8/image/oc12_hu4b12b745def5daa7f88d411cf0baf268_28422_07a7e130845d2c01ec56a0d90d13ff9f.webp 400w,
-               /project/lab8/image/oc12_hu4b12b745def5daa7f88d411cf0baf268_28422_033be22d93aceddcb652dd65b23b5d84.webp 760w,
+               /project/lab8/image/oc12_hu4b12b745def5daa7f88d411cf0baf268_28422_9e25140761649a18717943ff1395d139.webp 400w,
+               /project/lab8/image/oc12_hu4b12b745def5daa7f88d411cf0baf268_28422_536157dd431afd6477c770e37c35206e.webp 760w,
                /project/lab8/image/oc12_hu4b12b745def5daa7f88d411cf0baf268_28422_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc12_hu4b12b745def5daa7f88d411cf0baf268_28422_07a7e130845d2c01ec56a0d90d13ff9f.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc12_hu4b12b745def5daa7f88d411cf0baf268_28422_9e25140761649a18717943ff1395d139.webp&#34;
                width=&#34;636&#34;
                height=&#34;435&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1043,10 +2365,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Установка курсора на 4 строку&#34; srcset=&#34;
-               /project/lab8/image/oc13_hu4b12b745def5daa7f88d411cf0baf268_27445_8802750fcb394e309c801ac6fbe5ffb7.webp 400w,
-               /project/lab8/image/oc13_hu4b12b745def5daa7f88d411cf0baf268_27445_e0be33f86b56b09886eeb77043608efc.webp 760w,
+               /project/lab8/image/oc13_hu4b12b745def5daa7f88d411cf0baf268_27445_b447ae9008f5f14d76427d80a39fda0d.webp 400w,
+               /project/lab8/image/oc13_hu4b12b745def5daa7f88d411cf0baf268_27445_ab3fca471d317ed502f480dae3f7c8df.webp 760w,
                /project/lab8/image/oc13_hu4b12b745def5daa7f88d411cf0baf268_27445_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc13_hu4b12b745def5daa7f88d411cf0baf268_27445_8802750fcb394e309c801ac6fbe5ffb7.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc13_hu4b12b745def5daa7f88d411cf0baf268_27445_b447ae9008f5f14d76427d80a39fda0d.webp&#34;
                width=&#34;636&#34;
                height=&#34;435&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1071,10 +2393,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14.Удаление слова LOCAL с помощью горячих клавиш&#34; srcset=&#34;
-               /project/lab8/image/oc14_hu4b12b745def5daa7f88d411cf0baf268_29703_ba27d4969cf0c3d149ac20a538351dbd.webp 400w,
-               /project/lab8/image/oc14_hu4b12b745def5daa7f88d411cf0baf268_29703_636d2c5e5a69e520b0d3f704d28bcf69.webp 760w,
+               /project/lab8/image/oc14_hu4b12b745def5daa7f88d411cf0baf268_29703_d6c9fb6b3a0556b8e47ec838fe69f299.webp 400w,
+               /project/lab8/image/oc14_hu4b12b745def5daa7f88d411cf0baf268_29703_af6890f8e8563ddcaa5b577c7a29995e.webp 760w,
                /project/lab8/image/oc14_hu4b12b745def5daa7f88d411cf0baf268_29703_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc14_hu4b12b745def5daa7f88d411cf0baf268_29703_ba27d4969cf0c3d149ac20a538351dbd.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc14_hu4b12b745def5daa7f88d411cf0baf268_29703_d6c9fb6b3a0556b8e47ec838fe69f299.webp&#34;
                width=&#34;636&#34;
                height=&#34;435&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1102,10 +2424,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.Ввод слова local&#34; srcset=&#34;
-               /project/lab8/image/oc15_hu4b12b745def5daa7f88d411cf0baf268_28321_1abc17d204fd782f2b69026875167714.webp 400w,
-               /project/lab8/image/oc15_hu4b12b745def5daa7f88d411cf0baf268_28321_2cef85b014077bf759c9e83206ba6d4d.webp 760w,
+               /project/lab8/image/oc15_hu4b12b745def5daa7f88d411cf0baf268_28321_448dbb92cd79f8f5a69497477096b772.webp 400w,
+               /project/lab8/image/oc15_hu4b12b745def5daa7f88d411cf0baf268_28321_9eced575b7c608231bf32bb9e209c59f.webp 760w,
                /project/lab8/image/oc15_hu4b12b745def5daa7f88d411cf0baf268_28321_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc15_hu4b12b745def5daa7f88d411cf0baf268_28321_1abc17d204fd782f2b69026875167714.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc15_hu4b12b745def5daa7f88d411cf0baf268_28321_448dbb92cd79f8f5a69497477096b772.webp&#34;
                width=&#34;636&#34;
                height=&#34;435&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1133,10 +2455,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Установка курсора на последней строке&#34; srcset=&#34;
-               /project/lab8/image/oc16_hu4b12b745def5daa7f88d411cf0baf268_27431_18f930005a49f2fe840623df978712d8.webp 400w,
-               /project/lab8/image/oc16_hu4b12b745def5daa7f88d411cf0baf268_27431_01acd72daf5898767b3850cc4f0462f3.webp 760w,
+               /project/lab8/image/oc16_hu4b12b745def5daa7f88d411cf0baf268_27431_0595d6352381aeb3e56c6769bedc341f.webp 400w,
+               /project/lab8/image/oc16_hu4b12b745def5daa7f88d411cf0baf268_27431_5babcad087b913ae4beca4ed7dcc45b4.webp 760w,
                /project/lab8/image/oc16_hu4b12b745def5daa7f88d411cf0baf268_27431_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc16_hu4b12b745def5daa7f88d411cf0baf268_27431_18f930005a49f2fe840623df978712d8.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc16_hu4b12b745def5daa7f88d411cf0baf268_27431_0595d6352381aeb3e56c6769bedc341f.webp&#34;
                width=&#34;636&#34;
                height=&#34;435&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1161,10 +2483,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.Вставка echo $HELLO в конец файла&#34; srcset=&#34;
-               /project/lab8/image/oc17_hu4b12b745def5daa7f88d411cf0baf268_30990_ad5ffb9e329fd2c4bda3ae7160b1339f.webp 400w,
-               /project/lab8/image/oc17_hu4b12b745def5daa7f88d411cf0baf268_30990_0e9111694fe4a510dd907b54e5ae615d.webp 760w,
+               /project/lab8/image/oc17_hu4b12b745def5daa7f88d411cf0baf268_30990_ca13a30b0e7ec3ac4de3f031d5ee0340.webp 400w,
+               /project/lab8/image/oc17_hu4b12b745def5daa7f88d411cf0baf268_30990_6af18c8e35eb22f9e9b5755157fc04ba.webp 760w,
                /project/lab8/image/oc17_hu4b12b745def5daa7f88d411cf0baf268_30990_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc17_hu4b12b745def5daa7f88d411cf0baf268_30990_ad5ffb9e329fd2c4bda3ae7160b1339f.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc17_hu4b12b745def5daa7f88d411cf0baf268_30990_ca13a30b0e7ec3ac4de3f031d5ee0340.webp&#34;
                width=&#34;636&#34;
                height=&#34;435&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1197,10 +2519,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;18.Удаление последней строки&#34; srcset=&#34;
-               /project/lab8/image/oc18_hu4b12b745def5daa7f88d411cf0baf268_27445_6ad8e0d2c6fa5e88c996697b6fc772d8.webp 400w,
-               /project/lab8/image/oc18_hu4b12b745def5daa7f88d411cf0baf268_27445_c89c5e759156d9ce015b7e269655f5de.webp 760w,
+               /project/lab8/image/oc18_hu4b12b745def5daa7f88d411cf0baf268_27445_b587e1970ce5c2b0521faae2b840c993.webp 400w,
+               /project/lab8/image/oc18_hu4b12b745def5daa7f88d411cf0baf268_27445_9a97a6700af152e11e26776d55e6a521.webp 760w,
                /project/lab8/image/oc18_hu4b12b745def5daa7f88d411cf0baf268_27445_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc18_hu4b12b745def5daa7f88d411cf0baf268_27445_6ad8e0d2c6fa5e88c996697b6fc772d8.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc18_hu4b12b745def5daa7f88d411cf0baf268_27445_b587e1970ce5c2b0521faae2b840c993.webp&#34;
                width=&#34;636&#34;
                height=&#34;435&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1228,10 +2550,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;19.Отмена удаления последней строки&#34; srcset=&#34;
-               /project/lab8/image/oc19_hu4b12b745def5daa7f88d411cf0baf268_28546_43041d07d5038dd024260809c0ca3051.webp 400w,
-               /project/lab8/image/oc19_hu4b12b745def5daa7f88d411cf0baf268_28546_e49822e21ec1d516fcbb219f11064caa.webp 760w,
+               /project/lab8/image/oc19_hu4b12b745def5daa7f88d411cf0baf268_28546_56d19ffc3d5896ec792a0c37a3133251.webp 400w,
+               /project/lab8/image/oc19_hu4b12b745def5daa7f88d411cf0baf268_28546_e0eebed502398c270360a40fcf7c235a.webp 760w,
                /project/lab8/image/oc19_hu4b12b745def5daa7f88d411cf0baf268_28546_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc19_hu4b12b745def5daa7f88d411cf0baf268_28546_43041d07d5038dd024260809c0ca3051.webp&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab8/image/oc19_hu4b12b745def5daa7f88d411cf0baf268_28546_56d19ffc3d5896ec792a0c37a3133251.webp&#34;
                width=&#34;636&#34;
                height=&#34;435&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1240,6 +2562,30 @@
 &lt;ol start=&#34;10&#34;&gt;
 &lt;li&gt;Ввела символ : для перехода в режим последней строки, затем ввела w для сохранения изменений и q для выхода из vi.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;Познакомилась с операционной системой Linux. Получила практические навыки работы с редактором vi, установленным по умолчанию практически во всех дистрибутивах.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Пост по прошлой неделе 16.05-22.05</title>
+      <link>https://EugeniaVel.github.io/post/16-22/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://EugeniaVel.github.io/post/16-22/</guid>
+      <description>&lt;p&gt;На прошлой неделе мы выполнили лабораторные работы №9 и №10.
+В девятой лабораторной работе мы познакомились с редактором Emacs. Выучили основные комбинации горячих клавиш, попытались проверить их работу. Мы создавали файлы, открывали их, редактировали, перемещались между буферами, разобрали понятие фрейм, основы работы с ним. Теперь это один из моих любимых редакторов, в нём очень удобно работать. У него есть масса преимуществ, однако есть и некоторые недостатки, одним из которых явялется сложность его настройки.&lt;/p&gt;
+&lt;p&gt;В десятой лабораторной работе мы познакомились с понятием командный файл, с различными типами командных оболочек. Разобрали принципы написания командных файлов, сами попробовали написать несколько таких файлов. Сейчас я напишу немного о типах командных оболочек, использующихся в ОС типа UNIX/Linux. В операционных системах типа UNIX/Linux наиболее часто используются
+следующие реализации командных оболочек:&lt;/p&gt;
+&lt;p&gt;– оболочка Борна (Bourne shell или sh) — стандартная командная оболочка UNIX/Linux,
+содержащая базовый, но при этом полный набор функций;&lt;/p&gt;
+&lt;p&gt;– С-оболочка (или csh) — надстройка на оболочкой Борна, использующая С-подобный
+синтаксис команд с возможностью сохранения истории выполнения команд;&lt;/p&gt;
+&lt;p&gt;– оболочка Корна (или ksh) — напоминает оболочку С, но операторы управления програм-
+мой совместимы с операторами оболочки Борна;&lt;/p&gt;
+&lt;p&gt;– BASH — сокращение от Bourne Again Shell (опять оболочка Борна), в основе своей сов-
+мещает свойства оболочек С и Корна (разработка компании Free Software Foundation).&lt;/p&gt;
+&lt;p&gt;Кроме того, мы сделали четвёртый этап проекта, в котором мы зарегистрировались на некоторых научных и библиометрических ресурсах и прикрепили ссылки к ним на сайте. Кроме того, мы сделали пост по прошлой неделе и на тему по выбору. Я решила сделать пост на тему &amp;ldquo;Оформление отчёта&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;В целом, неделя прошла продуктивно, я узнала много новой информации, которая поможет мне в дальнейшей жизни.&lt;/p&gt;
 </description>
     </item>
     
@@ -3242,85 +4588,6 @@
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://EugeniaVel.github.io/post/16-22/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://EugeniaVel.github.io/post/16-22/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
-&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
-&lt;/ol&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
-&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Wowchemy, the website builder for Hugo</title>
       <link>https://EugeniaVel.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/post/getting-started/</guid>
@@ -3612,719 +4879,6 @@ $$&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Project</title>
-      <link>https://EugeniaVel.github.io/project/lab11/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://EugeniaVel.github.io/project/lab11/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Лабораторная работа №4</title>
-      <link>https://EugeniaVel.github.io/project/lab4/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://EugeniaVel.github.io/project/lab4/</guid>
-      <description>&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;С помощью команды cd перешла в домашний каталог. С помощью команды pwd узнала полное имя каталога, в котором нахожусь.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Определение полного имени домашнего каталога&#34; srcset=&#34;
-               /project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_92bd4364dcc115f789b3f831019ee3f8.webp 400w,
-               /project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_3a971159d5d67f1912cb95c3eeae4765.webp 760w,
-               /project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_92bd4364dcc115f789b3f831019ee3f8.webp&#34;
-               width=&#34;661&#34;
-               height=&#34;123&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;2.1. С помощью команды cd перешла в каталог /tmp.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Переход в каталог /tmp и вывод на экран его содержимого&#34; srcset=&#34;
-               /project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_45029bd5acf7fc75dc82d4a716cb3fd4.webp 400w,
-               /project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_7da06a16bb7942cb16323557085b7d2e.webp 760w,
-               /project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_45029bd5acf7fc75dc82d4a716cb3fd4.webp&#34;
-               width=&#34;661&#34;
-               height=&#34;328&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;2.2 С помощью команды ls без опций вывела на экран содержимое каталога /tmp. Опция -a позволяет посмотреть абсолютно всё содержимое каталога, даже скрытые файлы. Опция -l позволяет вывести на экран подробную информацию о файлах и каталогах. Опция -F выводит на экран указатель того, как запускается файл или каталог. Соответственно, при использовании всех трёх опций сразу можно увидеть все каталоги и файлы с подробной информацией о них и укзанным типом файла.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Вывод на экран содержимого каталога /tmp со скрытыми файлами&#34; srcset=&#34;
-               /project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_3b1551e2feb85a2e65336d741f01081b.webp 400w,
-               /project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_adc70b0856012b0705e234f71f0faecb.webp 760w,
-               /project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_3b1551e2feb85a2e65336d741f01081b.webp&#34;
-               width=&#34;661&#34;
-               height=&#34;504&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Вывод на экран содержимого каталога /tmp с подробной информацией о файлах и каталогах&#34; srcset=&#34;
-               /project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_d475a1a79d85de5af69150e24d0d9ce9.webp 400w,
-               /project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_c79b815f5228d34e89b4158d12461f6f.webp 760w,
-               /project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_d475a1a79d85de5af69150e24d0d9ce9.webp&#34;
-               width=&#34;661&#34;
-               height=&#34;293&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.Вывод на экран содержимого каталога /tmp со скрытыми файлами, подробной информацией о файлах и каталогах и с указателем типа файла/каталога&#34; srcset=&#34;
-               /project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_5ae217fca2e775821f3f76fe7230b638.webp 400w,
-               /project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_24e153968029cb0134569dea4ff5fbca.webp 760w,
-               /project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_5ae217fca2e775821f3f76fe7230b638.webp&#34;
-               width=&#34;661&#34;
-               height=&#34;706&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;2.3 С помощью команды cd перешла в каталог /var/spool, посмотрела его содержимое с помощью ls и среди каталогов не нашла подкаталог cron.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Переход в каталог /var/spool, просмотр его содержимого&#34; srcset=&#34;
-               /project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_8fb1bd008d8414a902892bbd6eb35f8a.webp 400w,
-               /project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_767b776f25e422be12daca1c8ad17212.webp 760w,
-               /project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_8fb1bd008d8414a902892bbd6eb35f8a.webp&#34;
-               width=&#34;661&#34;
-               height=&#34;55&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;2.4 С помощью команды cd перешла в домашний каталог, с помощью команды ls без опций посмотрела содержимое домашнего каталога и с помощью опции -l посмотрела, кто является владельцем файлов и подкаталогов(evvelikodneva)&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Переход в домашний каталог, просмотр его содержимого, просмотр содержимого с подробной информацией, включающей в себя имя владельца файлов и каталогов&#34; srcset=&#34;
-               /project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_9996ac0e0ab816dd7e19ec6a2796bfa2.webp 400w,
-               /project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_facb993a6f72a471c79ddde011101436.webp 760w,
-               /project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_9996ac0e0ab816dd7e19ec6a2796bfa2.webp&#34;
-               width=&#34;649&#34;
-               height=&#34;292&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;3.1. С помощью команды mkdir создала в домашнем каталоге подкаталог newdir.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Создание подкаталога newdir в домашнем каталоге&#34; srcset=&#34;
-               /project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_4e72b6487133fa9f3a48d3813c40b714.webp 400w,
-               /project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_6f6390d33bac9407212dc7ff541b3126.webp 760w,
-               /project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_4e72b6487133fa9f3a48d3813c40b714.webp&#34;
-               width=&#34;327&#34;
-               height=&#34;24&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;3.2. Перешла в каталог newdir и в нём с помощью команды mkdir создала подкаталог morefun.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;9.Создание подкаталога morefun в каталоге newdir&#34; srcset=&#34;
-               /project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_e064802a18631c3dbaf698ce3202c715.webp 400w,
-               /project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_40f0c8edd1baec63a6addeffbed0ebd1.webp 760w,
-               /project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_e064802a18631c3dbaf698ce3202c715.webp&#34;
-               width=&#34;368&#34;
-               height=&#34;40&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;3.3. С помощью команды cd ~ перешла в домашний каталог. В нём с помощью команды mkdir создала сразу три каталога letters, memos и misk. Проверила их создание с помощью команды ls.
-Затем с помощью команды rm -r удалила сразу три каталога (letters, memos и misk) и проверила их удаление с помощью команды ls.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Создание и удаление трёх каталогов, проверка их создания и удаления в домашнем каталоге&#34; srcset=&#34;
-               /project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_e06a215a7cf5d6bcaed63065bc0aadea.webp 400w,
-               /project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_1a82041adad2bfd6ec5feae10b79517c.webp 760w,
-               /project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_e06a215a7cf5d6bcaed63065bc0aadea.webp&#34;
-               width=&#34;556&#34;
-               height=&#34;182&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;3.4. Попробовала удалить каталог newdir с помощью команды rmdir, однако сделать это не удалось, так как каталог не был пустым.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Попытка удалить каталог newdir&#34; srcset=&#34;
-               /project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_79e6d975b5362115206a189bdb91c0e1.webp 400w,
-               /project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_b094ebe4cfcbcd86b00162c4f1e89984.webp 760w,
-               /project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_79e6d975b5362115206a189bdb91c0e1.webp&#34;
-               width=&#34;556&#34;
-               height=&#34;40&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;3.5. Удалила каталог ~/newdir/morefun, проверила его удаление с помощью команды ls. Каталог morefun был успешно удалён из каталога newdir.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12.Удаление каталога morefun и проверка его успешного удаления&#34; srcset=&#34;
-               /project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_d8221db7e0467cf768c6ae99a521d86e.webp 400w,
-               /project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_b02245c6016a9fb2583c7f4541766e9f.webp 760w,
-               /project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_d8221db7e0467cf768c6ae99a521d86e.webp&#34;
-               width=&#34;557&#34;
-               height=&#34;105&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;С помощью команды man ls посмотрела список опций и их описание, затем нашла опцию -R, которая выводит содержимое не только указанного каталога, но и его подкаталогов. Проверила, как эта опция работает.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Просмотр списка опций и нахождение нужной опции&#34; srcset=&#34;
-               /project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_c6e8f2d0366d352e3623d8b5964f7f65.webp 400w,
-               /project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_8149e24640f690893396e2c33b95c347.webp 760w,
-               /project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_c6e8f2d0366d352e3623d8b5964f7f65.webp&#34;
-               width=&#34;657&#34;
-               height=&#34;483&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14.Проверка работы опции вывода содержимого не только указанного каталога, но и его подкаталогов&#34; srcset=&#34;
-               /project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_dc89acc9291c7cf40e5c559f73ce496a.webp 400w,
-               /project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_0666aabd4de1c976bca8ff994bd1b456.webp 760w,
-               /project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_dc89acc9291c7cf40e5c559f73ce496a.webp&#34;
-               width=&#34;457&#34;
-               height=&#34;760&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;С помощью команды man ls посмотрела список опций и их описание, затем нашла опцию -t, которая сортирует выводимый список по времени последнего изменения, и опцию -l, которая выводит развёрнутое описание файлов. (рис.15-16) Проверила, как эти опции работают.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.Просмотр списка опций и нахождение нужной опции&#34; srcset=&#34;
-               /project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_55adda9ce7ad849b866074afcb1f1086.webp 400w,
-               /project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_5a208395efd7fb544b8efeb302e51204.webp 760w,
-               /project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_55adda9ce7ad849b866074afcb1f1086.webp&#34;
-               width=&#34;657&#34;
-               height=&#34;483&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Просмотр списка опций и нахождение нужной опции&#34; srcset=&#34;
-               /project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_279a6760726537c0f42064255ddf502f.webp 400w,
-               /project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_bc41a9e644e20dc2a2c1eef16450179b.webp 760w,
-               /project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_279a6760726537c0f42064255ddf502f.webp&#34;
-               width=&#34;657&#34;
-               height=&#34;483&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.Проверка работы опций&#34; srcset=&#34;
-               /project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_4afd67b22cb84ac6b70e38750b02887b.webp 400w,
-               /project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_117ebb7ba80ea0ad363d4f3153d12dad.webp 760w,
-               /project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_4afd67b22cb84ac6b70e38750b02887b.webp&#34;
-               width=&#34;657&#34;
-               height=&#34;255&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Использовала команду man для просмотра списка опций следующих команд:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;cd&lt;/p&gt;
-&lt;p&gt;-P - позволяет следовать по символическим ссылкам перед тем, как будут обработаны все переходы &amp;ldquo;..&amp;rdquo;;&lt;/p&gt;
-&lt;p&gt;-L - переходит по символическим ссылкам только после того, как были обработаны &amp;ldquo;..&amp;rdquo;;&lt;/p&gt;
-&lt;p&gt;-e - если папку, в которую нужно перейти не удалось найти - выдает ошибку.&lt;/p&gt;
-&lt;p&gt;pwd&lt;/p&gt;
-&lt;p&gt;-L, &amp;ndash;logical - брать директорию из переменной окружения, даже если она содержит символические ссылки;&lt;/p&gt;
-&lt;p&gt;-P - отбрасывать все символические ссылки&lt;/p&gt;
-&lt;p&gt;mkdir&lt;/p&gt;
-&lt;p&gt;-m (&amp;ndash;mode=режим) - назначить режим доступа (права). По умолчанию mod принимает значение 0777, что обеспечивает неограниченные права.&lt;/p&gt;
-&lt;p&gt;-p (&amp;ndash;parents) - не показывать ошибки, а также их игнорировать.&lt;/p&gt;
-&lt;p&gt;-z  (&amp;ndash;context=CTX ) принимает контекст SELinux для каталога по умолчанию.&lt;/p&gt;
-&lt;p&gt;-v (&amp;ndash;verbose) - выводить сообщение о каждом новым каталоге.&lt;/p&gt;
-&lt;p&gt;rmdir&lt;/p&gt;
-&lt;p&gt;-p	Позволяет удалить каталог и вышележащие каталоги, оказавшиеся пустыми. На стандартный вывод выдается сообщение об удалении всех указанных в маршруте каталогов или о сохранении части из них по каким-либо причинам.&lt;/p&gt;
-&lt;p&gt;-s	Подавление сообщения, выдаваемого при действии опции -p.&lt;/p&gt;
-&lt;p&gt;rm&lt;/p&gt;
-&lt;p&gt;-f	Команда не выдает сообщений, когда удаляемый файл не существует, не запрашивает подтверждения при удалении файлов, на запись в которые нет прав. Если нет права и на запись в каталог, файлы не удаляются. Сообщение об ошибке выдается лишь при попытке удалить каталог, на запись в который нет прав (см. опцию -r).&lt;/p&gt;
-&lt;p&gt;-r	Происходит рекурсивное удаление всех каталогов и подкаталогов, перечисленных в списке аргументов. Сначала каталоги опустошаются, затем удаляются. Подтверждение при удалении файлов, на запись в которые нет прав, не запрашивается, если задана опция -f или стандартный ввод не назначен на терминал и не задана опция -i. При удалении непустых каталогов команда rm -r предпочтительнее команды rmdir, так как последняя способна удалить только пустой каталог. Но команда rm -r может доставить немало острых впечатлений при ошибочном указании каталога!&lt;/p&gt;
-&lt;p&gt;-i	Перед удалением каждого файла запрашивается подтверждение. Опция -i устраняет действие опции -f; она действует даже тогда, когда стандартный ввод не назначен на терминал.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;18.Список опций команды cd&#34; srcset=&#34;
-               /project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_b88207cba0cd4bad030e3545fa472a0f.webp 400w,
-               /project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_728d0e94550a91a54c121a557a525264.webp 760w,
-               /project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_b88207cba0cd4bad030e3545fa472a0f.webp&#34;
-               width=&#34;657&#34;
-               height=&#34;734&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;19.Список опций команды pwd&#34; srcset=&#34;
-               /project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_7ed9ba8de4ad349cd7525766a550a534.webp 400w,
-               /project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_382a39170338b36b1fae297739338615.webp 760w,
-               /project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_7ed9ba8de4ad349cd7525766a550a534.webp&#34;
-               width=&#34;657&#34;
-               height=&#34;734&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;20.Список опций команды mkdir&#34; srcset=&#34;
-               /project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_497ae7e0b614048f0ff990b70dc97a75.webp 400w,
-               /project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_c6242a1240de5ddc9402c3dd6736c109.webp 760w,
-               /project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_497ae7e0b614048f0ff990b70dc97a75.webp&#34;
-               width=&#34;657&#34;
-               height=&#34;734&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;21.Список опций команды rmdir&#34; srcset=&#34;
-               /project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_964596f9a8092bbc49fe946e6b311aa8.webp 400w,
-               /project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_af0f7e4d0f0c9176575f255b5ed0134f.webp 760w,
-               /project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_964596f9a8092bbc49fe946e6b311aa8.webp&#34;
-               width=&#34;657&#34;
-               height=&#34;661&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;22.Список опций команды rm&#34; srcset=&#34;
-               /project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_c12ece71f19634e2d4dc4a58a2be2c96.webp 400w,
-               /project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_94b4cb8f2ee151d39da5a85db70585e5.webp 760w,
-               /project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_c12ece71f19634e2d4dc4a58a2be2c96.webp&#34;
-               width=&#34;657&#34;
-               height=&#34;734&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;С помощью команды history посмотрела историю выполнения команд. Выполнила следующие команды с изменениями:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;mkdir(добавила -v(опция, которая выводит описание проделанных команд))&lt;/p&gt;
-&lt;p&gt;rm -r(добавила -v)&lt;/p&gt;
-&lt;p&gt;rmdir(добавила -p(опция, которая позволяет удалять каталоги с их содержимым) и -v)&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;23.Выполнение команды history и других команд, которые уже были использованы, с разными опциями&#34; srcset=&#34;
-               /project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_d3b9b35ab9ad77872ad63821dabed3ce.webp 400w,
-               /project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_f4db4c12567f59477ec12a164129e5c7.webp 760w,
-               /project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_d3b9b35ab9ad77872ad63821dabed3ce.webp&#34;
-               width=&#34;657&#34;
-               height=&#34;735&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
 </description>
     </item>
     
