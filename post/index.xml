@@ -13,6 +13,36 @@
     </image>
     
     <item>
+      <title>Post last week 16.05-22.05</title>
+      <link>https://EugeniaVel.github.io/post/16-22/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://EugeniaVel.github.io/post/16-22/</guid>
+      <description>&lt;p&gt;Last week we completed labs #9 and #10.
+In the ninth laboratory work, we got acquainted with the Emacs editor. We learned the main combinations of hot keys, tried to test their work. We created files, opened them, edited them, moved between buffers, analyzed the concept of a frame, the basics of working with it. Now this is one of my favorite editors, it is very convenient to work in it. It has a lot of advantages, but there are also some disadvantages, one of which is the complexity of its configuration.&lt;/p&gt;
+&lt;p&gt;In the tenth laboratory work, we got acquainted with the concept of a batch file, with various types of command shells. We analyzed the principles of writing batch files, tried to write several such files ourselves. Now I will write a little about the types of shells used in OS such as UNIX/Linux. On operating systems such as UNIX/Linux, the most commonly used
+the following shell implementations:&lt;/p&gt;
+&lt;p&gt;– Bourne shell (sh) — standard UNIX/Linux command shell,
+containing a basic, but at the same time a complete set of functions;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;C-shell (or csh) - an add-on to the Bourne shell that uses a C-like
+command syntax with the ability to save the history of command execution;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;the Korn shell (or ksh) - resembles the C shell, but the program control statements
+mine is compatible with Bourne shell operators;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BASH - short for Bourne Again Shell, basically the same
+moves properties of the C and Korn shells (developed by the Free Software Foundation).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In addition, we made the fourth stage of the project, in which we registered on some scientific and bibliometric resources and attached links to them on the site. In addition, we made a post last week on a topic of your choice. I decided to make a post on the topic &amp;ldquo;Formation of the report&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;In general, the week was productive, I learned a lot of new information that will help me in my future life.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Научные языки программирования</title>
       <link>https://EugeniaVel.github.io/post/yaziki_program/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
@@ -30,28 +60,6 @@
 &lt;li&gt;MATLAB (сокращение от «матричная лаборатория») - это частный многопарадигмальный язык программирования и вычислительная среда, разработанная MathWorks . MATLAB позволяет манипулировать матрицами , строить графики функций и данных, реализовывать алгоритмы , создавать пользовательские интерфейсы и взаимодействовать с программами, написанными на других языках.&lt;/li&gt;
 &lt;li&gt;R - это язык программирования и бесплатная программная среда для статистических вычислений и графики, поддерживаемая R Foundation for Statistical Computing. Язык R широко используется статистиками и специалистами по обработке данных для разработки статистического программного обеспечения и анализа данных .&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Пост по прошлой неделе 16.05-22.05</title>
-      <link>https://EugeniaVel.github.io/post/16-22/</link>
-      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://EugeniaVel.github.io/post/16-22/</guid>
-      <description>&lt;p&gt;На прошлой неделе мы выполнили лабораторные работы №9 и №10.
-В девятой лабораторной работе мы познакомились с редактором Emacs. Выучили основные комбинации горячих клавиш, попытались проверить их работу. Мы создавали файлы, открывали их, редактировали, перемещались между буферами, разобрали понятие фрейм, основы работы с ним. Теперь это один из моих любимых редакторов, в нём очень удобно работать. У него есть масса преимуществ, однако есть и некоторые недостатки, одним из которых явялется сложность его настройки.&lt;/p&gt;
-&lt;p&gt;В десятой лабораторной работе мы познакомились с понятием командный файл, с различными типами командных оболочек. Разобрали принципы написания командных файлов, сами попробовали написать несколько таких файлов. Сейчас я напишу немного о типах командных оболочек, использующихся в ОС типа UNIX/Linux. В операционных системах типа UNIX/Linux наиболее часто используются
-следующие реализации командных оболочек:&lt;/p&gt;
-&lt;p&gt;– оболочка Борна (Bourne shell или sh) — стандартная командная оболочка UNIX/Linux,
-содержащая базовый, но при этом полный набор функций;&lt;/p&gt;
-&lt;p&gt;– С-оболочка (или csh) — надстройка на оболочкой Борна, использующая С-подобный
-синтаксис команд с возможностью сохранения истории выполнения команд;&lt;/p&gt;
-&lt;p&gt;– оболочка Корна (или ksh) — напоминает оболочку С, но операторы управления програм-
-мой совместимы с операторами оболочки Борна;&lt;/p&gt;
-&lt;p&gt;– BASH — сокращение от Bourne Again Shell (опять оболочка Борна), в основе своей сов-
-мещает свойства оболочек С и Корна (разработка компании Free Software Foundation).&lt;/p&gt;
-&lt;p&gt;Кроме того, мы сделали четвёртый этап проекта, в котором мы зарегистрировались на некоторых научных и библиометрических ресурсах и прикрепили ссылки к ним на сайте. Кроме того, мы сделали пост по прошлой неделе и на тему по выбору. Я решила сделать пост на тему &amp;ldquo;Оформление отчёта&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;В целом, неделя прошла продуктивно, я узнала много новой информации, которая поможет мне в дальнейшей жизни.&lt;/p&gt;
 </description>
     </item>
     
@@ -91,16 +99,16 @@
       <link>https://EugeniaVel.github.io/post/9.05-15.05/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/post/9.05-15.05/</guid>
-      <description>&lt;p&gt;На прошлой неделе мы выполняли две лабораторные работы - №7,8, а также оформляли третий этап индивидуального проекта. Сейчас я расскажу, чему я научилась и какая работа была проведена.
-В &lt;em&gt;лабораторной работе №7&lt;/em&gt; мы изучали, как работать с командной оболочкой Midnight Commander. Командная оболочка — интерфейс взаимодействия пользователя с операционной системой и программным обеспечением посредством команд. Midnight Commander (или mc) — псевдографическая командная оболочка для UNIX/Linux систем. Мы рассмотрели команды каждой панели в mc, узнали, зачем они нужны, а также научились пользоваться горячими клавишами.
-Кроме того, мы поработали со встроенным в mc редактором, который можно запускать с помощью команды mc –e или mcedit, указав после неё название файла, который нужно отредактировать.
-В &lt;em&gt;лабораторной работе №8&lt;/em&gt; мы работали с редактором vi(Visual display editor). С его помощью можно редактировать текстовые файлы. Мы работали во всех трёх режимах vi – командном режиме, режиме вставки и режиме последней строки.
-При выполнении &lt;em&gt;третьего этапа индивидуального проекта&lt;/em&gt; мы добавляли на сайт информацию о достижениях, навыке и опыте, а также два поста: один по прошедшей неделе, второй – на тему по выбору:&lt;/p&gt;
+      <description>&lt;p&gt;Last week we completed two laboratory works - №7,8, and also made out the third stage of an individual project. Now I will tell you what I learned and what work was done.
+In &lt;em&gt;Lab 7&lt;/em&gt; we learned how to work with the Midnight Commander shell. The command shell is an interface for user interaction with the operating system and software through commands. Midnight Commander (or mc) is a pseudo-graphical command shell for UNIX/Linux systems. We looked at the commands of each panel in mc, found out why they are needed, and also learned how to use hotkeys.&lt;/p&gt;
+&lt;p&gt;In addition, we worked with the built-in editor in mc, which can be launched using the mc -e or mcedit command, specifying the name of the file to be edited after it.
+In &lt;em&gt;lab #8&lt;/em&gt; we worked with vi (Visual display editor). It can be used to edit text files. We worked in all three vi modes - command mode, insert mode, and last line mode.&lt;/p&gt;
+&lt;p&gt;During the &lt;em&gt;third stage of an individual project&lt;/em&gt;, we added information about achievements, skills and experience to the site, as well as two posts: one for the past week, the second on a topic of your choice:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Легковесные языки разметки.&lt;/li&gt;
-&lt;li&gt;Языки разметки. LaTeX.&lt;/li&gt;
-&lt;li&gt;Язык разметки Markdown.
-Я выбрала язык разметки Markdown, описала основные особенности его синтаксиса.&lt;/li&gt;
+&lt;li&gt;Lightweight markup languages.&lt;/li&gt;
+&lt;li&gt;Markup languages. LaTeX.&lt;/li&gt;
+&lt;li&gt;Markdown language.
+I chose the Markdown markup language, described the main features of its syntax.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -115,9 +123,9 @@
 &lt;li&gt;I studied Linux file systems, their structures, names and content of their directories.&lt;/li&gt;
 &lt;li&gt;I learned how to use commands for working with files and directories, how to manage processes and how to check disk usage.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;report-about-laboratory-work-5-in-russian&#34;&gt;Report about laboratory work №5 in Russian&lt;/h2&gt;
+&lt;h2 id=&#34;report-about-laboratory-work-5&#34;&gt;Report about laboratory work №5&lt;/h2&gt;
 &lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;Создала каталог lab5, в него скопировала шаблоны отчёта и презентации.(рис.1)&lt;/li&gt;
+&lt;li&gt;I created the lab5 directory, copied the report and presentation templates into it. (Fig. 1)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -137,7 +145,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Создание нового каталога, копирование шаблонов отчёта и презентации&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Creating a new directory, copying report and presentation templates&#34; srcset=&#34;
                /post/last-week-post/image/oc1_huf445a007be27cb26cfc39d75476a9b9a_61825_783a3402ef4060d3893f816a98a6450a.webp 400w,
                /post/last-week-post/image/oc1_huf445a007be27cb26cfc39d75476a9b9a_61825_bd2e50ab33a049e15124ea82b347a940.webp 760w,
                /post/last-week-post/image/oc1_huf445a007be27cb26cfc39d75476a9b9a_61825_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -148,10 +156,10 @@
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;В первой части описания лабораторной работы были приведены следующие команды:&lt;/li&gt;
+&lt;li&gt;In the first part of the description of the laboratory work, the following commands were given:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;1.1. touch - создаёт новый файл. Я создала файл lab5.txt, в него записала числа от 1 до 40, чтобы при выполнении следующих команд они выводились на экран.(рис.2, 3)&lt;/p&gt;
-&lt;p&gt;1.2. cat - даёт возможность просматривать файлы небольшого размера. Я вывела на экран содержимое файла, созданного прошлой командой.(рис.2)&lt;/p&gt;
+&lt;p&gt;1.1. touch - creates a new file. I created a lab5.txt file, wrote numbers from 1 to 40 into it, so that when the following commands are executed, they are displayed on the screen. (Fig. 2, 3)&lt;/p&gt;
+&lt;p&gt;1.2. cat - allows you to view small files. I displayed the contents of the file created by the previous command. (Fig. 2)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -170,7 +178,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Создание файла lab5.txt, вывод его содержимого на экран&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Creating the lab5.txt file, displaying its contents on the screen&#34; srcset=&#34;
                /post/last-week-post/image/oc2_hud1e9851e02f8ee6af65db7d3a481c481_54433_de4115a6b733e3580ec1cecc2c85c50f.webp 400w,
                /post/last-week-post/image/oc2_hud1e9851e02f8ee6af65db7d3a481c481_54433_f08a54460f00e84ec27ff92fe9c2c967.webp 760w,
                /post/last-week-post/image/oc2_hud1e9851e02f8ee6af65db7d3a481c481_54433_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -198,7 +206,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Содержимое файла lab5.txt&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Lab5.txt file content&#34; srcset=&#34;
                /post/last-week-post/image/oc3_hue637cf5053f0b61ac38f02e62c913c05_53800_3540c51fca11a1dca6e337e115b44a27.webp 400w,
                /post/last-week-post/image/oc3_hue637cf5053f0b61ac38f02e62c913c05_53800_d9f1d9f594bea4b88681e7c42c9664ee.webp 760w,
                /post/last-week-post/image/oc3_hue637cf5053f0b61ac38f02e62c913c05_53800_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -208,7 +216,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;1.3. less - используется для просмотра файлов постранично. Я посмотрела содержимое созданного мной в первом пункте файла.(рис.5,6)&lt;/p&gt;
+&lt;p&gt;1.3. less - used to view files page by page. I looked at the contents of the file I created in the first paragraph. (Fig.5,6)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -227,7 +235,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Вызов команды less&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Invoking the less command&#34; srcset=&#34;
                /post/last-week-post/image/oc4_hu8eda373d55f3de55be5f86f0cef8d18c_9248_0ac62b951f0c233707071629436c1670.webp 400w,
                /post/last-week-post/image/oc4_hu8eda373d55f3de55be5f86f0cef8d18c_9248_9120c8dbef7dd681da4b681b596fbdba.webp 760w,
                /post/last-week-post/image/oc4_hu8eda373d55f3de55be5f86f0cef8d18c_9248_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -255,7 +263,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.Содержание файла постранично&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.File content per page&#34; srcset=&#34;
                /post/last-week-post/image/oc5_hud1e9851e02f8ee6af65db7d3a481c481_39532_ae98f5b4a407691d91964e868ccd79a4.webp 400w,
                /post/last-week-post/image/oc5_hud1e9851e02f8ee6af65db7d3a481c481_39532_89ff775c078a018a549c9b6b2945be0e.webp 760w,
                /post/last-week-post/image/oc5_hud1e9851e02f8ee6af65db7d3a481c481_39532_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -265,7 +273,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;1.4. head - по умолчанию выводит первые 10 строк файла на экран, с помощью опции -n можно задать количество выводимых строк. Вывела 15 первых строк файла lab5.txt.(рис.6)&lt;/p&gt;
+&lt;p&gt;1.4. head - displays the first 10 lines of the file on the screen by default, using the -n option, you can set the number of output lines. Displayed the first 15 lines of the file lab5.txt. (Fig. 6)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -284,7 +292,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Вывод первых 15 строк&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Output first 15 lines&#34; srcset=&#34;
                /post/last-week-post/image/oc6_huf3d1084149fbe95373894c36a56eca6d_20412_f5911a231346b081f35d4078a7ec16f3.webp 400w,
                /post/last-week-post/image/oc6_huf3d1084149fbe95373894c36a56eca6d_20412_87d6df535c5c74897449572217af25cf.webp 760w,
                /post/last-week-post/image/oc6_huf3d1084149fbe95373894c36a56eca6d_20412_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -294,7 +302,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;1.5. tail - по умолчанию выводит последние 10 строк файла. С помощью опции -n можно задать количество выводимых строк. Вывела 15 последних строк файла lab5.txt.(рис.7)&lt;/p&gt;
+&lt;p&gt;1.5. tail - Prints the last 10 lines of a file by default. The -n option can be used to set the number of lines to be output. Displayed the last 15 lines of the lab5.txt file. (Fig. 7)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -313,7 +321,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Вывод последних 15 строк&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Output last 15 lines&#34; srcset=&#34;
                /post/last-week-post/image/oc7_hue1cdbeba48c53ed1c6626a08de6a570d_21374_ad73ac3b5d7cd6dd767bb19fea9c95dd.webp 400w,
                /post/last-week-post/image/oc7_hue1cdbeba48c53ed1c6626a08de6a570d_21374_10561ac740271b257cdab59cf1ebdd37.webp 760w,
                /post/last-week-post/image/oc7_hue1cdbeba48c53ed1c6626a08de6a570d_21374_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -344,7 +352,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Копирование файла в домашний каталог и проверка его содержания в каталоге&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Copying the file to the home directory and checking its content in the directory&#34; srcset=&#34;
                /post/last-week-post/image/oc8_hud06f72115a97010cf5d72bd671f7da44_19971_127ac3e734cb0a58878cd77d7d8b2329.webp 400w,
                /post/last-week-post/image/oc8_hud06f72115a97010cf5d72bd671f7da44_19971_b7468faf7ac32913ff65ffc22953a79f.webp 760w,
                /post/last-week-post/image/oc8_hud06f72115a97010cf5d72bd671f7da44_19971_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -354,7 +362,10 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;2.2. С помощью команды mkdir в домашнем каталоге создала директорию ~/ski.plases. Проверила её создание с помощью команды ls(вывод содержимого каталога)(рис.9)&lt;/p&gt;
+&lt;p&gt;2.2. Using the mkdir command, I created the ~/ski.plases directory in my home directory. I checked its creation using the ls command (displaying the contents of the directory) (Fig. 9)&lt;/p&gt;
+&lt;p&gt;![9.Create the ~/ski.plases directory, check if it is in it]
+(image/oc9.jpg){ #fig:001 width=70% }&lt;/p&gt;
+&lt;p&gt;2.3. Using the mv command, I moved the equipment file to the ~/ski.plases directory. I checked the location of the file in the ~/ski.plases directory.(Fig. 10)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -373,36 +384,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;9.Создание каталога ~/ski.plases, проверка её нахождения в нём&#34; srcset=&#34;
-               /post/last-week-post/image/oc9_hu168dc5f41f564a57e592ce23430884bd_20819_4d161ea19e41ded5faf4b69117423172.webp 400w,
-               /post/last-week-post/image/oc9_hu168dc5f41f564a57e592ce23430884bd_20819_f585ae31c4b9b89eaf4708fb08952b63.webp 760w,
-               /post/last-week-post/image/oc9_hu168dc5f41f564a57e592ce23430884bd_20819_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/post/last-week-post/image/oc9_hu168dc5f41f564a57e592ce23430884bd_20819_4d161ea19e41ded5faf4b69117423172.webp&#34;
-               width=&#34;645&#34;
-               height=&#34;89&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-{ #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;2.3. С помощью команды mv переместила файл equipment в каталог ~/ski.plases. Проверила нахождение файла в каталоге ~/ski.plases.(рис.10)&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Перемещение файла equipment в каталог ~/ski.plases. Проверка нахождения файла в каталоге&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Move equipment file to ~/ski.plases directory. Checking if the file is in the directory&#34; srcset=&#34;
                /post/last-week-post/image/oc10_hu909676977dc05a0ec7be22527db19a2b_14109_37a7855e680fd15efbb418e8fc971ab1.webp 400w,
                /post/last-week-post/image/oc10_hu909676977dc05a0ec7be22527db19a2b_14109_e808b9344fb30bfc20e36182ff0161d2.webp 760w,
                /post/last-week-post/image/oc10_hu909676977dc05a0ec7be22527db19a2b_14109_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -412,7 +394,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;2.4. С помощью команды cp переименовала файл ~/ski.plases/equipment в ~/ski.plases/equiplist. Проверила изменение его имени.(рис.11)&lt;/p&gt;
+&lt;p&gt;2.4. Renamed the ~/ski.plases/equipment file to ~/ski.plases/equiplist using the cp command. I checked the change of his name. (Fig. 11)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -431,7 +413,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Переименование файла ~/ski.plases/equipment в ~/ski.plases/equiplist. Проверка&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Renaming the file ~/ski.plases/equipment to ~/ski.plases/equiplist. Check&#34; srcset=&#34;
                /post/last-week-post/image/oc11_hucbdd9a2e14d24863d8706c55da585f87_16193_b47118791c2e649c33282b7694ef64fa.webp 400w,
                /post/last-week-post/image/oc11_hucbdd9a2e14d24863d8706c55da585f87_16193_437cf5f3bbff189525057d5fc7b8f514.webp 760w,
                /post/last-week-post/image/oc11_hucbdd9a2e14d24863d8706c55da585f87_16193_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -441,7 +423,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;2.5. С помощью команды touch создала в домашнем каталоге файл abc1. С помощью команды cp скопировала его в каталог ~/ski.plases, задав новое имя equiplist2. Выполнила проверку каждого действия командой ls.(рис.12)&lt;/p&gt;
+&lt;p&gt;2.5. Using the touch command, I created the file abc1 in my home directory. Using the cp command, I copied it to the ~/ski.plases directory, giving the new name equiplist2. I checked each action with the ls command. (Fig. 12)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -460,7 +442,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12. Создание нового файла, проверка его создания. Копирование его с новым именем, проверка наличия его в обоих каталогах&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12. Creating a new file, checking its creation. Copying it with a new name, making sure it exists in both directories&#34; srcset=&#34;
                /post/last-week-post/image/oc12_hufdcc2cfba2715b0f9b5dbafc266fd50a_43621_d87a757498574cbfc852c5a2b57b5813.webp 400w,
                /post/last-week-post/image/oc12_hufdcc2cfba2715b0f9b5dbafc266fd50a_43621_9bc8b05fe43d7f2bafb85499bebb7608.webp 760w,
                /post/last-week-post/image/oc12_hufdcc2cfba2715b0f9b5dbafc266fd50a_43621_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -470,7 +452,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;2.6. С помощью команды mkdir создала каталог с именем equipment в каталоге ~/ski.plases. Проверка его нахождения в каталоге.(рис.13)&lt;/p&gt;
+&lt;p&gt;2.6. Created a directory called equipment in the ~/ski.plases directory using the mkdir command. Checking its location in the catalog. (Fig. 13)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -489,7 +471,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Создание нового каталога. Проверка&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Creating a new directory. Check&#34; srcset=&#34;
                /post/last-week-post/image/oc13_hucbdd9a2e14d24863d8706c55da585f87_16646_119f4ae700f39a143db000b264f8ab00.webp 400w,
                /post/last-week-post/image/oc13_hucbdd9a2e14d24863d8706c55da585f87_16646_352d06436a264a1ed8aa3ded0187e640.webp 760w,
                /post/last-week-post/image/oc13_hucbdd9a2e14d24863d8706c55da585f87_16646_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -499,8 +481,8 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;2.7. С помощью команды mv переместила файлы ~/ski.plases/equiplist и equiplist2 в каталог
-~/ski.plases/equipment. Проверила их отсутствие в каталоге ~/ski.plases и наличие в каталоге ~/ski.plases/equipment.(рис.14)&lt;/p&gt;
+&lt;p&gt;2.7. Using the mv command, I moved the files ~/ski.plases/equiplist and equiplist2 to the directory
+~/ski.places/equipment. I checked their absence in the ~/ski.plases directory and their presence in the ~/ski.plases/equipment directory. (Fig. 14)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -519,7 +501,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14. Перемещение двух файлов в один каталог. Проверка&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14. Moving two files into one directory. Check&#34; srcset=&#34;
                /post/last-week-post/image/oc14_huafc59790a18250b45dd979b252435c05_27288_6ae76dc7d32585b88932a64b6d4a19ca.webp 400w,
                /post/last-week-post/image/oc14_huafc59790a18250b45dd979b252435c05_27288_a422a30472d1d0d05a2c3cd6ea10e894.webp 760w,
                /post/last-week-post/image/oc14_huafc59790a18250b45dd979b252435c05_27288_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -529,7 +511,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;2.8. С помощью команды mkdir создала каталог с именем ~/newdir и с помощью команды cp переместила в каталог ~/ski.plases с новым именем plans. Проверила выполнение обеих команд.(рис.15)&lt;/p&gt;
+&lt;p&gt;2.8. Created a directory called ~/newdir with the mkdir command and moved it to the ~/ski.plases directory with the new name plans using the cp command. I checked the execution of both commands. (Fig. 15)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -548,7 +530,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.Создание нового каталога, его перемещение, проверка&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.Creating a new directory, moving it, checking&#34; srcset=&#34;
                /post/last-week-post/image/oc15_hu87ca14663209bf701e3f5638c3c1e7b4_42872_69323e2ff77d2f3afdc7f77147fdee61.webp 400w,
                /post/last-week-post/image/oc15_hu87ca14663209bf701e3f5638c3c1e7b4_42872_65670ee78cd506b7d252e105def6298b.webp 760w,
                /post/last-week-post/image/oc15_hu87ca14663209bf701e3f5638c3c1e7b4_42872_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -579,7 +561,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Присвоение прав drwxr&amp;amp;ndash;r&amp;amp;ndash; каталогу australia&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Assigning rights drwxr&amp;amp;ndash;r&amp;amp;ndash; to australia directory&#34; srcset=&#34;
                /post/last-week-post/image/oc16_huea6da3760467449858ea30313b1cfbf7_9837_58c62ec0a4b07c91741ba289c72d5d04.webp 400w,
                /post/last-week-post/image/oc16_huea6da3760467449858ea30313b1cfbf7_9837_011eb4fc8ddf4c476506f637eeb2b8c1.webp 760w,
                /post/last-week-post/image/oc16_huea6da3760467449858ea30313b1cfbf7_9837_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -607,7 +589,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.Проверка присвоения прав&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.Permission check&#34; srcset=&#34;
                /post/last-week-post/image/oc17_hu34c3e619de1a725299cd46205dc72937_6994_d1890b806e08eeb2e02c27c5fde33229.webp 400w,
                /post/last-week-post/image/oc17_hu34c3e619de1a725299cd46205dc72937_6994_566ffa8958280d9a6062a870f6314824.webp 760w,
                /post/last-week-post/image/oc17_hu34c3e619de1a725299cd46205dc72937_6994_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -617,7 +599,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;3.2. Создала новую директорию с именем play. Используя команду chmod и восьмеричную форму записи передала каталогу следующие права: drwx&amp;ndash;x&amp;ndash;x(711)(рис.18). Проверила добавление данных прав с помощью команды ls -l.(рис.19)&lt;/p&gt;
+&lt;p&gt;3.2. Created a new directory called play. Using the chmod command and the octal notation gave the directory the following rights: drwx&amp;ndash;x&amp;ndash;x(711) (Fig.18). I checked the addition of these rights using the ls -l command. (Fig. 19)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -636,7 +618,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;18.Присвоение прав drwx&amp;amp;ndash;x&amp;amp;ndash;x каталогу play&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;18.Assigning rights drwx&amp;amp;ndash;x&amp;amp;ndash;x to play directory&#34; srcset=&#34;
                /post/last-week-post/image/oc18_hu4f5d9f151841dac037e6dc03ce5a112f_9355_fa93a094afc4ff79433b99ac759b0850.webp 400w,
                /post/last-week-post/image/oc18_hu4f5d9f151841dac037e6dc03ce5a112f_9355_1571f8a04d35d6732fbc3bab32b554a2.webp 760w,
                /post/last-week-post/image/oc18_hu4f5d9f151841dac037e6dc03ce5a112f_9355_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -664,7 +646,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;19.Проверка присвоения прав&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;19.Permission check&#34; srcset=&#34;
                /post/last-week-post/image/oc19_hu276d65fe3523c098b51dadea5cd4608b_6278_16ce95148ac3daf3409f6633501cd3db.webp 400w,
                /post/last-week-post/image/oc19_hu276d65fe3523c098b51dadea5cd4608b_6278_c5cc5d1a60d7ba7546593c0f32b2bb85.webp 760w,
                /post/last-week-post/image/oc19_hu276d65fe3523c098b51dadea5cd4608b_6278_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -674,7 +656,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;3.3. Создала новый файл с именем my_os. С помощью команды chmod, используя восьмеричную форму записи,  передала файлу следующие права: -r-xr&amp;ndash;r&amp;ndash;(544)(рис.20). Проверила добавление данных прав с помощью команды ls -l.(рис.21)&lt;/p&gt;
+&lt;p&gt;3.3. Created a new file named my_os. With the help of the chmod command, using the octal notation, I transferred the following rights to the file: -r-xr&amp;ndash;r&amp;ndash;(544) (Fig. 20). I checked the addition of these rights using the ls -l command. (Fig. 21)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -693,7 +675,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;20.Присвоение прав -r-xr&amp;amp;ndash;r&amp;amp;ndash; файлу my_os&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;20.Assigning permissions -r-xr&amp;amp;ndash;r&amp;amp;ndash; to my_os&#34; srcset=&#34;
                /post/last-week-post/image/oc20_hua2b175a871c4f7c18719d214d461a8d6_9004_b1c3c829a5ba180c3f26e945a763af14.webp 400w,
                /post/last-week-post/image/oc20_hua2b175a871c4f7c18719d214d461a8d6_9004_6b7d8ad313c13402002e2b36b511093a.webp 760w,
                /post/last-week-post/image/oc20_hua2b175a871c4f7c18719d214d461a8d6_9004_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -721,7 +703,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;21.Проверка присвоения прав&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;21.Checking permission assignment&#34; srcset=&#34;
                /post/last-week-post/image/oc21_hua1d424dadd89cea822a14ddb3dd2656d_6713_49255f28bc44296c4295bb910e66fd84.webp 400w,
                /post/last-week-post/image/oc21_hua1d424dadd89cea822a14ddb3dd2656d_6713_cff6ee993cda7e0d9222e988497a75d6.webp 760w,
                /post/last-week-post/image/oc21_hua1d424dadd89cea822a14ddb3dd2656d_6713_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -731,7 +713,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;3.4. Создала новый файл с именем feathers. С помощью команды chmod, используя восьмеричную форму записи,  передала файлу следующие права: -rw-rw-r&amp;ndash;(644)(рис.22). Проверила добавление данных прав с помощью команды ls -l.(рис.23)&lt;/p&gt;
+&lt;p&gt;3.4. Created a new file called feathers. With the help of the chmod command, using the octal notation, I transferred the following rights to the file: -rw-rw-r&amp;ndash;(644) (Fig. 22). I checked the addition of these rights using the ls -l command. (Fig. 23)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -750,7 +732,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;22.Присвоение прав -rw-rw-r&amp;amp;ndash; файлу feathers&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;22.Assigning permissions -rw-rw-r&amp;amp;ndash; to feathers&#34; srcset=&#34;
                /post/last-week-post/image/oc22_hu6381e65e7afa46a29c3c15a7a1465b7a_9937_d682ac7b3ad7dfeaceb4a798fe67ca10.webp 400w,
                /post/last-week-post/image/oc22_hu6381e65e7afa46a29c3c15a7a1465b7a_9937_874b245588f6df88e767ed69966f063a.webp 760w,
                /post/last-week-post/image/oc22_hu6381e65e7afa46a29c3c15a7a1465b7a_9937_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -778,7 +760,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;23.Проверка присвоения прав&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;23.Checking permissions&#34; srcset=&#34;
                /post/last-week-post/image/oc23_hu29045cade984cb51bb7dba264176aaa3_5827_622ce10ab1cc71e7bcc2916a84bc8346.webp 400w,
                /post/last-week-post/image/oc23_hu29045cade984cb51bb7dba264176aaa3_5827_2b9c50cb20adf6fd1729798daa099ea5.webp 760w,
                /post/last-week-post/image/oc23_hu29045cade984cb51bb7dba264176aaa3_5827_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -791,7 +773,7 @@
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;4.1. С помощью команды cat посмотрела содержимое файла /etc/passwd.(рис.24-25)&lt;/p&gt;
+&lt;p&gt;4.1. Using the cat command, I looked at the contents of the /etc/passwd file. (Fig. 24-25)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -810,7 +792,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;24.Просмотр содержимого файла /etc/passwd&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;24.Viewing the contents of /etc/passwd&#34; srcset=&#34;
                /post/last-week-post/image/oc24_hu2ac2363356aeb053091d2b10c7625be0_181323_663c09a24d968749704cf1647a489463.webp 400w,
                /post/last-week-post/image/oc24_hu2ac2363356aeb053091d2b10c7625be0_181323_092003a9488a3616758c31949fd450b6.webp 760w,
                /post/last-week-post/image/oc24_hu2ac2363356aeb053091d2b10c7625be0_181323_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -838,7 +820,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;25.Продолжение просмотра&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;25.Continue watching&#34; srcset=&#34;
                /post/last-week-post/image/oc25_hu5e6312e050a5dce54b3f95a74d0622ae_141281_66758362dd582d2ed9902bbdf467f12c.webp 400w,
                /post/last-week-post/image/oc25_hu5e6312e050a5dce54b3f95a74d0622ae_141281_202ace27e5d1bcc327fcb9c2d6a3a5e4.webp 760w,
                /post/last-week-post/image/oc25_hu5e6312e050a5dce54b3f95a74d0622ae_141281_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -848,7 +830,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.2. С помощью команды cp скопировала файл ~/feathers в файл ~/file.old.(рис.26)&lt;/p&gt;
+&lt;p&gt;4.2. Using the cp command, I copied the ~/feathers file to the ~/file.old file. (Fig. 26)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -867,7 +849,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;26.Копирование файла, проверка&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;26.File copy, check&#34; srcset=&#34;
                /post/last-week-post/image/oc26_hu79f484d8d9c75598f580b8b940daa5c8_25081_3db27346c1b9a0303c691c8e1a59d6c9.webp 400w,
                /post/last-week-post/image/oc26_hu79f484d8d9c75598f580b8b940daa5c8_25081_6a67486073bbbf3e4448526eb0b06e9c.webp 760w,
                /post/last-week-post/image/oc26_hu79f484d8d9c75598f580b8b940daa5c8_25081_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -877,7 +859,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.3. Используя команду mv переместила файл ~/file.old в каталог ~/play.(рис.27)&lt;/p&gt;
+&lt;p&gt;4.3. Using the mv command, I moved the ~/file.old file to the ~/play directory. (Fig. 27)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -896,7 +878,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;27.Перемещение файла, проверка его отсутствия в домашнем каталоге и содержания в каталоге ~/play&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;27.Moving the file, checking if it doesn&amp;amp;rsquo;t exist in the home directory and if it exists in the ~/play directory&#34; srcset=&#34;
                /post/last-week-post/image/oc27_hu46e2e5de5e48bcb5ff706305306916f1_28789_a07fda5d4aaf6f6e2a0f6fce53855726.webp 400w,
                /post/last-week-post/image/oc27_hu46e2e5de5e48bcb5ff706305306916f1_28789_3377651a31b28c957ee1febb8a7487f5.webp 760w,
                /post/last-week-post/image/oc27_hu46e2e5de5e48bcb5ff706305306916f1_28789_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -906,7 +888,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.4. С помощью команды cp скопировала каталог ~/play в каталог ~/fun.  Опция -r обозначает рекурсивное копирование, то есть полное копирование каталога. Выполнила проверку появления нового каталога командой ls.(рис.28)&lt;/p&gt;
+&lt;p&gt;4.4. Using the cp command, I copied the ~/play directory to the ~/fun directory. The -r option means a recursive copy, i.e. a complete copy of a directory. I checked the appearance of a new directory with the ls command. (Fig. 28)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -925,7 +907,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;28.Копирование каталога, проверка&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;28.Copy directory, check&#34; srcset=&#34;
                /post/last-week-post/image/oc28_huf9d85af36e50655385bad9d5052ee5b3_24462_fdacb164e061c576315e6263b3165042.webp 400w,
                /post/last-week-post/image/oc28_huf9d85af36e50655385bad9d5052ee5b3_24462_f154104b0d1586784363a3e5a7b99ee1.webp 760w,
                /post/last-week-post/image/oc28_huf9d85af36e50655385bad9d5052ee5b3_24462_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -935,7 +917,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.5. Используя команду mv переместила каталог ~/fun в каталог ~/play и сразу дала ему новое имя games. Выполнила проверку его отсутствия в домашнем каталоге и присутствия в каталоге ~/play командой ls.(рис.29)&lt;/p&gt;
+&lt;p&gt;4.5. Using the mv command, I moved the ~/fun directory to the ~/play directory and immediately gave it the new name games. I checked its absence in the home directory and its presence in the ~/play directory with the ls command. (Fig. 29)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -954,7 +936,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;29.Перемещение каталога в другой каталог с новым именем&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;29.Moving a directory to another directory with a new name&#34; srcset=&#34;
                /post/last-week-post/image/oc29_hu4e4ea901b62ccea771f93516a3567d49_28829_a93fbbd38f59c4e71b82e5b3edc1aaf8.webp 400w,
                /post/last-week-post/image/oc29_hu4e4ea901b62ccea771f93516a3567d49_28829_7378400a2d0942e5fcef140b3adc2bcb.webp 760w,
                /post/last-week-post/image/oc29_hu4e4ea901b62ccea771f93516a3567d49_28829_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -964,7 +946,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.6. С помощью команды chmod u-r(u - владелец, - - отнятие прав, r - чтение) лишила владельца файла ~/feathers права на чтение.(рис.30)&lt;/p&gt;
+&lt;p&gt;4.6. Using the command chmod u-r(u - owner, - - take away rights, r - read) deprived the owner of the ~/feathers file of the right to read. (Fig. 30)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -983,7 +965,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;30.Лишение владельца права на чтение&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;30.Removing the owner&amp;amp;rsquo;s right to read&#34; srcset=&#34;
                /post/last-week-post/image/oc30_hu67623420ada99757de53e4d51d73b92b_4041_62876851b86dcba8f3f1c814e990e693.webp 400w,
                /post/last-week-post/image/oc30_hu67623420ada99757de53e4d51d73b92b_4041_258634d807e7851b67a0968650cbca86.webp 760w,
                /post/last-week-post/image/oc30_hu67623420ada99757de53e4d51d73b92b_4041_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -993,7 +975,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.7. Попыталась посмотреть файл ~/feathers командой cat, было отказано в доступе, так как я являюсь владельцем файла, а права на чтение у владельца нет.(рис.31)&lt;/p&gt;
+&lt;p&gt;4.7. I tried to view the ~/feathers file with the cat command, access was denied, since I am the owner of the file, and the owner does not have read rights. (Fig. 31)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1012,7 +994,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;31.Попытка посмотреть содержимое файла, отказ в доступе&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;31.Attempted to view file contents, access denied&#34; srcset=&#34;
                /post/last-week-post/image/oc31_hu7c66d9fce3e0f9241f3a0e6cf7030218_10679_0f6d74ac52ecf7863bc6fff60de37dfd.webp 400w,
                /post/last-week-post/image/oc31_hu7c66d9fce3e0f9241f3a0e6cf7030218_10679_c99e01bbef270f07d00429176ccd2cd8.webp 760w,
                /post/last-week-post/image/oc31_hu7c66d9fce3e0f9241f3a0e6cf7030218_10679_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1022,7 +1004,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.8. Попыталась скопировать файл ~/feathers командой cp. Копирование не было выполнено.(рис.32)&lt;/p&gt;
+&lt;p&gt;4.8. I tried to copy the ~/feathers file with the cp command. Copying was not completed. (Fig.32)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1041,7 +1023,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;32.Попытка скопировать файл, отказ в доступе&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;32.Attempted to copy file, access denied&#34; srcset=&#34;
                /post/last-week-post/image/oc32_hubf0a5413b3da736709bb330949836300_14946_7c9ef4a10c04374d6c40313727c07d33.webp 400w,
                /post/last-week-post/image/oc32_hubf0a5413b3da736709bb330949836300_14946_cdb412f5aa9d2a9f5068afab5dd4d991.webp 760w,
                /post/last-week-post/image/oc32_hubf0a5413b3da736709bb330949836300_14946_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1051,7 +1033,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.9. Используя команду chmod u+r вернула владельцу файла ~/feathers право на чтение.(рис.33)&lt;/p&gt;
+&lt;p&gt;4.9. Using the command chmod u + r returned the owner of the file ~/feathers the right to read. (Fig. 33)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1070,7 +1052,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;33.Возвращение владельцу права на чтение файла&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;33.Returning the right to read the file to the owner&#34; srcset=&#34;
                /post/last-week-post/image/oc33_hu7eb8e472b21df0e8782b4d083d2af45c_4602_3096f7dde4b3abe887a9af3e0ce36b30.webp 400w,
                /post/last-week-post/image/oc33_hu7eb8e472b21df0e8782b4d083d2af45c_4602_20a27e59094638b0ffa4628930aa6a3b.webp 760w,
                /post/last-week-post/image/oc33_hu7eb8e472b21df0e8782b4d083d2af45c_4602_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1080,7 +1062,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.10. С помощью команды chmod u-x лишила владельца каталога ~/play права на выполнение.(рис.34)&lt;/p&gt;
+&lt;p&gt;4.10. With the help of the chmod command, u-x deprived the owner of the ~/play directory of the right to execute. (Fig. 34)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1099,7 +1081,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;34.Лишение владельца права на выполнение&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;34.Deprive the owner of the right to execute&#34; srcset=&#34;
                /post/last-week-post/image/oc34_hub6198e8633dd36a55ce7bca67de494f9_7505_81e33c51ac183068586366a5b660326c.webp 400w,
                /post/last-week-post/image/oc34_hub6198e8633dd36a55ce7bca67de494f9_7505_0b2ea3163e415945228899f867c5fc51.webp 760w,
                /post/last-week-post/image/oc34_hub6198e8633dd36a55ce7bca67de494f9_7505_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1109,7 +1091,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.11. Попыталась перейти в каталог ~/play с помощью команды cd. Получила отказ в доступе.(рис.35)&lt;/p&gt;
+&lt;p&gt;4.11. Tried to change to ~/play directory using cd command. Received a denial of access. (Fig. 35)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1128,7 +1110,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;35.Попытка перейти в каталог ~/play&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;35.Trying to go to the ~/play directory&#34; srcset=&#34;
                /post/last-week-post/image/oc35_hu34391dfe00889202dcbff00e354e8183_10143_273103b921e5ec5e019a7e4826eb2fd8.webp 400w,
                /post/last-week-post/image/oc35_hu34391dfe00889202dcbff00e354e8183_10143_69963a621545246ced281d323d76a64f.webp 760w,
                /post/last-week-post/image/oc35_hu34391dfe00889202dcbff00e354e8183_10143_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1138,7 +1120,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;4.12. С помощью команды chmod u+x вернула владельцу каталога ~/play право на выполнение.(рис.36)&lt;/p&gt;
+&lt;p&gt;4.12. Using the chmod u+x command, the owner of the ~/play directory returned the right to execute. (Fig. 36)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1157,7 +1139,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;36.Возврашение владельцу права на выполнение&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;36.Returning execution rights to the owner&#34; srcset=&#34;
                /post/last-week-post/image/oc36_hu7a1f6dd6631f6df7decc354d7e6b8335_7427_1b2195ece492a58fdc8e05ab1555ebfc.webp 400w,
                /post/last-week-post/image/oc36_hu7a1f6dd6631f6df7decc354d7e6b8335_7427_db215928f01d59eb747badf8b0430fa9.webp 760w,
                /post/last-week-post/image/oc36_hu7a1f6dd6631f6df7decc354d7e6b8335_7427_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1168,8 +1150,8 @@
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
 &lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Прочитала man по командам:
-5.1.mount.(рис.37-38) Команда sudo mount показывает список примонтированных устройств, а mount с разными опциями может подключить или примонтировать сетевой диск, раздел жесткого диска или USB-накопитель.&lt;/li&gt;
+&lt;li&gt;I read man for commands:
+5.1.mount. (Fig.37-38) The sudo mount command shows a list of mounted devices, and mount with different options can mount or mount a network drive, hard drive partition or USB drive.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1227,7 +1209,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;5.2.fsck(рис.39-40) Команда fsck выполняет проверки согласованности и интерактивное восстановление в файловых системах Linux. Её можно использовать для восстановления поврежденных файловых систем в ситуациях, когда система не загружается.&lt;/p&gt;
+&lt;p&gt;5.2.fsck (Figure 39-40) The fsck command performs consistency checks and interactive repair on Linux file systems. It can be used to repair damaged file systems in situations where the system does not boot.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1284,7 +1266,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;5.3.mkfs(рис.41-42) Команда mkfs создаёт новую файловую систему, но с её помощью можно также проверить тип файловой системы устройства.&lt;/p&gt;
+&lt;p&gt;5.3.mkfs (Fig.41-42) The mkfs command creates a new file system, but it can also be used to check the device&amp;rsquo;s file system type.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1341,7 +1323,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-&lt;p&gt;5.4.kill(рис.43-44) Команда kill используется для принудительного завершения работы каких-либо процессов, с её помощью также можно получить список поддерживаемых системных сигналов и продолжить исполнение процесса.&lt;/p&gt;
+&lt;p&gt;5.4.kill(Fig.43-44) The kill command is used to forcefully terminate the work of any processes, it can also be used to get a list of supported system signals and continue the execution of the process.&lt;/p&gt;
 &lt;p&gt;
 
 
