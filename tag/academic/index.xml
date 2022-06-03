@@ -5,12 +5,108 @@
     <link>https://EugeniaVel.github.io/tag/academic/</link>
       <atom:link href="https://EugeniaVel.github.io/tag/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://EugeniaVel.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
       <link>https://EugeniaVel.github.io/tag/academic/</link>
     </image>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://EugeniaVel.github.io/post/c&#43;&#43;/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://EugeniaVel.github.io/post/c&#43;&#43;/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last week&#39;s post(23.05-29.05)</title>
+      <link>https://EugeniaVel.github.io/post/23-29/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://EugeniaVel.github.io/post/23-29/</guid>
+      <description>&lt;h1 id=&#34;lab-11&#34;&gt;Lab #11&lt;/h1&gt;
+&lt;p&gt;In Lab 11, we learned the basics of UNIX shell programming and how to write more complex batch files using logical control constructs and loops.
+In total, we wrote 4 batch files: one for searching the text from the template in the file; the second is to determine whether a positive, negative, or zero number has been entered into a C program; the third for creating or deleting the number of files specified as an argument with a given name; the fourth to archive all files in the specified directory (which was then modified to archive only those files that were changed during the last week).&lt;/p&gt;
+&lt;h1 id=&#34;lab-12&#34;&gt;Lab #12&lt;/h1&gt;
+&lt;p&gt;In this lab, we continued to learn the basics of UNIX shell programming and learn how to write more complex batch files.
+In this lab, we wrote only three batch files: the first one implemented a simplified semaphore mechanism, the second one was the implementation of the man command using the /usr/share/man/man1 directory, the third generated a random sequence of Latin letters using the $RANDOM built-in variable. In addition, in both laboratories we answered control questions on the topic.&lt;/p&gt;
+&lt;h1 id=&#34;5-stage-of-the-individual-project&#34;&gt;5 stage of the individual project&lt;/h1&gt;
+&lt;p&gt;At the fifth stage, we added projects to the site, made a post on the past week, as well as a post on the topic of scientific programming languages.&lt;/p&gt;
+&lt;p&gt;In general, this week was just as productive as the previous one.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Post last week 16.05-22.05</title>
@@ -57,8 +153,8 @@ moves properties of the C and Korn shells (developed by the Free Software Founda
 Originally developed by IBM in the 1950s for scientific and engineering applications, FORTRAN went on to become dominant in scientific computing. It has been used for over six decades in computationally intensive fields such as numerical weather prediction, finite element analysis, computational fluid dynamics, geophysics, computational physics, crystallography, and computational chemistry. It is a popular language for high performance computing and is used for programs that rate and rate the world&amp;rsquo;s fastest supercomputers.&lt;/li&gt;
 &lt;li&gt;J is a very concise array programming language, which is most suitable for mathematical and statistical programming, especially when performing operations on matrices. It has also been used in extreme programming and network performance analysis.&lt;/li&gt;
 &lt;li&gt;Maple is a symbolic and numeric computing environment and a multi-paradigm programming language. It covers several areas of technical computing such as symbolic mathematics, numerical analysis, data processing, visualization, and others. The MapleSim toolkit adds functionality for multi-domain physics simulation and code generation.&lt;/li&gt;
-&lt;li&gt;MATLAB (сокращение от «матричная лаборатория») - это частный многопарадигмальный язык программирования и вычислительная среда, разработанная MathWorks . MATLAB позволяет манипулировать матрицами , строить графики функций и данных, реализовывать алгоритмы , создавать пользовательские интерфейсы и взаимодействовать с программами, написанными на других языках.&lt;/li&gt;
-&lt;li&gt;R - это язык программирования и бесплатная программная среда для статистических вычислений и графики, поддерживаемая R Foundation for Statistical Computing. Язык R широко используется статистиками и специалистами по обработке данных для разработки статистического программного обеспечения и анализа данных .&lt;/li&gt;
+&lt;li&gt;MATLAB (short for &amp;ldquo;matrix laboratory&amp;rdquo;) is a proprietary multi-paradigm programming language and computing environment developed by MathWorks. MATLAB allows you to manipulate matrices, plot functions and data, implement algorithms, create user interfaces, and interact with programs written in other languages.&lt;/li&gt;
+&lt;li&gt;R is a programming language and free software environment for statistical computing and graphics maintained by the R Foundation for Statistical Computing. The R language is widely used by statisticians and data scientists for the development of statistical software and data analysis.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

@@ -13,24 +13,24 @@
     </image>
     
     <item>
-      <title>Лабораторная работа №11</title>
+      <title>Lab</title>
       <link>https://EugeniaVel.github.io/project/lab11/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/project/lab11/</guid>
-      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
-&lt;p&gt;Изучить основы программирования в оболочке ОС UNIX. Научится писать более сложные командные файлы с использованием логических управляющих конструкций и циклов.&lt;/p&gt;
-&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
+&lt;p&gt;Learn the basics of UNIX shell programming. Learn to write more complex batch files using logical control structures and loops.&lt;/p&gt;
+&lt;h1 id=&#34;performing-the-lab&#34;&gt;Performing the lab&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;Создала три файла: a.txt(рис.1) для чтения из него текста, b.txt(рис.2) в качестве шаблона и bb для записи в него результатов работы программы. Создала файл l11n1 и добавила право на исполнение.(рис.3) Написала код для командного файла, который будет анализировать строку с ключами -i,-o,-p,-C,-n, где i - файл для прочтения из него данных, o - файл для вывода данных, p - шаблон для поиска, C - опция для того, чтобы различать большие и малые буквы, n - опция подсчёта строк.(рис.4) Проверила работу файла:&lt;/li&gt;
+&lt;li&gt;Created three files: a.txt (Fig. 1) for reading text from it, b.txt (Fig. 2) as a template, and bb for writing the results of the program to it. I created the file l11n1 and added the right to execute. (Fig. 3) I wrote a code for a batch file that will analyze a line with the keys -i, -o, -p, -C, -n, where i is a file for reading data from it , o - output file, p - search pattern, C - option to distinguish between uppercase and lowercase letters, n - line count option. (Fig. 4) I checked the file:&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;Без опций -C и -n.(рис.5)&lt;/li&gt;
-&lt;li&gt;Без опции -n, но с опцией -C.(рис.6)&lt;/li&gt;
-&lt;li&gt;Со всеми опциями.(рис.7)&lt;/li&gt;
-&lt;li&gt;Без опции -C, но с опцией -n.(рис.8)&lt;/li&gt;
-&lt;li&gt;Без указания шаблона.(рис.9)&lt;/li&gt;
-&lt;li&gt;Без указания файла для прочтения.(рис.10)&lt;/li&gt;
-&lt;li&gt;Без указания файла для записи.(рис.11)&lt;/li&gt;
+&lt;li&gt;Without options -C and -n. (Fig. 5)&lt;/li&gt;
+&lt;li&gt;Without the -n option, but with the -C option. (Fig. 6)&lt;/li&gt;
+&lt;li&gt;With all options. (Fig. 7)&lt;/li&gt;
+&lt;li&gt;Without the -C option, but with the -n option. (Fig. 8)&lt;/li&gt;
+&lt;li&gt;Without specifying a template. (Fig. 9)&lt;/li&gt;
+&lt;li&gt;Without specifying a file for reading. (Fig. 10)&lt;/li&gt;
+&lt;li&gt;Without specifying a file for recording. (Fig. 11)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 
@@ -50,7 +50,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc1.jpg&#34; alt=&#34;1.Файл для чтения текста&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc1.jpg&#34; alt=&#34;1.File for reading text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -71,7 +71,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc2.jpg&#34; alt=&#34;2.Шаблон для поиска&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc2.jpg&#34; alt=&#34;2.Search pattern&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -92,7 +92,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc3.jpg&#34; alt=&#34;3.Создание командного файла и добавление права на исполнение&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc3.jpg&#34; alt=&#34;3.Creating a batch file and adding the right to execute&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -113,7 +113,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc4.jpg&#34; alt=&#34;4.Исходный код&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc4.jpg&#34; alt=&#34;4.Source code&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -134,7 +134,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc5.jpg&#34; alt=&#34;5.Работа командного файла без опций -C и -n&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc5.jpg&#34; alt=&#34;5.Batch file operation without -C and -n options&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -155,7 +155,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc6.jpg&#34; alt=&#34;6.Работа командного файла без опции -n, но с опцией -C&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc6.jpg&#34; alt=&#34;6.Batch file operation without -n option, but with -C option&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -176,7 +176,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc7.jpg&#34; alt=&#34;7.Работа командного файла со всеми опциями&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc7.jpg&#34; alt=&#34;7.Batch file operation with all options&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -197,7 +197,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc8.jpg&#34; alt=&#34;8.Работа командного файла без опции -C, но с опцией -n&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc8.jpg&#34; alt=&#34;8.Batch file operation without -C option, but with -n option&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -218,7 +218,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc9.jpg&#34; alt=&#34;9.Работа командного файла без указания шаблона&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc9.jpg&#34; alt=&#34;9.Working a batch file without specifying a template&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -239,7 +239,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc10.jpg&#34; alt=&#34;10.Работа командного файла без указания файла для прочтения&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc10.jpg&#34; alt=&#34;10.Batch file operation without specifying a file to read&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -260,11 +260,15 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc11.jpg&#34; alt=&#34;11.Работа командного файла без указания файла для записи&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/oc11.jpg&#34; alt=&#34;11.Batch file operation without specifying a file for recording&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Создала файл l11n2 и добавила право на исполнение.(рис.12) Написала программу на C, которая вводит число определяет, является ли оно больше нуля, меньше или равно, и с помощью exit(n) при завершении передаёт информацию о коде завершения в оболочку.(рис.13) Скомпилировала программу с помощью gcc.(рис.14) Написала командный файл, который вызывает созданный на C файл, с помощью $? анализирует код завершения предыдущей программы и выводит информацию о том, какое число было введено.(рис.15) Проверила работу программы на трёх числах, одно из которых меньше нуля, другое - больше и третье равно нулю.(рис.16)&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Created the file l11n2 and added the right to execute. (Fig. 12) Wrote a C program that enters a number, determines whether it is greater than zero, less than or equal, and using exit(n) upon completion, transmits information about the exit code into the shell. (Fig. 13) Compiled the program with gcc. (Fig. 14) Wrote a batch file that calls the file created in C using $? analyzes the exit code of the previous program and displays information about what number was entered. (Fig. 15) I checked the program on three numbers, one of which is less than zero, the other is greater and the third is equal to zero. (Fig. 16)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -372,7 +376,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Создала файл l11n3 и добавила право на исполнение.(рис.17) Написала командный файл, который создаёт или удаляет указанное число файлов с указанным названием.(рис.18) Проверила работу файла с опцией -m - создание файлов(рис.19), -r - удаление файлов(рис.20) , -t - неправильная опция.(рис.21)&lt;/li&gt;
+&lt;li&gt;I created the file l11n3 and added the right to execute. (Fig. 17) I wrote a batch file that creates or deletes the specified number of files with the specified name. (Fig. 18) I checked the operation of the file with the -m option - creating files (Fig. 19), -r - delete files (fig.20) , -t - wrong option.(fig.21)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -480,7 +484,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Создала файл l11n3 и добавила право на исполнение.(рис.22) Написала командный файл, который архивирует все файлы в указанной папке.(рис.23) Проверила работу программы на каталоге n4.(рис.24-25) Модифицировала файл так, чтобы он архивировал только те файлы, которые были изменены в течение последних семи дней.(рис.26) Проверила работу файла на каталоге blog.(рис.27-28)&lt;/li&gt;
+&lt;li&gt;Created the file l11n3 and added the right to execute. (Fig. 22) Wrote a batch file that archives all files in the specified folder. (Fig. 23) Checked the program on the directory n4. (Fig. 24-25) Modified the file so that it archived only those files that were changed within the last seven days. (Fig. 26) I checked the operation of the file in the blog directory.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -633,15 +637,15 @@
     </item>
     
     <item>
-      <title>Лабораторная работа №4</title>
+      <title>Lab</title>
       <link>https://EugeniaVel.github.io/project/lab4/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/project/lab4/</guid>
       <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
-&lt;p&gt;Приобретение практических навыков взаимодействия пользователя с системой посредством командной строки.&lt;/p&gt;
+&lt;p&gt;Acquisition of practical skills of user interaction with the system through the command line.&lt;/p&gt;
 &lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;С помощью команды cd перешла в домашний каталог. С помощью команды pwd узнала полное имя каталога, в котором нахожусь.&lt;/li&gt;
+&lt;li&gt;Use the cd command to change to your home directory. Using the pwd command, I found out the full name of the directory in which I am.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -661,7 +665,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Определение полного имени домашнего каталога&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Determining the full name of the home directory&#34; srcset=&#34;
                /project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_92bd4364dcc115f789b3f831019ee3f8.webp 400w,
                /project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_3a971159d5d67f1912cb95c3eeae4765.webp 760w,
                /project/lab4/image/oc1_hu5cbba0a01b9de252e9c717a02f7c0593_22175_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -671,7 +675,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;2.1. С помощью команды cd перешла в каталог /tmp.&lt;/p&gt;
+&lt;p&gt;2.1. Changed to the /tmp directory using the cd command.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -690,7 +694,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Переход в каталог /tmp и вывод на экран его содержимого&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Go to the /tmp directory and display its contents&#34; srcset=&#34;
                /project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_45029bd5acf7fc75dc82d4a716cb3fd4.webp 400w,
                /project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_7da06a16bb7942cb16323557085b7d2e.webp 760w,
                /project/lab4/image/oc2_hu8b16fd89ce78f48719f316386dc8e8f1_86497_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -700,7 +704,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;2.2 С помощью команды ls без опций вывела на экран содержимое каталога /tmp. Опция -a позволяет посмотреть абсолютно всё содержимое каталога, даже скрытые файлы. Опция -l позволяет вывести на экран подробную информацию о файлах и каталогах. Опция -F выводит на экран указатель того, как запускается файл или каталог. Соответственно, при использовании всех трёх опций сразу можно увидеть все каталоги и файлы с подробной информацией о них и укзанным типом файла.&lt;/p&gt;
+&lt;p&gt;2.2 Using the ls command without options, displayed the contents of the /tmp directory. The -a option allows you to see absolutely the entire contents of the directory, even hidden files. The -l option displays detailed information about files and directories. The -F option displays a pointer to how the file or directory is started. Accordingly, when using all three options, you can immediately see all directories and files with detailed information about them and the specified file type.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -719,7 +723,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Вывод на экран содержимого каталога /tmp со скрытыми файлами&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Display the contents of the /tmp directory with hidden files&#34; srcset=&#34;
                /project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_3b1551e2feb85a2e65336d741f01081b.webp 400w,
                /project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_adc70b0856012b0705e234f71f0faecb.webp 760w,
                /project/lab4/image/oc5_hub0f34ffe430d422bb9e1908523662dff_96965_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -747,7 +751,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Вывод на экран содержимого каталога /tmp с подробной информацией о файлах и каталогах&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Display the contents of the /tmp directory with detailed information about files and directories&#34; srcset=&#34;
                /project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_d475a1a79d85de5af69150e24d0d9ce9.webp 400w,
                /project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_c79b815f5228d34e89b4158d12461f6f.webp 760w,
                /project/lab4/image/oc3_huc98fbe710ddbc7b4b409bae7f71ca9d2_81529_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -775,7 +779,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.Вывод на экран содержимого каталога /tmp со скрытыми файлами, подробной информацией о файлах и каталогах и с указателем типа файла/каталога&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.Displaying the contents of the /tmp directory with hidden files, detailed information about files and directories, and an indication of the file/directory type&#34; srcset=&#34;
                /project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_5ae217fca2e775821f3f76fe7230b638.webp 400w,
                /project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_24e153968029cb0134569dea4ff5fbca.webp 760w,
                /project/lab4/image/oc4_hubfaa69ec78df13526e92859ea14579c6_203779_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -785,7 +789,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;2.3 С помощью команды cd перешла в каталог /var/spool, посмотрела его содержимое с помощью ls и среди каталогов не нашла подкаталог cron.&lt;/p&gt;
+&lt;p&gt;2.3 Using the cd command, I moved to the /var/spool directory, looked at its contents using ls, and did not find the cron subdirectory among the directories.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -804,7 +808,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Переход в каталог /var/spool, просмотр его содержимого&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Go to the /var/spool directory, view its contents&#34; srcset=&#34;
                /project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_8fb1bd008d8414a902892bbd6eb35f8a.webp 400w,
                /project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_767b776f25e422be12daca1c8ad17212.webp 760w,
                /project/lab4/image/oc6_hu060b4749621ad5efbed28d01ef5e55ce_13807_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -814,7 +818,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;2.4 С помощью команды cd перешла в домашний каталог, с помощью команды ls без опций посмотрела содержимое домашнего каталога и с помощью опции -l посмотрела, кто является владельцем файлов и подкаталогов(evvelikodneva)&lt;/p&gt;
+&lt;p&gt;2.4 Using the cd command, I went to the home directory, using the ls command without options, I looked at the contents of the home directory, and using the -l option, I looked at who owns the files and subdirectories (evvelikodneva)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -833,7 +837,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Переход в домашний каталог, просмотр его содержимого, просмотр содержимого с подробной информацией, включающей в себя имя владельца файлов и каталогов&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Go to the home directory, view its contents, view the contents with detailed information, including the name of the owner of the files and directories&#34; srcset=&#34;
                /project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_9996ac0e0ab816dd7e19ec6a2796bfa2.webp 400w,
                /project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_facb993a6f72a471c79ddde011101436.webp 760w,
                /project/lab4/image/oc7_hu8c5184662865e68ccb565734e806ef2f_89105_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -843,7 +847,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;3.1. С помощью команды mkdir создала в домашнем каталоге подкаталог newdir.&lt;/p&gt;
+&lt;p&gt;3.1. Using the mkdir command, I created a newdir subdirectory in my home directory.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -862,7 +866,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Создание подкаталога newdir в домашнем каталоге&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Create newdir subdirectory in home directory&#34; srcset=&#34;
                /project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_4e72b6487133fa9f3a48d3813c40b714.webp 400w,
                /project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_6f6390d33bac9407212dc7ff541b3126.webp 760w,
                /project/lab4/image/oc8_hu0ca4fa10c5767b2beee4463360b4b976_4293_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -872,7 +876,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;3.2. Перешла в каталог newdir и в нём с помощью команды mkdir создала подкаталог morefun.&lt;/p&gt;
+&lt;p&gt;3.2. Changed to the newdir directory and created a morefun subdirectory using the mkdir command.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -891,7 +895,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;9.Создание подкаталога morefun в каталоге newdir&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;9.Create morefun subdirectory under newdir&#34; srcset=&#34;
                /project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_e064802a18631c3dbaf698ce3202c715.webp 400w,
                /project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_40f0c8edd1baec63a6addeffbed0ebd1.webp 760w,
                /project/lab4/image/oc9_hufd994cc9d74c114c99d5c3506a92cd96_9973_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -901,8 +905,8 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;3.3. С помощью команды cd ~ перешла в домашний каталог. В нём с помощью команды mkdir создала сразу три каталога letters, memos и misk. Проверила их создание с помощью команды ls.
-Затем с помощью команды rm -r удалила сразу три каталога (letters, memos и misk) и проверила их удаление с помощью команды ls.&lt;/p&gt;
+&lt;p&gt;3.3. Using the command cd ~ moved to the home directory. In it, using the mkdir command, I created three directories letters, memos and misk at once. Checked their creation using the ls command.
+Then, using the rm -r command, I deleted three directories at once (letters, memos and misk) and checked their removal using the ls command.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -921,7 +925,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Создание и удаление трёх каталогов, проверка их создания и удаления в домашнем каталоге&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Creating and deleting three directories, checking their creation and deletion in the home directory&#34; srcset=&#34;
                /project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_e06a215a7cf5d6bcaed63065bc0aadea.webp 400w,
                /project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_1a82041adad2bfd6ec5feae10b79517c.webp 760w,
                /project/lab4/image/oc10_hub43682c871e3bf337e89f3859846f113_39290_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -931,7 +935,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;3.4. Попробовала удалить каталог newdir с помощью команды rmdir, однако сделать это не удалось, так как каталог не был пустым.&lt;/p&gt;
+&lt;p&gt;3.4. I tried to remove the newdir directory using the rmdir command, but it failed because the directory was not empty.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -950,7 +954,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Попытка удалить каталог newdir&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Trying to delete the newdir directory&#34; srcset=&#34;
                /project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_79e6d975b5362115206a189bdb91c0e1.webp 400w,
                /project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_b094ebe4cfcbcd86b00162c4f1e89984.webp 760w,
                /project/lab4/image/oc11_hufa354d88be7afebd994c8cb7608c1e67_10896_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -960,7 +964,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;3.5. Удалила каталог ~/newdir/morefun, проверила его удаление с помощью команды ls. Каталог morefun был успешно удалён из каталога newdir.&lt;/p&gt;
+&lt;p&gt;3.5. Deleted the ~/newdir/morefun directory, verified its removal with the ls command. The morefun directory has been successfully removed from the newdir directory.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -979,7 +983,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12.Удаление каталога morefun и проверка его успешного удаления&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12.Deleting the morefun directory and verifying its successful deletion&#34; srcset=&#34;
                /project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_d8221db7e0467cf768c6ae99a521d86e.webp 400w,
                /project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_b02245c6016a9fb2583c7f4541766e9f.webp 760w,
                /project/lab4/image/oc12_hu4be561f3774c4321a81db3efc032d82a_25711_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -990,7 +994,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;С помощью команды man ls посмотрела список опций и их описание, затем нашла опцию -R, которая выводит содержимое не только указанного каталога, но и его подкаталогов. Проверила, как эта опция работает.&lt;/li&gt;
+&lt;li&gt;Using the man ls command, I looked at the list of options and their descriptions, then found the -R option, which displays the contents of not only the specified directory, but also its subdirectories. I checked how this option works.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1010,7 +1014,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Просмотр списка опций и нахождение нужной опции&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Viewing the list of options and finding the desired option&#34; srcset=&#34;
                /project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_c6e8f2d0366d352e3623d8b5964f7f65.webp 400w,
                /project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_8149e24640f690893396e2c33b95c347.webp 760w,
                /project/lab4/image/oc13_hu7743f9022771ed65bb7996ae7135c59b_86975_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1038,7 +1042,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14.Проверка работы опции вывода содержимого не только указанного каталога, но и его подкаталогов&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14.Checking that the option to display the contents of not only the specified directory, but also its subdirectories&#34; srcset=&#34;
                /project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_dc89acc9291c7cf40e5c559f73ce496a.webp 400w,
                /project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_0666aabd4de1c976bca8ff994bd1b456.webp 760w,
                /project/lab4/image/oc14_huc1b54252a11d16a05149cf87d230468a_190536_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1049,7 +1053,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;С помощью команды man ls посмотрела список опций и их описание, затем нашла опцию -t, которая сортирует выводимый список по времени последнего изменения, и опцию -l, которая выводит развёрнутое описание файлов. (рис.15-16) Проверила, как эти опции работают.&lt;/li&gt;
+&lt;li&gt;Using the man ls command, I looked at the list of options and their descriptions, then found the -t option, which sorts the output list by last modified time, and the -l option, which displays a detailed description of the files. (Fig.15-16) Checked how these options work.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1069,7 +1073,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.Просмотр списка опций и нахождение нужной опции&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.Viewing the list of options and finding the desired option&#34; srcset=&#34;
                /project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_55adda9ce7ad849b866074afcb1f1086.webp 400w,
                /project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_5a208395efd7fb544b8efeb302e51204.webp 760w,
                /project/lab4/image/oc15_hu6937b40e1b0da41c9fbfbbacee59f727_92932_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1097,7 +1101,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Просмотр списка опций и нахождение нужной опции&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Viewing the list of options and finding the desired option&#34; srcset=&#34;
                /project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_279a6760726537c0f42064255ddf502f.webp 400w,
                /project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_bc41a9e644e20dc2a2c1eef16450179b.webp 760w,
                /project/lab4/image/oc16_hu05d912bd317be63e7966866f13002af1_89890_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1125,7 +1129,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.Проверка работы опций&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.Checking the operation of options&#34; srcset=&#34;
                /project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_4afd67b22cb84ac6b70e38750b02887b.webp 400w,
                /project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_117ebb7ba80ea0ad363d4f3153d12dad.webp 760w,
                /project/lab4/image/oc17_hu8c5be9dc011a46cb9ee233f5b186df4d_84633_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1136,27 +1140,27 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Использовала команду man для просмотра списка опций следующих команд:&lt;/li&gt;
+&lt;li&gt;Used the man command to list the options for the following commands:&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;cd&lt;/p&gt;
-&lt;p&gt;-P - позволяет следовать по символическим ссылкам перед тем, как будут обработаны все переходы &amp;ldquo;..&amp;rdquo;;&lt;/p&gt;
-&lt;p&gt;-L - переходит по символическим ссылкам только после того, как были обработаны &amp;ldquo;..&amp;rdquo;;&lt;/p&gt;
-&lt;p&gt;-e - если папку, в которую нужно перейти не удалось найти - выдает ошибку.&lt;/p&gt;
+&lt;p&gt;-P - allows you to follow symbolic links before all &amp;ldquo;..&amp;rdquo; jumps are processed;&lt;/p&gt;
+&lt;p&gt;-L - follows symbolic links only after &amp;ldquo;..&amp;rdquo; have been processed;&lt;/p&gt;
+&lt;p&gt;-e - if the folder to which you want to go could not be found, it gives an error.&lt;/p&gt;
 &lt;p&gt;pwd&lt;/p&gt;
-&lt;p&gt;-L, &amp;ndash;logical - брать директорию из переменной окружения, даже если она содержит символические ссылки;&lt;/p&gt;
-&lt;p&gt;-P - отбрасывать все символические ссылки&lt;/p&gt;
+&lt;p&gt;-L, &amp;ndash;logical - take a directory from the environment variable, even if it contains symbolic links;&lt;/p&gt;
+&lt;p&gt;-P - drop all symlinks&lt;/p&gt;
 &lt;p&gt;mkdir&lt;/p&gt;
-&lt;p&gt;-m (&amp;ndash;mode=режим) - назначить режим доступа (права). По умолчанию mod принимает значение 0777, что обеспечивает неограниченные права.&lt;/p&gt;
-&lt;p&gt;-p (&amp;ndash;parents) - не показывать ошибки, а также их игнорировать.&lt;/p&gt;
-&lt;p&gt;-z  (&amp;ndash;context=CTX ) принимает контекст SELinux для каталога по умолчанию.&lt;/p&gt;
-&lt;p&gt;-v (&amp;ndash;verbose) - выводить сообщение о каждом новым каталоге.&lt;/p&gt;
+&lt;p&gt;-m (&amp;ndash;mode=mode) - assign access mode (rights). Mod defaults to 0777, which provides unlimited rights.&lt;/p&gt;
+&lt;p&gt;-p (&amp;ndash;parents) - do not show errors, and also ignore them.&lt;/p&gt;
+&lt;p&gt;-z (&amp;ndash;context=CTX ) accepts the SELinux context for the default directory.&lt;/p&gt;
+&lt;p&gt;-v (&amp;ndash;verbose) print a message about each new directory.&lt;/p&gt;
 &lt;p&gt;rmdir&lt;/p&gt;
-&lt;p&gt;-p	Позволяет удалить каталог и вышележащие каталоги, оказавшиеся пустыми. На стандартный вывод выдается сообщение об удалении всех указанных в маршруте каталогов или о сохранении части из них по каким-либо причинам.&lt;/p&gt;
-&lt;p&gt;-s	Подавление сообщения, выдаваемого при действии опции -p.&lt;/p&gt;
+&lt;p&gt;-p Allows you to remove the directory and the directories above that are empty. A message is displayed on standard output about deleting all the directories specified in the route or about saving some of them for some reason.&lt;/p&gt;
+&lt;p&gt;-s Suppresses the message emitted by the -p option.&lt;/p&gt;
 &lt;p&gt;rm&lt;/p&gt;
-&lt;p&gt;-f	Команда не выдает сообщений, когда удаляемый файл не существует, не запрашивает подтверждения при удалении файлов, на запись в которые нет прав. Если нет права и на запись в каталог, файлы не удаляются. Сообщение об ошибке выдается лишь при попытке удалить каталог, на запись в который нет прав (см. опцию -r).&lt;/p&gt;
-&lt;p&gt;-r	Происходит рекурсивное удаление всех каталогов и подкаталогов, перечисленных в списке аргументов. Сначала каталоги опустошаются, затем удаляются. Подтверждение при удалении файлов, на запись в которые нет прав, не запрашивается, если задана опция -f или стандартный ввод не назначен на терминал и не задана опция -i. При удалении непустых каталогов команда rm -r предпочтительнее команды rmdir, так как последняя способна удалить только пустой каталог. Но команда rm -r может доставить немало острых впечатлений при ошибочном указании каталога!&lt;/p&gt;
-&lt;p&gt;-i	Перед удалением каждого файла запрашивается подтверждение. Опция -i устраняет действие опции -f; она действует даже тогда, когда стандартный ввод не назначен на терминал.&lt;/p&gt;
+&lt;p&gt;-f The command does not issue messages when the file being deleted does not exist, does not ask for confirmation when deleting files that do not have write permissions. If there is no write access to the directory, the files are not deleted. The only error message is when you try to delete a directory that you don&amp;rsquo;t have permission to write to (see the -r option).&lt;/p&gt;
+&lt;p&gt;-r Recursively removes all directories and subdirectories specified in the argument list. The directories are first emptied, then removed. Confirmation when deleting files that do not have write permissions is not prompted if the -f option is given, or standard input is not assigned to a terminal and the -i option is not given. When deleting non-empty directories, the rm -r command is preferred over the rmdir command, as the latter can only delete an empty directory. But rm -r can be quite a thrill if you mistype a directory!&lt;/p&gt;
+&lt;p&gt;-i Ask for confirmation before deleting each file. The -i option overrides the effect of the -f option; it is valid even when standard input is not assigned to the terminal.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1175,7 +1179,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;18.Список опций команды cd&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;18.List of cd command options&#34; srcset=&#34;
                /project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_b88207cba0cd4bad030e3545fa472a0f.webp 400w,
                /project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_728d0e94550a91a54c121a557a525264.webp 760w,
                /project/lab4/image/oc18_hu2334cf6bbe34cdf5e18746f501204a96_242381_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1203,7 +1207,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;19.Список опций команды pwd&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;19.List of pwd command options&#34; srcset=&#34;
                /project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_7ed9ba8de4ad349cd7525766a550a534.webp 400w,
                /project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_382a39170338b36b1fae297739338615.webp 760w,
                /project/lab4/image/oc20_hueabe16d2b2a904b0cd2a5a5ac9a5058a_118482_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1231,7 +1235,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;20.Список опций команды mkdir&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;20.List of mkdir command options&#34; srcset=&#34;
                /project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_497ae7e0b614048f0ff990b70dc97a75.webp 400w,
                /project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_c6242a1240de5ddc9402c3dd6736c109.webp 760w,
                /project/lab4/image/oc19_hu64d16e8a59c159257040747acabb3d0a_109945_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1259,7 +1263,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;21.Список опций команды rmdir&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;21.List of rmdir command options&#34; srcset=&#34;
                /project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_964596f9a8092bbc49fe946e6b311aa8.webp 400w,
                /project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_af0f7e4d0f0c9176575f255b5ed0134f.webp 760w,
                /project/lab4/image/oc22_huedf0c8c5d27e753b081fb9440ca2abbe_91903_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1287,7 +1291,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;22.Список опций команды rm&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;22.List of rm command options&#34; srcset=&#34;
                /project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_c12ece71f19634e2d4dc4a58a2be2c96.webp 400w,
                /project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_94b4cb8f2ee151d39da5a85db70585e5.webp 760w,
                /project/lab4/image/oc21_hu79db9534cea0a063b1c108e3f7dc18c6_116491_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1297,12 +1301,9 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;С помощью команды history посмотрела историю выполнения команд. Выполнила следующие команды с изменениями:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;mkdir(добавила -v(опция, которая выводит описание проделанных команд))&lt;/p&gt;
-&lt;p&gt;rm -r(добавила -v)&lt;/p&gt;
-&lt;p&gt;rmdir(добавила -p(опция, которая позволяет удалять каталоги с их содержимым) и -v)&lt;/p&gt;
+&lt;p&gt;mkdir (added -v (option that displays a description of the commands done))&lt;/p&gt;
+&lt;p&gt;rm -r (added -v)&lt;/p&gt;
+&lt;p&gt;rmdir (added -p (an option that allows you to remove directories with their contents) and -v)&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1321,7 +1322,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;23.Выполнение команды history и других команд, которые уже были использованы, с разными опциями&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;23.Executing the history command and other commands that have already been used, with different options&#34; srcset=&#34;
                /project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_d3b9b35ab9ad77872ad63821dabed3ce.webp 400w,
                /project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_f4db4c12567f59477ec12a164129e5c7.webp 760w,
                /project/lab4/image/oc23_hudb14d8df0fb1a5056b943da368311e3c_122882_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1335,13 +1336,13 @@
     </item>
     
     <item>
-      <title>Лабораторная работа №6</title>
+      <title>Lab №6</title>
       <link>https://EugeniaVel.github.io/project/lab6/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/project/lab6/</guid>
-      <description>&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;performing-the-lab&#34;&gt;Performing the lab&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;С помощью команды login зашла в систему, используя соответствующее имя пользователя.&lt;/li&gt;
+&lt;li&gt;Using the login command, logged into the system using the appropriate username.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1361,7 +1362,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Вход в систему&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Login&#34; srcset=&#34;
                /project/lab6/image/oc1_hu7a7e62612287b5e53604be1cc5d29e43_16659_22e03b42143145f748faf80bfd707051.webp 400w,
                /project/lab6/image/oc1_hu7a7e62612287b5e53604be1cc5d29e43_16659_881a657a845ead2b57541376dce0a8ab.webp 760w,
                /project/lab6/image/oc1_hu7a7e62612287b5e53604be1cc5d29e43_16659_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1372,7 +1373,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;С помощью команд ls и grep и их опций, а также потока вывода (&amp;gt;,&amp;raquo;) записала в файл file.txt названия файлов, содержащихся в каталоге /etc и затем дописала в этот же файл названия файлов,содержащихся в домашнем каталоге.&lt;/li&gt;
+&lt;li&gt;Using the ls and grep commands and their options, as well as the output stream (&amp;gt;,&amp;raquo;), write the names of the files contained in the /etc directory to file.txt and then append the names of the files contained in the home directory to the same file .&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1392,7 +1393,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Запись в файл названий других файлов&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Write names of other files to file&#34; srcset=&#34;
                /project/lab6/image/oc2_hu5987443a3f1b9e80ccafa561c0f5dc59_14439_066a10294d7eec03ea32e8c5fcc70dbf.webp 400w,
                /project/lab6/image/oc2_hu5987443a3f1b9e80ccafa561c0f5dc59_14439_1ab56be50b9b18cc7600348d2ff78973.webp 760w,
                /project/lab6/image/oc2_hu5987443a3f1b9e80ccafa561c0f5dc59_14439_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1403,7 +1404,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Используя команд cat и grep, сначала вывела на экран имена всех файлов из file.txt, имеющих расширение .conf, а затем с помощью потока вывода записала их в новый текстовый файл с именем conf.txt.&lt;/li&gt;
+&lt;li&gt;Using the cat and grep commands, I first displayed the names of all files in file.txt that have the .conf extension, and then wrote them into a new text file called conf.txt using the output stream.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1423,7 +1424,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Вывод названий файлов с расширением .conf&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Display filenames with .conf extension&#34; srcset=&#34;
                /project/lab6/image/oc3_hu54d3989e9041c80bb589e179b5f678bd_215714_0f73f4f43aac1e20a836c5e0dcfade9f.webp 400w,
                /project/lab6/image/oc3_hu54d3989e9041c80bb589e179b5f678bd_215714_b0044c2fb084c82f8fa44c43bfca0f9c.webp 760w,
                /project/lab6/image/oc3_hu54d3989e9041c80bb589e179b5f678bd_215714_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1451,7 +1452,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Запись вывода в файл conf.txt&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Write output to conf.txt&#34; srcset=&#34;
                /project/lab6/image/oc4_hue04292fed718a1a392adc9af3092cef1_12131_db1417426d272bcbef6160a8275d26dc.webp 400w,
                /project/lab6/image/oc4_hue04292fed718a1a392adc9af3092cef1_12131_6b39f09402b1001082b436dd4f99f3ca.webp 760w,
                /project/lab6/image/oc4_hue04292fed718a1a392adc9af3092cef1_12131_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1462,7 +1463,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;С помощью команды find и её опций нашла все файлы, начинающиеся с символа c, которые содержатся в домашнем каталоге.&lt;/li&gt;
+&lt;li&gt;Using the find command and its options, found all files starting with the character c that are contained in the home directory.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1482,7 +1483,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.Поиск всех файлов домашнего каталога, которые начинаются с символа c&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.Search for all files in the home directory that start with c&#34; srcset=&#34;
                /project/lab6/image/oc5_hua14b9517ff520d8ca1795a1cc64d79b4_231596_63b58136dd681fa78adfd183216c9fb2.webp 400w,
                /project/lab6/image/oc5_hua14b9517ff520d8ca1795a1cc64d79b4_231596_7ca32bec37702d5f0fb083c93e3ca9f7.webp 760w,
                /project/lab6/image/oc5_hua14b9517ff520d8ca1795a1cc64d79b4_231596_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1493,7 +1494,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;С помощью команд find, less, их опций и конвейера постранично вывела на экран имена файлов из каталога /etc,начинающихся с символа h.(рис.6-7)&lt;/li&gt;
+&lt;li&gt;Using the find, less commands, their options and the pipeline, I paged out the names of files from the /etc directory, starting with the character h. (Fig. 6-7)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1513,7 +1514,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Команда, обеспечивающая постраничный вывод&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Pagination command&#34; srcset=&#34;
                /project/lab6/image/oc6_hue4789ed5b5c347d5b83ff155a6b06004_13116_bcb04b6bc4b9e14e66be40ed4ab7bae6.webp 400w,
                /project/lab6/image/oc6_hue4789ed5b5c347d5b83ff155a6b06004_13116_d5fdcaeaa5f34835164fa1170814f438.webp 760w,
                /project/lab6/image/oc6_hue4789ed5b5c347d5b83ff155a6b06004_13116_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1541,7 +1542,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Результат вывода названий файлов из каталога /etc,начинающихся с символа h&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Result of outputting filenames from the /etc directory starting with h&#34; srcset=&#34;
                /project/lab6/image/oc7_hu574b52bd48d5b6c56d8af428512d381f_109727_a66f8b60e2d07036b0bfd597461d1d41.webp 400w,
                /project/lab6/image/oc7_hu574b52bd48d5b6c56d8af428512d381f_109727_b4607bfbce3476427b245e592d5c8a56.webp 760w,
                /project/lab6/image/oc7_hu574b52bd48d5b6c56d8af428512d381f_109727_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1552,7 +1553,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Используя команду find, потоковый вывод и &amp;amp;, запустила в фоновом режиме процесс, который записывает в файл ~/logfile файлы,имена которых начинаются с log.&lt;/li&gt;
+&lt;li&gt;Using the find command, streaming output, and &amp;amp;, started a process in the background that writes files that begin with log to ~/logfile.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1572,7 +1573,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Запись в файл названий файлов, имена которых начинаются с log, в фоновом режиме&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Writing file names starting with log in the background&#34; srcset=&#34;
                /project/lab6/image/oc8_hu36ec97126b057457e218ac7b356eb6fa_119470_aae0202c32f1352d2a70ae8d52522d5d.webp 400w,
                /project/lab6/image/oc8_hu36ec97126b057457e218ac7b356eb6fa_119470_e8472685bc67c17846b87726d7af5d61.webp 760w,
                /project/lab6/image/oc8_hu36ec97126b057457e218ac7b356eb6fa_119470_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1583,7 +1584,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;С помощью команды rm удалила файл ~/logfile.&lt;/li&gt;
+&lt;li&gt;Using the rm command, deleted the ~/logfile file.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1603,7 +1604,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;9.Удаление файла ~/logfile&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;9.Delete file ~/logfile&#34; srcset=&#34;
                /project/lab6/image/oc9_hu1d8e3f25389f0a38119041187bd4d461_8149_bc6c533de09bdcf70c147caa0ac2f9c6.webp 400w,
                /project/lab6/image/oc9_hu1d8e3f25389f0a38119041187bd4d461_8149_1d37a4cd43257676ed7ef31f0125a617.webp 760w,
                /project/lab6/image/oc9_hu1d8e3f25389f0a38119041187bd4d461_8149_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1614,7 +1615,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;8&#34;&gt;
-&lt;li&gt;С помощью знака &amp;amp; запустила из консоли в фоновом режиме редактор gedit.&lt;/li&gt;
+&lt;li&gt;Using the &amp;amp; sign, launched the gedit editor from the console in the background.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1634,7 +1635,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Запуск редактора gedit в фоновом режиме&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Starting gedit in the background&#34; srcset=&#34;
                /project/lab6/image/oc10_huc6a1c76d4e4d124f60fae8f3276caf0b_6143_7f70ff7c28215bc6955c77160eae3c86.webp 400w,
                /project/lab6/image/oc10_huc6a1c76d4e4d124f60fae8f3276caf0b_6143_b6103651ec506c7754981358b8c59f3e.webp 760w,
                /project/lab6/image/oc10_huc6a1c76d4e4d124f60fae8f3276caf0b_6143_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1645,7 +1646,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;9&#34;&gt;
-&lt;li&gt;Используя команду ps aux, фильтр grep и конвейер, определила идентификатор процесса gedit. Кроме того, идентификатор процесса указан при его запуске в фоновом режиме.&lt;/li&gt;
+&lt;li&gt;Using the ps aux command, the grep filter, and the pipeline, determined the process ID of gedit. In addition, the process ID is specified when it is started in the background.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1665,7 +1666,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Определение идентификатора процесса gedit&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Determining the process ID of gedit&#34; srcset=&#34;
                /project/lab6/image/oc11_hu909955a83d6c643c91d99b23bc77591e_20940_bddde5a48846314504c10fc6758a6b55.webp 400w,
                /project/lab6/image/oc11_hu909955a83d6c643c91d99b23bc77591e_20940_d14011fc01abec6d43bdac32a6ddf80e.webp 760w,
                /project/lab6/image/oc11_hu909955a83d6c643c91d99b23bc77591e_20940_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1676,7 +1677,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;10&#34;&gt;
-&lt;li&gt;Прочитала справку (man) команды kill. Использовала команду kill % с PID для завершения процесса gedit.&lt;/li&gt;
+&lt;li&gt;Read the help (man) of the kill command. Used the kill % command with PID to end the gedit process.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1696,7 +1697,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12.Справка команды kill&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12.Kill Command Help&#34; srcset=&#34;
                /project/lab6/image/oc13_hu7440aab189516b9d600164fe55ed2ada_202194_92d6188d37b6b9fa4c0cd1b05e38f0fb.webp 400w,
                /project/lab6/image/oc13_hu7440aab189516b9d600164fe55ed2ada_202194_8ceb0179a5f97f6f815a49246edf8612.webp 760w,
                /project/lab6/image/oc13_hu7440aab189516b9d600164fe55ed2ada_202194_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1724,7 +1725,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Вызов справки, завершение процесса gedit.&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Invoking help, terminating the gedit process.&#34; srcset=&#34;
                /project/lab6/image/oc12_huf91cb04a582ec2032311665f6280fc50_16804_7007277e4ef8e246e2458eec9cea96f0.webp 400w,
                /project/lab6/image/oc12_huf91cb04a582ec2032311665f6280fc50_16804_b03a565bf40fae9c67e526b923ac148d.webp 760w,
                /project/lab6/image/oc12_huf91cb04a582ec2032311665f6280fc50_16804_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1735,7 +1736,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;11&#34;&gt;
-&lt;li&gt;Команда df показывает размер каждого смонтированного раздела диска. Команда du показывает число килобайт,используемое каждым файлом или каталогом.&lt;/li&gt;
+&lt;li&gt;The df command shows the size of each mounted disk partition. The du command shows the number of kilobytes used by each file or directory.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1755,7 +1756,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14.Вызов справки по команде df и её работа&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14.Help on the df command and how it works&#34; srcset=&#34;
                /project/lab6/image/oc14_hu7d29f4b7d6d5fb1b1ecfa101ad462f74_66625_1397c81587778aae6f29a48977dbe3ae.webp 400w,
                /project/lab6/image/oc14_hu7d29f4b7d6d5fb1b1ecfa101ad462f74_66625_70720743edbc553e2f2f0b5eeb247cbf.webp 760w,
                /project/lab6/image/oc14_hu7d29f4b7d6d5fb1b1ecfa101ad462f74_66625_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1783,7 +1784,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.Справка по команде du&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.du command help&#34; srcset=&#34;
                /project/lab6/image/oc15_huf5c3a1783c39b9bd8d695942fe48d7b1_186443_3faba3ec19fe39e16d499cbd17d66c67.webp 400w,
                /project/lab6/image/oc15_huf5c3a1783c39b9bd8d695942fe48d7b1_186443_599152bedb53c1b5e9dfef54ba5e5c11.webp 760w,
                /project/lab6/image/oc15_huf5c3a1783c39b9bd8d695942fe48d7b1_186443_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1811,7 +1812,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Вызов справки по команде df и её работа&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Calling help on the df command and its operation&#34; srcset=&#34;
                /project/lab6/image/oc16_hub4f3177f9fb5d57bcaffccc751693316_260739_cd0e52756e413b7aebfd1d7007f9b85d.webp 400w,
                /project/lab6/image/oc16_hub4f3177f9fb5d57bcaffccc751693316_260739_b0aa713c38a56e8ca8a7b2e4bb7ec463.webp 760w,
                /project/lab6/image/oc16_hub4f3177f9fb5d57bcaffccc751693316_260739_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1839,7 +1840,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.Справка по команде du&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.du command help&#34; srcset=&#34;
                /project/lab6/image/oc17_hu690306b00b3e453257c7acb35afa5f6c_156031_b2342173b425083448096ee52154ac15.webp 400w,
                /project/lab6/image/oc17_hu690306b00b3e453257c7acb35afa5f6c_156031_dacc2cec1b29e77b22c59165776c9296.webp 760w,
                /project/lab6/image/oc17_hu690306b00b3e453257c7acb35afa5f6c_156031_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1850,8 +1851,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;12&#34;&gt;
-&lt;li&gt;С помощью команды find и её опций maxdepth и type вывела имена всех директорий,имею-
-щихся в домашнем каталоге.&lt;/li&gt;
+&lt;li&gt;Using the find command and its maxdepth and type options, I displayed the names of all directories, I have located in the home directory.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1937,24 +1937,106 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
-&lt;p&gt;Ознакомилась с инструментами поиска файлов и фильтрации текстовых данных.
-Приобрела практические навыки: по управлению процессами (и заданиями), по
-проверке использования диска и обслуживанию файловых систем.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;18.Display all directories in home directory&#34; srcset=&#34;
+               /project/lab6/image/oc18_hu3cce8b34cbbf04d0b564b5834e064a65_74150_dd803385811d4759e03c372d67506ee9.webp 400w,
+               /project/lab6/image/oc18_hu3cce8b34cbbf04d0b564b5834e064a65_74150_4b2fbe811c583d50c8cb221386461af9.webp 760w,
+               /project/lab6/image/oc18_hu3cce8b34cbbf04d0b564b5834e064a65_74150_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab6/image/oc18_hu3cce8b34cbbf04d0b564b5834e064a65_74150_dd803385811d4759e03c372d67506ee9.webp&#34;
+               width=&#34;655&#34;
+               height=&#34;373&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;19.maxdepth option in find command help&#34; srcset=&#34;
+               /project/lab6/image/oc19_hu1fb36313c118a9a72a0c13bc596f1c7f_198673_70bc41759a10fba07d383cb769873470.webp 400w,
+               /project/lab6/image/oc19_hu1fb36313c118a9a72a0c13bc596f1c7f_198673_dd388c8d202c7d0e50417e2e2190fff8.webp 760w,
+               /project/lab6/image/oc19_hu1fb36313c118a9a72a0c13bc596f1c7f_198673_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab6/image/oc19_hu1fb36313c118a9a72a0c13bc596f1c7f_198673_70bc41759a10fba07d383cb769873470.webp&#34;
+               width=&#34;633&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;20.type option in find command help&#34; srcset=&#34;
+               /project/lab6/image/oc20_hu1fb36313c118a9a72a0c13bc596f1c7f_153880_a1347dfae9d83932a3bbc5e4a9dc80d1.webp 400w,
+               /project/lab6/image/oc20_hu1fb36313c118a9a72a0c13bc596f1c7f_153880_2251e91877a80623c9648c08335829c1.webp 760w,
+               /project/lab6/image/oc20_hu1fb36313c118a9a72a0c13bc596f1c7f_153880_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/project/lab6/image/oc20_hu1fb36313c118a9a72a0c13bc596f1c7f_153880_a1347dfae9d83932a3bbc5e4a9dc80d1.webp&#34;
+               width=&#34;633&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h1&gt;
+&lt;p&gt;I got acquainted with the tools for searching files and filtering text data. Acquired practical skills: in process (and task) management, in checking disk usage and maintaining file systems.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Лабораторная работа №8</title>
+      <title>Lab №8</title>
       <link>https://EugeniaVel.github.io/project/lab8/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/project/lab8/</guid>
-      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
-&lt;p&gt;Познакомиться с операционной системой Linux. Получить практические навыки работы с редактором vi, установленным по умолчанию практически во всех дистрибутивах.&lt;/p&gt;
-&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
-&lt;h1 id=&#34;задание-1&#34;&gt;Задание 1&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
+&lt;p&gt;Get to know the Linux operating system. Get hands-on experience with the vi editor installed by default in almost all distributions.&lt;/p&gt;
+&lt;h1 id=&#34;performing-the-lab&#34;&gt;Performing the lab&lt;/h1&gt;
+&lt;h1 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;С помощью команды mkdir создала каталог ~/work/os/lab06.(рис.1)&lt;/li&gt;
+&lt;li&gt;Using the mkdir command, I created the ~/work/os/lab06 directory. (Fig. 1)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -1974,7 +2056,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Создание нового каталога&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;1.Creating a new directory&#34; srcset=&#34;
                /project/lab8/image/oc1_hub457e091f4b52c259f9489d65ae61ba3_13845_0cdf154fa7d6c4aa653b807ba4ea323a.webp 400w,
                /project/lab8/image/oc1_hub457e091f4b52c259f9489d65ae61ba3_13845_18a4a856a0ef15b5f4b44dfe34710991.webp 760w,
                /project/lab8/image/oc1_hub457e091f4b52c259f9489d65ae61ba3_13845_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -1985,7 +2067,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;С помощью команды cd перешла в созданный в первом пункте каталог.(рис.2)&lt;/li&gt;
+&lt;li&gt;Using the cd command, I moved to the directory created in the first paragraph. (Fig. 2)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2005,7 +2087,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Переход в каталог ~/work/os/lab06&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;2.Go to ~/work/os/lab06&#34; srcset=&#34;
                /project/lab8/image/oc2_hu9a6e138a431fd14b5247661968578afe_9053_7e332fce47606c001f6d08aaefd5887e.webp 400w,
                /project/lab8/image/oc2_hu9a6e138a431fd14b5247661968578afe_9053_63a3adca1c1723c51b43bb8a765e314a.webp 760w,
                /project/lab8/image/oc2_hu9a6e138a431fd14b5247661968578afe_9053_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2016,7 +2098,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Вызвала vi и создала новый файл hello.sh.(рис.3-4)&lt;/li&gt;
+&lt;li&gt;Called vi and created a new file hello.sh. (Figure 3-4)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2036,7 +2118,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Вызов vi для нового файла&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;3.Vi call for new file&#34; srcset=&#34;
                /project/lab8/image/oc3_hu0464f30be4953d2a0c678f16ac294f7e_8492_5161c7ad9c404f8e19cde881ecba2ff3.webp 400w,
                /project/lab8/image/oc3_hu0464f30be4953d2a0c678f16ac294f7e_8492_e50d167887f8b14e254c66ec5f791be5.webp 760w,
                /project/lab8/image/oc3_hu0464f30be4953d2a0c678f16ac294f7e_8492_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2064,7 +2146,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Открытие нового файла в vi&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;4.Opening a new file in vi&#34; srcset=&#34;
                /project/lab8/image/oc4_hu8c2f697fe7ca349ad8b8f0ce80b25630_25463_00511872d7cb2f234856ac5761d16c99.webp 400w,
                /project/lab8/image/oc4_hu8c2f697fe7ca349ad8b8f0ce80b25630_25463_a347a86e67c6c6a6c0b14fa0f003262a.webp 760w,
                /project/lab8/image/oc4_hu8c2f697fe7ca349ad8b8f0ce80b25630_25463_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2075,7 +2157,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Нажала клавишу i, чтобы перейти в режим ввода(INSERT) и ввела предложенный в задании текст.(рис.5)&lt;/li&gt;
+&lt;li&gt;Pressed the i key to switch to the input mode (INSERT) and entered the text proposed in the task. (Fig. 5)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2095,7 +2177,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.Ввод текста в vi&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;5.Vi text input&#34; srcset=&#34;
                /project/lab8/image/oc5_huf0a1f3ce59830b5889587243ba2351ae_33969_fdf595de87d277b8cd9ca7ae7bd3346d.webp 400w,
                /project/lab8/image/oc5_huf0a1f3ce59830b5889587243ba2351ae_33969_01f24cab85b2a52dc483aae450ec8ca5.webp 760w,
                /project/lab8/image/oc5_huf0a1f3ce59830b5889587243ba2351ae_33969_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2106,7 +2188,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Нажала клавишу esc для перехода в командный режим. Внизу теперь нет слова INSERT.(рис.6)&lt;/li&gt;
+&lt;li&gt;Pressed the esc key to enter command mode. At the bottom there is now no word INSERT. (Fig. 6)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2126,7 +2208,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Переход в командный режим&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;6.Switch to command mode&#34; srcset=&#34;
                /project/lab8/image/oc6_huf0a1f3ce59830b5889587243ba2351ae_32813_a8e6d5b8d5e833f8365833d36077f627.webp 400w,
                /project/lab8/image/oc6_huf0a1f3ce59830b5889587243ba2351ae_32813_f53241a6a5ebaf5dac526ad265b3b7a8.webp 760w,
                /project/lab8/image/oc6_huf0a1f3ce59830b5889587243ba2351ae_32813_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2137,7 +2219,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Нажала двоеточие для перехода в режим последней строки. Внизу появилось приглашение в виде двоеточия.(рис.7)&lt;/li&gt;
+&lt;li&gt;Pressed colon to switch to last line mode. At the bottom, an invitation appeared in the form of a colon. (Fig. 7)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2157,7 +2239,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Переход в режим последней строки&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;7.Switch to last line mode&#34; srcset=&#34;
                /project/lab8/image/oc7_huf0a1f3ce59830b5889587243ba2351ae_33142_cf52045378f56b79b845542a074bf10d.webp 400w,
                /project/lab8/image/oc7_huf0a1f3ce59830b5889587243ba2351ae_33142_21c77aac754d3c0105de46d2af1bda06.webp 760w,
                /project/lab8/image/oc7_huf0a1f3ce59830b5889587243ba2351ae_33142_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2168,7 +2250,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;Ввела wq для сохранения файла и завершения работы.(рис.8)&lt;/li&gt;
+&lt;li&gt;Entered wq to save the file and exit. (Fig. 8)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2188,7 +2270,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Команда для сохранения файла и завершения работы&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;8.Command to save the file and exit&#34; srcset=&#34;
                /project/lab8/image/oc8_hubdafdca6ded312dae36d24220499fca1_34152_9e9b32e61f21858436b9b00589902457.webp 400w,
                /project/lab8/image/oc8_hubdafdca6ded312dae36d24220499fca1_34152_94894f5df89555be9d54ce8c20f7bcdd.webp 760w,
                /project/lab8/image/oc8_hubdafdca6ded312dae36d24220499fca1_34152_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2199,7 +2281,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;8&#34;&gt;
-&lt;li&gt;С помощью команды chmod сделала файл исполняемым(добавила право на исполнение файла).(рис.9)&lt;/li&gt;
+&lt;li&gt;Using the chmod command, I made the file executable (added the right to execute the file). (Fig. 9)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2219,7 +2301,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;9.Сделала файл исполняемым&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;9.Make the file executable&#34; srcset=&#34;
                /project/lab8/image/oc9_hu0c5573d7974a354c1bda8b51c3ba514f_10073_2c8b7fbd88644ab22a9f7533a966efe9.webp 400w,
                /project/lab8/image/oc9_hu0c5573d7974a354c1bda8b51c3ba514f_10073_b11e41ba23d733e524b8e8a9881b5e99.webp 760w,
                /project/lab8/image/oc9_hu0c5573d7974a354c1bda8b51c3ba514f_10073_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2229,9 +2311,9 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;h1 id=&#34;задание-2&#34;&gt;Задание 2&lt;/h1&gt;
+&lt;h1 id=&#34;task-2&#34;&gt;Task 2&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;Вызвала vi для редактирования файла hello.sh.(рис.10)&lt;/li&gt;
+&lt;li&gt;Called vi to edit the file hello.sh. (Fig. 10)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2251,7 +2333,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Вызов vi для редактирования файла&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;10.Invoke vi to edit file&#34; srcset=&#34;
                /project/lab8/image/oc10_hue029ff0c15c2700f8e7702b72296f444_5271_ea46d56ed9927ec9f205b4f8ae239828.webp 400w,
                /project/lab8/image/oc10_hue029ff0c15c2700f8e7702b72296f444_5271_193e71f1203f119ba96d9e3f4a531680.webp 760w,
                /project/lab8/image/oc10_hue029ff0c15c2700f8e7702b72296f444_5271_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2262,7 +2344,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Установила курсор в конце слова HELL во второй строке.(рис.11)&lt;/li&gt;
+&lt;li&gt;Set the cursor at the end of the word HELL in the second line. (Fig. 11)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2282,7 +2364,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Установка курсора в конце слова HELL во второй строке&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;11.Installing the cursor at the end of the HELL word in the second line&#34; srcset=&#34;
                /project/lab8/image/oc11_hu4b12b745def5daa7f88d411cf0baf268_28349_47888866f92f423b3171206a20962de5.webp 400w,
                /project/lab8/image/oc11_hu4b12b745def5daa7f88d411cf0baf268_28349_02810075ce2d1674cd745d7a0727be7f.webp 760w,
                /project/lab8/image/oc11_hu4b12b745def5daa7f88d411cf0baf268_28349_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2293,7 +2375,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Нажав на клавишу i, перешла в режим вставки и заменила слово HELL на HELLO. Нажала клавишу esc для перехода в командный режим.(рис.12)&lt;/li&gt;
+&lt;li&gt;By pressing the i key, I switched to insert mode and replaced the word HELL with HELLO. I pressed the esc key to switch to command mode. (Fig. 12)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2313,7 +2395,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12.Замена слова HELL на HELLO&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;12.Replacing the word HELL with HELLO&#34; srcset=&#34;
                /project/lab8/image/oc12_hu4b12b745def5daa7f88d411cf0baf268_28422_b9357c4441358f1f12bf30d0cdff3326.webp 400w,
                /project/lab8/image/oc12_hu4b12b745def5daa7f88d411cf0baf268_28422_536157dd431afd6477c770e37c35206e.webp 760w,
                /project/lab8/image/oc12_hu4b12b745def5daa7f88d411cf0baf268_28422_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2324,7 +2406,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Установила курсор на 4 строку(рис.13) Нажав на клавиши dw, удалила слово LOCAL.(рис.14)&lt;/li&gt;
+&lt;li&gt;Set the cursor on the 4th line (Fig. 13) By pressing the dw keys, delete the word LOCAL. (Fig. 14)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2344,7 +2426,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Установка курсора на 4 строку&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;13.Cursor to line 4&#34; srcset=&#34;
                /project/lab8/image/oc13_hu4b12b745def5daa7f88d411cf0baf268_27445_be6e5b2de5669cb33ea54142fe67b4c2.webp 400w,
                /project/lab8/image/oc13_hu4b12b745def5daa7f88d411cf0baf268_27445_ab3fca471d317ed502f480dae3f7c8df.webp 760w,
                /project/lab8/image/oc13_hu4b12b745def5daa7f88d411cf0baf268_27445_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2372,7 +2454,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14.Удаление слова LOCAL с помощью горячих клавиш&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;14.Removing the word LOCAL using hotkeys&#34; srcset=&#34;
                /project/lab8/image/oc14_hu4b12b745def5daa7f88d411cf0baf268_29703_8a62e1f8380d76a47a1ca2e619a23169.webp 400w,
                /project/lab8/image/oc14_hu4b12b745def5daa7f88d411cf0baf268_29703_af6890f8e8563ddcaa5b577c7a29995e.webp 760w,
                /project/lab8/image/oc14_hu4b12b745def5daa7f88d411cf0baf268_29703_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2383,7 +2465,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Нажав на букву i, перешла в режим вставки и набрала слово local.(рис.15) Нажала клавишу esc для перехода в командный режим.&lt;/li&gt;
+&lt;li&gt;By clicking on the letter i, I switched to insert mode and typed the word local. (Fig. 15) I pressed the esc key to switch to command mode.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2403,7 +2485,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.Ввод слова local&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;15.Entering the word local&#34; srcset=&#34;
                /project/lab8/image/oc15_hu4b12b745def5daa7f88d411cf0baf268_28321_9f198e041b340dc84cfb679b74e2ed8c.webp 400w,
                /project/lab8/image/oc15_hu4b12b745def5daa7f88d411cf0baf268_28321_9eced575b7c608231bf32bb9e209c59f.webp 760w,
                /project/lab8/image/oc15_hu4b12b745def5daa7f88d411cf0baf268_28321_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2414,7 +2496,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Установила курсор на последней строке.(рис.16) После неё вставила строчку &amp;ldquo;echo $HELLO&amp;rdquo;.(рис.17)&lt;/li&gt;
+&lt;li&gt;I set the cursor on the last line. (Fig. 16) After it I inserted the line &amp;ldquo;echo $ HELLO&amp;rdquo;. (Fig. 17)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2434,7 +2516,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Установка курсора на последней строке&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;16.Installing the cursor on the last line&#34; srcset=&#34;
                /project/lab8/image/oc16_hu4b12b745def5daa7f88d411cf0baf268_27431_f27b23371231f81f739fc04c9c3f4671.webp 400w,
                /project/lab8/image/oc16_hu4b12b745def5daa7f88d411cf0baf268_27431_5babcad087b913ae4beca4ed7dcc45b4.webp 760w,
                /project/lab8/image/oc16_hu4b12b745def5daa7f88d411cf0baf268_27431_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2462,7 +2544,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.Вставка echo $HELLO в конец файла&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;17.Insert echo $HELLO at end of file&#34; srcset=&#34;
                /project/lab8/image/oc17_hu4b12b745def5daa7f88d411cf0baf268_30990_0ea9eb0bc8400947d6112c33c723805e.webp 400w,
                /project/lab8/image/oc17_hu4b12b745def5daa7f88d411cf0baf268_30990_6af18c8e35eb22f9e9b5755157fc04ba.webp 760w,
                /project/lab8/image/oc17_hu4b12b745def5daa7f88d411cf0baf268_30990_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2474,10 +2556,10 @@
 &lt;/p&gt;
 &lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;Нажала клавишу esc для перехода в командный режим.&lt;/p&gt;
+&lt;p&gt;Pressed the esc key to enter command mode.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Нажав на клавишу d дважды, удалила последнюю строку.(рис.18)&lt;/p&gt;
+&lt;p&gt;Pressing the d key twice, deleted the last line. (Fig. 18)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
@@ -2498,7 +2580,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;18.Удаление последней строки&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;18.Delete last line&#34; srcset=&#34;
                /project/lab8/image/oc18_hu4b12b745def5daa7f88d411cf0baf268_27445_afa7420fdee8ed5e77ccceef2a0ee2ec.webp 400w,
                /project/lab8/image/oc18_hu4b12b745def5daa7f88d411cf0baf268_27445_9a97a6700af152e11e26776d55e6a521.webp 760w,
                /project/lab8/image/oc18_hu4b12b745def5daa7f88d411cf0baf268_27445_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2509,7 +2591,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;9&#34;&gt;
-&lt;li&gt;Нажала на клавишу u для отмены изменений.(рис.19)&lt;/li&gt;
+&lt;li&gt;Pressed the u key to cancel the changes. (Fig. 19)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2529,7 +2611,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;19.Отмена удаления последней строки&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;19.Undo last line deletion&#34; srcset=&#34;
                /project/lab8/image/oc19_hu4b12b745def5daa7f88d411cf0baf268_28546_13c38d0187c14c532987086e74ec1034.webp 400w,
                /project/lab8/image/oc19_hu4b12b745def5daa7f88d411cf0baf268_28546_e0eebed502398c270360a40fcf7c235a.webp 760w,
                /project/lab8/image/oc19_hu4b12b745def5daa7f88d411cf0baf268_28546_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2540,34 +2622,31 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;10&#34;&gt;
-&lt;li&gt;Ввела символ : для перехода в режим последней строки, затем ввела w для сохранения изменений и q для выхода из vi.&lt;/li&gt;
+&lt;li&gt;Typed the character : to switch to last line mode, then typed w to save changes and q to quit vi.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
-&lt;p&gt;Познакомилась с операционной системой Linux. Получила практические навыки работы с редактором vi, установленным по умолчанию практически во всех дистрибутивах.&lt;/p&gt;
+&lt;h1 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h1&gt;
+&lt;p&gt;Familiar with the Linux operating system. Gained practical skills in working with the vi editor installed by default in almost all distributions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Лабораторная работа №7</title>
+      <title>Lab №7</title>
       <link>https://EugeniaVel.github.io/project/lab7/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/project/lab7/</guid>
-      <description>&lt;h1 id=&#34;теоретическое-введение&#34;&gt;Теоретическое введение&lt;/h1&gt;
-&lt;p&gt;Midnight Commander (или mc) — псевдографическая командная оболочка для UNIX/Linux
-систем.&lt;/p&gt;
-&lt;p&gt;Над панелями располагается меню, доступ к которому осуществляется с помощью
-клавиши F9 . Под панелями внизу расположены управляющие экранные кнопки, ассоци-
-ированные с функциональными клавишами F1 – F10. Над ними располагается
-командная строка, предназначенная для ввода команд.&lt;/p&gt;
-&lt;p&gt;Панель в mc отображает список файлов текущего каталога. Абсолютный путь к этому
-каталогу отображается в заголовке панели. У активной панели заголовок и одна из её
-строк подсвечиваются. Управление панелями осуществляется с помощью определённых
-комбинаций клавиш или пунктов меню mc.&lt;/p&gt;
-&lt;p&gt;Перейти в строку меню панелей mc можно с помощью функциональной клавиши F9 .
-В строке меню имеются пять меню: Левая панель , Файл , Команда , Настройки и Правая панель.&lt;/p&gt;
-&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;theoretical-introduction&#34;&gt;Theoretical introduction&lt;/h1&gt;
+&lt;p&gt;Midnight Commander (or mc) - pseudo-graphical command shell for UNIX/Linux
+systems.&lt;/p&gt;
+&lt;p&gt;Above the panels is a menu that can be accessed using F9 keys. Under the panels at the bottom there are on-screen control buttons, associated with function keys F1 to F10. Above them is command line for entering commands.&lt;/p&gt;
+&lt;p&gt;The panel in mc displays a list of files in the current directory. The absolute path to this
+directory is displayed in the header of the panel. The active panel has a title and one of its
+lines are highlighted. Panels are controlled using certain
+keyboard shortcuts or menu items mc.&lt;/p&gt;
+&lt;p&gt;You can go to the mc panels menu bar using the F9 function key.
+The menu bar has five menus: Left Panel , File , Command , Options and Right Panel.&lt;/p&gt;
+&lt;h1 id=&#34;performing-the-lab&#34;&gt;Performing the lab&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;Изучила информацию о Midnight Commander, вызвав man mc в командной строке.&lt;/li&gt;
+&lt;li&gt;Learned information about Midnight Commander by calling man mc on the command line.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2587,7 +2666,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Информация о mc&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Mc Information&#34; srcset=&#34;
                /project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_292d03d8dcb6c462d6b2eab265f665fe.webp 400w,
                /project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_b02011e86c5dc618cef5cf1429b2a53f.webp 760w,
                /project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2598,7 +2677,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Запустила из командной строки mc, изучила его структуру и меню.&lt;/li&gt;
+&lt;li&gt;Launched mc from the command line, studied its structure and menu.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -2618,7 +2697,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Меню mc&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Menu mc&#34; srcset=&#34;
                /project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_e65ccf13315f5e6914eb40deea5b97a3.webp 400w,
                /project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_76d9df1048d763c5d84a600bc99e2212.webp 760w,
                /project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2631,14 +2710,14 @@
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;б)С помощью комбинации клавиш shift и стрелок вверх-вниз выделила каталог ~/work/study в правой панели, затем с помощью той же комбинации отменила выделение каталога.&lt;/p&gt;
-&lt;p&gt;в)С помощью клавиши f5 скопировала файл Student.cpp из каталога ~/work/study/2021-2022/Операционные системы в каталог ~/work.&lt;/p&gt;
-&lt;p&gt;г)С помощью клавиши f6 переместила файл Student.cpp из каталога ~/work в домашний каталог.&lt;/p&gt;
-&lt;p&gt;д)С помощью комбинации клавиш shift и space посмотрела размер домашнего каталога.&lt;/p&gt;
+&lt;p&gt;b)Using a combination of shift keys and up and down arrows, I selected the ~/work/study directory in the right pane, then, using the same combination, deselected the directory.&lt;/p&gt;
+&lt;p&gt;c) Using the f5 key, I copied the Student.cpp file from the ~/work/study/2021-2022/Operating systems directory to the ~/work directory.&lt;/p&gt;
+&lt;p&gt;d) Using the f6 key, I moved the Student.cpp file from the ~/work directory to the home directory.&lt;/p&gt;
+&lt;p&gt;e) Using the combination of shift and space keys, I looked at the size of the home directory.&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Выполнила команды:&lt;/li&gt;
+&lt;li&gt;Executed the commands:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;а)Быстрый просмотр. С её помощью вывела на левую панель содержание файла Student.cpp из домашнего каталога.&lt;/p&gt;
+&lt;p&gt;a) Quick view. With its help, I displayed the contents of the Student.cpp file from the home directory on the left panel.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2657,7 +2736,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда быстрый просмотр&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Quick view command&#34; srcset=&#34;
                /project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_504655fd78586e775e144d0f7dff971c.webp 400w,
                /project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_5f5f1dd9c1e773059ebeb22b8430560f.webp 760w,
                /project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2667,8 +2746,8 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;б)Информация. С её помощью вывела на экран информацию об одном из снимков экрана.&lt;/p&gt;
-&lt;p&gt;в)Дерево каталогов. С её помощью посмотрела содержание домашнего каталога в виде дерева каталогов.&lt;/p&gt;
+&lt;p&gt;b) Information. With its help, I displayed information about one of the screenshots on the screen.&lt;/p&gt;
+&lt;p&gt;c) Directory tree. With its help, I looked at the contents of the home directory in the form of a directory tree.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2687,7 +2766,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Дерево каталогов&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Directory tree&#34; srcset=&#34;
                /project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_22431283831521ed573bd2dab2f7196a.webp 400w,
                /project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_d15b29ff45ad6a782edcde54081fab01.webp 760w,
                /project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2697,7 +2776,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;г)Формат списка. С её помощью я изменила формат выводимого списка файлов и каталогов на укороченный.&lt;/p&gt;
+&lt;p&gt;d) List format. With its help, I changed the format of the output list of files and directories to a shortened one.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2716,7 +2795,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда формат списка&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;List format command&#34; srcset=&#34;
                /project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_c4252ed3a566a9354d032c17c763269e.webp 400w,
                /project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_01efcab7c43dd9fb3fee4b5cdb1ba920.webp 760w,
                /project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2726,7 +2805,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;д)Порядок сортировки. С её помощью изменила порядок сортировки файлов и каталогов в домашнем каталоге.&lt;/p&gt;
+&lt;p&gt;e) Sorting order. With its help, I changed the sort order of files and directories in the home directory.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2745,7 +2824,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда порядок сортировки&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Sort order command&#34; srcset=&#34;
                /project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1c0e302f1047e51fc8cf9c30f94c948f.webp 400w,
                /project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_d84b4e13779357f55514fe4773ebfb8a.webp 760w,
                /project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2755,39 +2834,11 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;е)Фильтр. С её помощью вывела на экран файлы из домашнего каталога только с расширением .cpp.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда фильтр&#34; srcset=&#34;
-               /project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_39f3ffa0fd2af29ba8ca89b69f3f3060.webp 400w,
-               /project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_fb012088647cedef75ceecc337e52fad.webp 760w,
-               /project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_39f3ffa0fd2af29ba8ca89b69f3f3060.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+&lt;p&gt;f) Filter. With its help, I displayed files from the home directory only with the .cpp extension.&lt;/p&gt;
 &lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Используя возможности подменю файл, выполнила следующие операции:&lt;/li&gt;
+&lt;li&gt;Using the capabilities of the file submenu, performed the following operations:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;-Посмотрела содержимое файла Student.cpp c помощью команды просмотр файла.&lt;/p&gt;
+&lt;p&gt;-Viewed the contents of the Student.cpp file using the View File command.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2806,7 +2857,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Просмотр файла&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;View file&#34; srcset=&#34;
                /project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_18957b5bb7731478691e1599b45c3b69.webp 400w,
                /project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_eafc1c40e4dd28ff716351a970861b86.webp 760w,
                /project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2816,7 +2867,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;-Отредактировала файл Student.cpp с помощью команды правка, не сохранив изменения.&lt;/p&gt;
+&lt;p&gt;-Edited the Student.cpp file using the edit command without saving the changes.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2835,7 +2886,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда правка&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Edit command&#34; srcset=&#34;
                /project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_ef7c56a99c27606ef0002ebea2012a6f.webp 400w,
                /project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_8f2fb08e8115d42930213501e4adc12c.webp 760w,
                /project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2845,7 +2896,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;-С помощью команды создание каталога создала каталог ~/lab7.&lt;/p&gt;
+&lt;p&gt;-Created the ~/lab7 directory using the create directory command.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2864,7 +2915,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда создание каталога&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Create directory command&#34; srcset=&#34;
                /project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_082e779ad707535c92e31b1d4beed4df.webp 400w,
                /project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_3075d3e73ab124ed019bdb4f3ea85ba7.webp 760w,
                /project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2874,7 +2925,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;-С помощью команды копирование скопировала два выделенных мной снимка экрана в созданный мной в прошлом пункте каталог ~/lab7.&lt;/p&gt;
+&lt;p&gt;-Using the copy command, I copied the two screenshots I selected to the ~/lab7 directory I created in the last paragraph.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2893,7 +2944,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Копирование файлов в новый каталог&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Copy files to new directory&#34; srcset=&#34;
                /project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_8e70433ec1ac9f3821e80cbc6bec59b1.webp 400w,
                /project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_9653a657bb72fe9ba84073148451bc26.webp 760w,
                /project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2904,11 +2955,11 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Используя возможности подменю команда, выполнила следующие операции:&lt;/li&gt;
+&lt;li&gt;Using the possibilities of the submenu, the command performed the following operations:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;-С помощью команды поиск файла в домашнем каталоге рекурсивно нашла все файлы с расширением .txt.&lt;/p&gt;
-&lt;p&gt;-С помощью команды история, посмотрела историю команд, однако не получила вывод ни одной команды, поэтому не смогла выполнить задание до конца.&lt;/p&gt;
-&lt;p&gt;-С помощью команды каталоги быстрого доступа, куда я предварительно добавила домашний каталог, переместилась в него.&lt;/p&gt;
+&lt;p&gt;-Recursively found all files with the .txt extension using the command search for a file in the home directory.&lt;/p&gt;
+&lt;p&gt;-With the help of the history command, I looked at the history of commands, but did not receive the output of any command, so I could not complete the task to the end.&lt;/p&gt;
+&lt;p&gt;-With the help of the quick access directories command, where I previously added the home directory, I moved to it.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2927,7 +2978,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда каталоги быстрого доступа&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Shortcut directories command&#34; srcset=&#34;
                /project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_ab8852d509075798b811e0462ebf6f54.webp 400w,
                /project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_9504df6a9fbfd238a4671afe20678e48.webp 760w,
                /project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2937,7 +2988,7 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;-С помощью команды редактировать файл меню посмотрела содержимое файла меню. Команда позволяет отредактировать контекстное меню пользователя, вызываемое по клавише F2. С помощью команды редактировать файл расширений посмотрела содержимое файла расширений. Команда позволяет позволяет задать с помощью определённого синтаксиса действия при запуске файлов с определённым расширением.&lt;/p&gt;
+&lt;p&gt;-Using the command to edit the menu file, I looked at the contents of the menu file. The command allows you to edit the user&amp;rsquo;s context menu called by the F2 key. Using the edit extension file command, I looked at the contents of the extension file. The command allows you to set, using a specific syntax, actions when starting files with a specific extension.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2956,7 +3007,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Файл меню&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Menu file&#34; srcset=&#34;
                /project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_626e84b0e696fe4f66348b930f32f986.webp 400w,
                /project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_878880e848bee472348e96d50b704203.webp 760w,
                /project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2984,7 +3035,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Файл расширений&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Extensions file&#34; srcset=&#34;
                /project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_f0e8642c6eb8a4a7dedbb79987574df2.webp 400w,
                /project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_8b160e4dae0dda781f06653c45f1e044.webp 760w,
                /project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -2995,7 +3046,7 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;Вызвала подменю настройки. В настройках панели нашла команду показывать скрытые файлы. и другие команды, определяющие структуру экрана mc.(Например, изменение темы mc)&lt;/li&gt;
+&lt;li&gt;Called up the settings submenu. In the panel settings, I found the command to show hidden files. and other commands that define the structure of the mc screen. (For example, changing the theme of mc)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
 
@@ -3015,7 +3066,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Настройки панели&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Panel settings&#34; srcset=&#34;
                /project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_f46206bfcf5695da2540cc63401c1e81.webp 400w,
                /project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_42b2aceee685b69dc8619df2a394d1e6.webp 760w,
                /project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -3025,13 +3076,13 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;h1 id=&#34;задание-по-встроенному-редактору-mc&#34;&gt;Задание по встроенному редактору mc&lt;/h1&gt;
+&lt;h1 id=&#34;task-for-the-built-in-mc-editor&#34;&gt;Task for the built-in mc editor&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;С помощью команды touch создала файл text.txt в домашнем каталоге.&lt;/p&gt;
+&lt;p&gt;Using the touch command, I created a text.txt file in my home directory.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Открыла файл в редакторе с помощью команды mc -e(можно также использовать команду mcedit).&lt;/p&gt;
+&lt;p&gt;Opened the file in the editor using the mc -e command (you can also use the mcedit command).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
@@ -3052,7 +3103,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Открытие файла в редакторе mcedit&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Opening file in mcedit&#34; srcset=&#34;
                /project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_6be9b9f5e37032fee00bf1a31872aeec.webp 400w,
                /project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_42ac213046fb1a9dfb795dd0791d88c6.webp 760w,
                /project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -3064,24 +3115,24 @@
 &lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;Вставила в файл текст шаблона по лабораторной работе.&lt;/p&gt;
+&lt;p&gt;Inserted the text of the template for laboratory work into the file.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;4.1. С помощью комбинации клавиш ctrl-y удалила первую строку в тексте файла.&lt;/p&gt;
-&lt;p&gt;4.2. С помощью клавиши f3 выделила фрагмент текста файла (один абзац) и с помощью клавиши f5 скопировала его на первую строку.&lt;/p&gt;
-&lt;p&gt;4.3. С помощью клавиши f3 выделила фрагмент текста файла (один абзац) и с помощью клавиши f6 переместила его на следующей строке после второго абзаца.&lt;/p&gt;
-&lt;p&gt;4.4. С помощью клавиши f2 сохранила изменения в файле.&lt;/p&gt;
-&lt;p&gt;4.5. С помощью комбинации клавиш ctrl-u отменила перемещение абзаца, сделанное в подпункте 4.3.&lt;/p&gt;
-&lt;p&gt;4.6. С помощью комбинации клавиш ctrl-end перешла в конец файла и ввела своё ФИО.&lt;/p&gt;
-&lt;p&gt;4.7. С помощью комбинации клавиш ctrl-home перешла в начало файла и ввела название своей группы.&lt;/p&gt;
-&lt;p&gt;4.8. Сохранила файл с помощью клавиши f2 и закрыла файл с помощью клавиши f10.&lt;/p&gt;
+&lt;p&gt;4.1. Using the key combination ctrl-y deleted the first line in the text of the file.&lt;/p&gt;
+&lt;p&gt;4.2. Using the f3 key, I selected a fragment of the text of the file (one paragraph) and, using the f5 key, copied it to the first line.&lt;/p&gt;
+&lt;p&gt;4.3. Using the f3 key, I selected a fragment of the text of the file (one paragraph) and, using the f6 key, moved it to the next line after the second paragraph.&lt;/p&gt;
+&lt;p&gt;4.4. Using the f2 key, save the changes to the file.&lt;/p&gt;
+&lt;p&gt;4.5. Using the key combination ctrl-u canceled the paragraph move made in subsection 4.3.&lt;/p&gt;
+&lt;p&gt;4.6. Using the key combination ctrl-end moved to the end of the file and entered her full name.&lt;/p&gt;
+&lt;p&gt;4.7. Using the key combination ctrl-home moved to the beginning of the file and entered the name of her group.&lt;/p&gt;
+&lt;p&gt;4.8. Saved the file with the f2 key and closed the file with the f10 key.&lt;/p&gt;
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;Открыла файл Student.cpp на языке С++.&lt;/p&gt;
+&lt;p&gt;Opened the Student.cpp file in C++.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Используя меню редактора(подменю команда), выключила подсветку синтаксиса, так как она изначально была включена.&lt;/p&gt;
+&lt;p&gt;Using the editor menu (command submenu), turned off the syntax highlighting, since it was originally on.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
@@ -3102,7 +3153,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда включения/выключения подсветки синтаксиса, подсвеченный синтаксис&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Syntax highlight on/off command, highlighted syntax&#34; srcset=&#34;
                /project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_ef79f36779653ef7cca5e78235e117ac.webp 400w,
                /project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_6f4274db8d5b14d46a3924ca0f7d75c1.webp 760w,
                /project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
@@ -3130,7 +3181,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Выключение подсветки синтаксиса&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Turn off syntax highlighting&#34; srcset=&#34;
                /project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_58a209fc73592935abe252f855a3ffb6.webp 400w,
                /project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_6a4124ee32d75e6393cdf670e20e0534.webp 760w,
                /project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
