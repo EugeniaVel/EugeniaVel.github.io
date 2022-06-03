@@ -92,23 +92,6 @@
     </item>
     
     <item>
-      <title>Last week&#39;s post(23.05-29.05)</title>
-      <link>https://EugeniaVel.github.io/post/23-29/</link>
-      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://EugeniaVel.github.io/post/23-29/</guid>
-      <description>&lt;h1 id=&#34;lab-11&#34;&gt;Lab #11&lt;/h1&gt;
-&lt;p&gt;In Lab 11, we learned the basics of UNIX shell programming and how to write more complex batch files using logical control constructs and loops.
-In total, we wrote 4 batch files: one for searching the text from the template in the file; the second is to determine whether a positive, negative, or zero number has been entered into a C program; the third for creating or deleting the number of files specified as an argument with a given name; the fourth to archive all files in the specified directory (which was then modified to archive only those files that were changed during the last week).&lt;/p&gt;
-&lt;h1 id=&#34;lab-12&#34;&gt;Lab #12&lt;/h1&gt;
-&lt;p&gt;In this lab, we continued to learn the basics of UNIX shell programming and learn how to write more complex batch files.
-In this lab, we wrote only three batch files: the first one implemented a simplified semaphore mechanism, the second one was the implementation of the man command using the /usr/share/man/man1 directory, the third generated a random sequence of Latin letters using the $RANDOM built-in variable. In addition, in both laboratories we answered control questions on the topic.&lt;/p&gt;
-&lt;h1 id=&#34;5-stage-of-the-individual-project&#34;&gt;5 stage of the individual project&lt;/h1&gt;
-&lt;p&gt;At the fifth stage, we added projects to the site, made a post on the past week, as well as a post on the topic of scientific programming languages.&lt;/p&gt;
-&lt;p&gt;In general, this week was just as productive as the previous one.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Post last week 16.05-22.05</title>
       <link>https://EugeniaVel.github.io/post/16-22/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
@@ -160,6 +143,25 @@ Originally developed by IBM in the 1950s for scientific and engineering applicat
     </item>
     
     <item>
+      <title>Last week post(9.05.22-15.05.22)</title>
+      <link>https://EugeniaVel.github.io/post/9.05-15.05/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://EugeniaVel.github.io/post/9.05-15.05/</guid>
+      <description>&lt;p&gt;Last week we completed two laboratory works - №7,8, and also made out the third stage of an individual project. Now I will tell you what I learned and what work was done.
+In &lt;em&gt;Lab 7&lt;/em&gt; we learned how to work with the Midnight Commander shell. The command shell is an interface for user interaction with the operating system and software through commands. Midnight Commander (or mc) is a pseudo-graphical command shell for UNIX/Linux systems. We looked at the commands of each panel in mc, found out why they are needed, and also learned how to use hotkeys.&lt;/p&gt;
+&lt;p&gt;In addition, we worked with the built-in editor in mc, which can be launched using the mc -e or mcedit command, specifying the name of the file to be edited after it.
+In &lt;em&gt;lab #8&lt;/em&gt; we worked with vi (Visual display editor). It can be used to edit text files. We worked in all three vi modes - command mode, insert mode, and last line mode.&lt;/p&gt;
+&lt;p&gt;During the &lt;em&gt;third stage of an individual project&lt;/em&gt;, we added information about achievements, skills and experience to the site, as well as two posts: one for the past week, the second on a topic of your choice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lightweight markup languages.&lt;/li&gt;
+&lt;li&gt;Markup languages. LaTeX.&lt;/li&gt;
+&lt;li&gt;Markdown language.
+I chose the Markdown markup language, described the main features of its syntax.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Report design</title>
       <link>https://EugeniaVel.github.io/post/report-post/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
@@ -186,25 +188,6 @@ The section &lt;em&gt;conclusions&lt;/em&gt; is intended for the student to tell
 In the section &lt;em&gt;answers to control questions&lt;/em&gt; the student answers the questions contained at the end of the description of the laboratory work. They are needed in order to repeat the material covered, to recall the theoretical foundations.
 We prepare lab reports using Markdown. It is a handy tool with clear syntax. At the beginning of the file, the fonts and design theme used in the file are indicated, then the entire text of the report is written, which, thanks to the use of Markdown, can be very easily converted into any convenient format, I convert OS reports to pdf and docx files.
 That&amp;rsquo;s all, I hope there are no questions about the design of the reports!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Пост по прошлой неделе(9.05.22-15.05.22)</title>
-      <link>https://EugeniaVel.github.io/post/9.05-15.05/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://EugeniaVel.github.io/post/9.05-15.05/</guid>
-      <description>&lt;p&gt;Last week we completed two laboratory works - №7,8, and also made out the third stage of an individual project. Now I will tell you what I learned and what work was done.
-In &lt;em&gt;Lab 7&lt;/em&gt; we learned how to work with the Midnight Commander shell. The command shell is an interface for user interaction with the operating system and software through commands. Midnight Commander (or mc) is a pseudo-graphical command shell for UNIX/Linux systems. We looked at the commands of each panel in mc, found out why they are needed, and also learned how to use hotkeys.&lt;/p&gt;
-&lt;p&gt;In addition, we worked with the built-in editor in mc, which can be launched using the mc -e or mcedit command, specifying the name of the file to be edited after it.
-In &lt;em&gt;lab #8&lt;/em&gt; we worked with vi (Visual display editor). It can be used to edit text files. We worked in all three vi modes - command mode, insert mode, and last line mode.&lt;/p&gt;
-&lt;p&gt;During the &lt;em&gt;third stage of an individual project&lt;/em&gt;, we added information about achievements, skills and experience to the site, as well as two posts: one for the past week, the second on a topic of your choice:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Lightweight markup languages.&lt;/li&gt;
-&lt;li&gt;Markup languages. LaTeX.&lt;/li&gt;
-&lt;li&gt;Markdown language.
-I chose the Markdown markup language, described the main features of its syntax.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

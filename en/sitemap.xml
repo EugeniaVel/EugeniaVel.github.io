@@ -64,26 +64,6 @@
       href="https://EugeniaVel.github.io/post/c&#43;&#43;/"
     /></url>
   <url>
-    <loc>https://EugeniaVel.github.io/categories/</loc><lastmod>2022-06-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://EugeniaVel.github.io/ru/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://EugeniaVel.github.io/categories/"
-    /></url>
-  <url>
-    <loc>https://EugeniaVel.github.io/category/demo/</loc><lastmod>2022-06-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://EugeniaVel.github.io/ru/category/demo/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://EugeniaVel.github.io/category/demo/"
-    /></url>
-  <url>
     <loc></loc><lastmod>2022-06-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -122,36 +102,6 @@
       rel="alternate"
       hreflang="en"
       href="https://EugeniaVel.github.io/tags/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2022-06-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
-  <url>
-    <loc>https://EugeniaVel.github.io/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2022-06-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://EugeniaVel.github.io/ru/tag/%E5%BC%80%E6%BA%90/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://EugeniaVel.github.io/tag/%E5%BC%80%E6%BA%90/"
-    /></url>
-  <url>
-    <loc>https://EugeniaVel.github.io/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2022-06-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://EugeniaVel.github.io/ru/category/%E6%95%99%E7%A8%8B/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://EugeniaVel.github.io/category/%E6%95%99%E7%A8%8B/"
     /></url>
   <url>
     <loc>https://EugeniaVel.github.io/tag/deep-learning/</loc><lastmod>2022-05-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -234,16 +184,6 @@
       href="https://EugeniaVel.github.io/post/yaziki_program/"
     /></url>
   <url>
-    <loc>https://EugeniaVel.github.io/post/report-post/</loc><lastmod>2022-05-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://EugeniaVel.github.io/ru/post/report-post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://EugeniaVel.github.io/post/report-post/"
-    /></url>
-  <url>
     <loc>https://EugeniaVel.github.io/post/9.05-15.05/</loc><lastmod>2022-05-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -252,6 +192,16 @@
       rel="alternate"
       hreflang="en"
       href="https://EugeniaVel.github.io/post/9.05-15.05/"
+    /></url>
+  <url>
+    <loc>https://EugeniaVel.github.io/post/report-post/</loc><lastmod>2022-05-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://EugeniaVel.github.io/ru/post/report-post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://EugeniaVel.github.io/post/report-post/"
     /></url>
   <url>
     <loc>https://EugeniaVel.github.io/project/lab7/</loc><lastmod>2022-05-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
@@ -274,6 +224,26 @@
       href="https://EugeniaVel.github.io/post/last-week-post/"
     /></url>
   <url>
+    <loc>https://EugeniaVel.github.io/categories/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://EugeniaVel.github.io/ru/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://EugeniaVel.github.io/categories/"
+    /></url>
+  <url>
+    <loc>https://EugeniaVel.github.io/category/demo/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://EugeniaVel.github.io/ru/category/demo/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://EugeniaVel.github.io/category/demo/"
+    /></url>
+  <url>
     <loc>https://EugeniaVel.github.io/post/markdown-post/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="ru"
@@ -292,6 +262,36 @@
       rel="alternate"
       hreflang="en"
       href="https://EugeniaVel.github.io/post/getting-started/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /></url>
+  <url>
+    <loc>https://EugeniaVel.github.io/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://EugeniaVel.github.io/ru/tag/%E5%BC%80%E6%BA%90/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://EugeniaVel.github.io/tag/%E5%BC%80%E6%BA%90/"
+    /></url>
+  <url>
+    <loc>https://EugeniaVel.github.io/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://EugeniaVel.github.io/ru/category/%E6%95%99%E7%A8%8B/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://EugeniaVel.github.io/category/%E6%95%99%E7%A8%8B/"
     /></url>
   <url>
     <loc>https://EugeniaVel.github.io/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
