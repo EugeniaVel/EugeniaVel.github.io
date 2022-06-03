@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | russian_web</title>
+    <title>Posts | Academic</title>
     <link>https://EugeniaVel.github.io/ru/post/</link>
       <atom:link href="https://EugeniaVel.github.io/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
@@ -106,16 +106,16 @@
     </item>
     
     <item>
-      <title>Last week post 👋</title>
+      <title>Пост по прошлой неделе</title>
       <link>https://EugeniaVel.github.io/ru/post/last-week-post/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/ru/post/last-week-post/</guid>
-      <description>&lt;h2 id=&#34;laboratory-work-5&#34;&gt;Laboratory work №5&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;лабораторная-работа-5&#34;&gt;Лабораторная работа №5&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;I studied Linux file systems, their structures, names and content of their directories.&lt;/li&gt;
-&lt;li&gt;I learned how to use commands for working with files and directories, how to manage processes and how to check disk usage.&lt;/li&gt;
+&lt;li&gt;Я изучила файловые системы Линукс, их структуры, имена и содержимое их каталогов.&lt;/li&gt;
+&lt;li&gt;Я научилась использовать команды для работы с файлами и каталогами, как управлять процессами и проверять использование диска.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;report-about-laboratory-work-5-in-russian&#34;&gt;Report about laboratory work №5 in Russian&lt;/h2&gt;
+&lt;h2 id=&#34;отчёт-по-лабораторной-работе-5&#34;&gt;Отчёт по лабораторной работе №5&lt;/h2&gt;
 &lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;Создала каталог lab5, в него скопировала шаблоны отчёта и презентации.(рис.1)&lt;/li&gt;
 &lt;/ol&gt;

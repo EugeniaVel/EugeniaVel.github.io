@@ -63,6 +63,27 @@ moves properties of the C and Korn shells (developed by the Free Software Founda
     </item>
     
     <item>
+      <title>Scientific programming languages</title>
+      <link>https://EugeniaVel.github.io/post/yaziki_program/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://EugeniaVel.github.io/post/yaziki_program/</guid>
+      <description>&lt;p&gt;In a broad sense, a scientific programming language is a programming language that is widely used in computational science and computational mathematics. Such languages ​​are characterized by the presence of libraries in which there are a large number of mathematical functions, as well as specialized syntax. They are very well suited for solving many mathematical problems, these languages ​​are optimized for using various formulas and matrices.&lt;/p&gt;
+&lt;p&gt;Many programming languages ​​do not have built-in formulas necessary for complex calculations, however, in Python and C++, for example, these functions are available in the standard libraries, so these languages ​​can be used for scientific purposes.&lt;/p&gt;
+&lt;p&gt;Here are some examples of languages ​​that are considered scientific programming languages.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The International Algebraic Language (IAL), renamed ALGOL 58 , had a great influence and was generally considered the ancestor of most modern programming languages ​​(the so-called languages ​​like ALGOL). In addition, ALGOL object code was a simple, compact, and stack-based instruction set architecture commonly used in learning to build compilers and other high-order languages; of which Algol is usually considered the first.&lt;/li&gt;
+&lt;li&gt;APL (named after the book The Programming Language) is a programming language developed in the 1960s by Kenneth E. Iverson. Its central data type is a multidimensional array. It uses a large set of special graphic symbols to represent most functions and operators, resulting in very concise code. It was an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages.&lt;/li&gt;
+&lt;li&gt;Fortran is a general-purpose, compiled mandatory programming language that is particularly suitable for numerical calculations and scientific computing.
+Originally developed by IBM in the 1950s for scientific and engineering applications, FORTRAN went on to become dominant in scientific computing. It has been used for over six decades in computationally intensive fields such as numerical weather prediction, finite element analysis, computational fluid dynamics, geophysics, computational physics, crystallography, and computational chemistry. It is a popular language for high performance computing and is used for programs that rate and rate the world&amp;rsquo;s fastest supercomputers.&lt;/li&gt;
+&lt;li&gt;J is a very concise array programming language, which is most suitable for mathematical and statistical programming, especially when performing operations on matrices. It has also been used in extreme programming and network performance analysis.&lt;/li&gt;
+&lt;li&gt;Maple is a symbolic and numeric computing environment and a multi-paradigm programming language. It covers several areas of technical computing such as symbolic mathematics, numerical analysis, data processing, visualization, and others. The MapleSim toolkit adds functionality for multi-domain physics simulation and code generation.&lt;/li&gt;
+&lt;li&gt;MATLAB (сокращение от «матричная лаборатория») - это частный многопарадигмальный язык программирования и вычислительная среда, разработанная MathWorks . MATLAB позволяет манипулировать матрицами , строить графики функций и данных, реализовывать алгоритмы , создавать пользовательские интерфейсы и взаимодействовать с программами, написанными на других языках.&lt;/li&gt;
+&lt;li&gt;R - это язык программирования и бесплатная программная среда для статистических вычислений и графики, поддерживаемая R Foundation for Statistical Computing. Язык R широко используется статистиками и специалистами по обработке данных для разработки статистического программного обеспечения и анализа данных .&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Лабораторная работа №11</title>
       <link>https://EugeniaVel.github.io/project/lab11/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
@@ -2598,53 +2619,32 @@ moves properties of the C and Korn shells (developed by the Free Software Founda
     </item>
     
     <item>
-      <title>Научные языки программирования</title>
-      <link>https://EugeniaVel.github.io/post/yaziki_program/</link>
-      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://EugeniaVel.github.io/post/yaziki_program/</guid>
-      <description>&lt;p&gt;В широком смысле научный язык программирования - это язык программирования, который широко используется в вычислительной науке и вычислительной математике. Такие языки характеризуются наличием библиотек, в которых есть большое количество математических функций, а также специализированным синтаксисом. Они очень хорошо подходят для решения многих математических задач, эти языки оптимизированы для использования различных формул и матриц.&lt;/p&gt;
-&lt;p&gt;Многие языки программирования не имеют встроенных формул, необходимых при сложных вычислениях, однако, например, в Python и C++ эти функции доступны в стандартных библиотеках, благодаря чему данные языки могут быть использованы в научных целях.&lt;/p&gt;
-&lt;p&gt;Приведу некоторые примеры языков, которые считаются языками научного программирования.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Международный алгебраический язык (IAL), переименованный в АЛГОЛ 58 , имел большое влияние и обычно считался родоначальником большинства современных языков программирования (так называемых языков, подобных алголу). Кроме того, объектный код ALGOL был простой, компактной и основанной на стеке архитектурой набора команд, обычно используемой при обучении построению компиляторов и других языков высокого порядка; из которых Алгол обычно считается первым.&lt;/li&gt;
-&lt;li&gt;APL (названный в честь книги «Язык программирования» ) - это язык программирования, разработанный в 1960-х годах Кеннетом Э. Айверсоном . Его центральный тип данных - многомерный массив . Он использует большой набор специальных графических символов для представления большинства функций и операторов, что приводит к очень сжатому коду. Это было важное влияние на развитие моделирования концепции, электронных таблиц , функциональное программирование , и компьютерных математических пакетов.&lt;/li&gt;
-&lt;li&gt;Fortran является универсальным, составленным обязательным языком программирования , который особенно подходит для численных расчетов и научных вычислений.
-Первоначально разработанный IBM в 1950-х годах для научных и инженерных приложений, FORTRAN впоследствии стал доминирующим в научных вычислениях. Он используется уже более шести десятилетий в таких ресурсоемких вычислительных областях, как численное прогнозирование погоды , анализ методом конечных элементов , вычислительная гидродинамика , геофизика , вычислительная физика , кристаллография и вычислительная химия . Это популярный язык для высокопроизводительных вычислений, который используется для программ, которые оценивают и оценивают самые быстрые суперкомпьютеры в мире.&lt;/li&gt;
-&lt;li&gt;J - это очень сжатый язык программирования массивов , который больше всего подходит для математического и статистического программирования, особенно при выполнении операций с матрицами . Он также использовался в экстремальном программировании и анализе производительности сети.&lt;/li&gt;
-&lt;li&gt;Maple - это символьная и числовая вычислительная среда, а также язык программирования с несколькими парадигмами. Он охватывает несколько областей технических вычислений, таких как символьная математика, численный анализ, обработка данных, визуализация и другие. Набор инструментов MapleSim добавляет функциональность для многодоменного физического моделирования и генерации кода.&lt;/li&gt;
-&lt;li&gt;MATLAB (сокращение от «матричная лаборатория») - это частный многопарадигмальный язык программирования и вычислительная среда, разработанная MathWorks . MATLAB позволяет манипулировать матрицами , строить графики функций и данных, реализовывать алгоритмы , создавать пользовательские интерфейсы и взаимодействовать с программами, написанными на других языках.&lt;/li&gt;
-&lt;li&gt;R - это язык программирования и бесплатная программная среда для статистических вычислений и графики, поддерживаемая R Foundation for Statistical Computing. Язык R широко используется статистиками и специалистами по обработке данных для разработки статистического программного обеспечения и анализа данных .&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Оформление отчёта</title>
+      <title>Report design</title>
       <link>https://EugeniaVel.github.io/post/report-post/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/post/report-post/</guid>
-      <description>&lt;p&gt;Итак, структура отчёта по лабораторной работе по Операционным системам включает в себя:&lt;/p&gt;
+      <description>&lt;p&gt;So, the structure of the report on laboratory work on Operating Systems includes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;титульный лист&lt;/li&gt;
-&lt;li&gt;формулировка цели работы&lt;/li&gt;
-&lt;li&gt;описание результатов&lt;/li&gt;
-&lt;li&gt;выводы&lt;/li&gt;
-&lt;li&gt;ответы на контрольные вопросы
-Рассмотрим некоторые пункты подробнее.
-Информация на &lt;em&gt;титульном листе&lt;/em&gt; должна включать в себя:&lt;/li&gt;
-&lt;li&gt;указание номера лабораторной работы&lt;/li&gt;
-&lt;li&gt;ФИО студента, выполнившего лабораторную работу
-Эта страница оформляется с помощью шаблона, поэтому на данном этапе ошибиться сложно, главное – не забыть об этом пункте(как и о других), поэтому всегда следует держать перед глазами структуру отчёта при его оформлении.
-Следующий пункт – &lt;em&gt;формулировка цели работы&lt;/em&gt;. Обычно цель работы присутствует в описании заданий, так что этот пункт также достаточно просто выполнить.
-&lt;em&gt;Описание результатов&lt;/em&gt; - основная часть работы, здесь нужно подробно изложить свои действия при выполнении лабораторной. Составляющие данного раздела:&lt;/li&gt;
-&lt;li&gt;снимки экрана, фиксирующие выполнение лабораторной работы. При выполнении работы лично я стараюсь делать так, чтобы скриншотов было немало(для того, чтобы они поясняли процесс работы). Также я слежу за тем, чтобы они были хорошего качества и чтобы на них не было никакой лишней информации.&lt;/li&gt;
-&lt;li&gt;листинги(исходный код программ), если они есть. Пока что у нас не было лабораторных работ, в которых был бы исходный код, мы выполняли задания в командной строке либо во встроенных редакторах.&lt;/li&gt;
-&lt;li&gt;результаты выполнения программ(текст или снимок экрана в зависимости от задания).
-Помимо этих пунктов, необходимо описать выполнение работ в виде текста, достаточно подробно рассказать о том, какие команды использовались и какой результат дали.
-Раздел &lt;em&gt;выводы&lt;/em&gt; предназначен для того, чтобы студент рассказал, чему научился при выполнении лабораторной работы. Обычно выводы совпадают с целью работы.
-В разделе &lt;em&gt;ответы на контрольные вопросы&lt;/em&gt; студент отвечает на вопросы, содержащиеся в конце описания лабораторной работы. Они нужны для того, чтобы повторить пройденный материал, вспомнить теоретические основы.
-Отчёты по лабораторным работам мы оформляем с помощью Markdown. Это удобный инструмент с понятным синтаксисом. В начале файла указаны шрифты и тема оформления, используемые в файле, затем написан весь текст отчёта, который благодаря использованию Markdown можно очень просто сконвертировать в любой удобный формат, отчёты по ОС я конвертирую в pdf и docx файлы.
-На этом всё, надеюсь, никаких вопросов по оформлению отчётов не осталось!&lt;/li&gt;
+&lt;li&gt;title page&lt;/li&gt;
+&lt;li&gt;formulation of the purpose of the work&lt;/li&gt;
+&lt;li&gt;description of results&lt;/li&gt;
+&lt;li&gt;conclusions&lt;/li&gt;
+&lt;li&gt;answers to security questions
+Let&amp;rsquo;s consider some points in more detail.
+The information on the &lt;em&gt;title page&lt;/em&gt; should include:&lt;/li&gt;
+&lt;li&gt;indication of the number of laboratory work&lt;/li&gt;
+&lt;li&gt;Name of the student who completed the laboratory work
+This page is drawn up using a template, so at this stage it is difficult to make a mistake, the main thing is not to forget about this item (as well as about others), so you should always keep the structure of the report in front of your eyes when designing it.
+The next item is &lt;em&gt;statement of the purpose of the work&lt;/em&gt;. Usually the purpose of the work is present in the description of the tasks, so this item is also quite simple to complete.
+&lt;em&gt;Description of the results&lt;/em&gt; - the main part of the work, here you need to describe in detail your actions when performing the laboratory. Components of this section:&lt;/li&gt;
+&lt;li&gt;screenshots of the laboratory work. When doing work, I personally try to make sure that there are a lot of screenshots (so that they explain the work process). I also make sure that they are of good quality and that they do not contain any unnecessary information.&lt;/li&gt;
+&lt;li&gt;listings (source code of programs), if any. So far, we haven&amp;rsquo;t had any labs with source code, we&amp;rsquo;ve done tasks on the command line or in built-in editors.&lt;/li&gt;
+&lt;li&gt;results of program execution (text or screenshot depending on the task).
+In addition to these points, it is necessary to describe the performance of the work in the form of text, to tell in sufficient detail about which commands were used and what result they gave.
+The section &lt;em&gt;conclusions&lt;/em&gt; is intended for the student to tell what he learned during the laboratory work. Usually the conclusions coincide with the purpose of the work.
+In the section &lt;em&gt;answers to control questions&lt;/em&gt; the student answers the questions contained at the end of the description of the laboratory work. They are needed in order to repeat the material covered, to recall the theoretical foundations.
+We prepare lab reports using Markdown. It is a handy tool with clear syntax. At the beginning of the file, the fonts and design theme used in the file are indicated, then the entire text of the report is written, which, thanks to the use of Markdown, can be very easily converted into any convenient format, I convert OS reports to pdf and docx files.
+That&amp;rsquo;s all, I hope there are no questions about the design of the reports!&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -4539,32 +4539,32 @@ I chose the Markdown markup language, described the main features of its syntax.
       <link>https://EugeniaVel.github.io/post/markdown-post/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/post/markdown-post/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; — облегчённый язык разметки, созданный с целью обозначения форматирования в простом тексте, с максимальным сохранением его читаемости человеком, и пригодный для машинного преобразования в языки для продвинутых публикаций (HTML, Rich Text и других).&lt;/p&gt;
-&lt;p&gt;Основные аспекты синтаксиса:&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is a lightweight markup language designed to mark formatting in plain text while maintaining human readability as much as possible, and suitable for machine conversion into advanced publishing languages ​​(HTML, Rich Text, and others).&lt;/p&gt;
+&lt;p&gt;Basic aspects of the syntax:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Абзацы создаются при помощи пустой строки. Если вокруг текста сверху и снизу есть пустые строки, то текст превращается в абзац. Чтобы сделать перенос строки вместо абзаца, нужно поставить два пробела в конце предыдущей строки.&lt;/p&gt;
+&lt;p&gt;Paragraphs are created using an empty line. If there are empty lines around the text above and below, then the text turns into a paragraph. To make a line break instead of a paragraph, you need to put two spaces at the end of the previous line.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Заголовки отмечаются диезом &lt;code&gt;#&lt;/code&gt; в начале строки, от одного до шести.&lt;/p&gt;
+&lt;p&gt;Headings are marked with a sharp &lt;code&gt;#&lt;/code&gt; at the beginning of the line, from one to six.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Для разметки неупорядоченных списков можно использовать или &lt;code&gt;*&lt;/code&gt;, или &lt;code&gt;-&lt;/code&gt;, или &lt;code&gt;+&lt;/code&gt;
-Вложенные пункты создаются четырьмя пробелами перед маркером пункта:&lt;/p&gt;
+&lt;p&gt;To mark up unordered lists, you can use either &lt;code&gt;*&lt;/code&gt;, or &lt;code&gt;-&lt;/code&gt;, or &lt;code&gt;+&lt;/code&gt;
+Nested items are created by four spaces before the item marker:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
-&lt;li&gt;элемент 1&lt;/li&gt;
-&lt;li&gt;элемент 2
+&lt;li&gt;element 1&lt;/li&gt;
+&lt;li&gt;element 2
 &lt;ul&gt;
-&lt;li&gt;вложенный элемент 2.1&lt;/li&gt;
-&lt;li&gt;вложенный элемент 2.2&lt;/li&gt;
+&lt;li&gt;nested element 2.1&lt;/li&gt;
+&lt;li&gt;nested element 2.2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;элемент &amp;hellip;&lt;/li&gt;
+&lt;li&gt;element &amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
-&lt;li&gt;Картинки вставляются с помощью следующей схемы &amp;ldquo;
+&lt;li&gt;Pictures are inserted using the following scheme &amp;ldquo;
 
 
 
@@ -4584,7 +4584,7 @@ I chose the Markdown markup language, described the main features of its syntax.
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;//placehold.it/150x100&#34; alt=&#34; &#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
-&amp;rdquo;, где в квадратных скобках можно добавить подпись к картинке&lt;/li&gt;
+&amp;rdquo;, where you can add a caption to the picture in square brackets&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

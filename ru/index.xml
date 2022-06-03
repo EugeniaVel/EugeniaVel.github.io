@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>russian_web</title>
+    <title>Academic</title>
     <link>https://EugeniaVel.github.io/ru/</link>
       <atom:link href="https://EugeniaVel.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
-    <description>russian_web</description>
+    <description>Academic</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://EugeniaVel.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>russian_web</title>
+      <title>Academic</title>
       <link>https://EugeniaVel.github.io/ru/</link>
     </image>
     
@@ -2661,16 +2661,612 @@
     </item>
     
     <item>
-      <title>Last week post 👋</title>
+      <title>Лабораторная работа №7</title>
+      <link>https://EugeniaVel.github.io/ru/project/lab7/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://EugeniaVel.github.io/ru/project/lab7/</guid>
+      <description>&lt;h1 id=&#34;теоретическое-введение&#34;&gt;Теоретическое введение&lt;/h1&gt;
+&lt;p&gt;Midnight Commander (или mc) — псевдографическая командная оболочка для UNIX/Linux
+систем.&lt;/p&gt;
+&lt;p&gt;Над панелями располагается меню, доступ к которому осуществляется с помощью
+клавиши F9 . Под панелями внизу расположены управляющие экранные кнопки, ассоци-
+ированные с функциональными клавишами F1 – F10. Над ними располагается
+командная строка, предназначенная для ввода команд.&lt;/p&gt;
+&lt;p&gt;Панель в mc отображает список файлов текущего каталога. Абсолютный путь к этому
+каталогу отображается в заголовке панели. У активной панели заголовок и одна из её
+строк подсвечиваются. Управление панелями осуществляется с помощью определённых
+комбинаций клавиш или пунктов меню mc.&lt;/p&gt;
+&lt;p&gt;Перейти в строку меню панелей mc можно с помощью функциональной клавиши F9 .
+В строке меню имеются пять меню: Левая панель , Файл , Команда , Настройки и Правая панель.&lt;/p&gt;
+&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Изучила информацию о Midnight Commander, вызвав man mc в командной строке.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Информация о mc&#34; srcset=&#34;
+               /ru/project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_292d03d8dcb6c462d6b2eab265f665fe.webp 400w,
+               /ru/project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_b02011e86c5dc618cef5cf1429b2a53f.webp 760w,
+               /ru/project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_292d03d8dcb6c462d6b2eab265f665fe.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;363&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Запустила из командной строки mc, изучила его структуру и меню.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Меню mc&#34; srcset=&#34;
+               /ru/project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_e65ccf13315f5e6914eb40deea5b97a3.webp 400w,
+               /ru/project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_76d9df1048d763c5d84a600bc99e2212.webp 760w,
+               /ru/project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_e65ccf13315f5e6914eb40deea5b97a3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;364&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;б)С помощью комбинации клавиш shift и стрелок вверх-вниз выделила каталог ~/work/study в правой панели, затем с помощью той же комбинации отменила выделение каталога.&lt;/p&gt;
+&lt;p&gt;в)С помощью клавиши f5 скопировала файл Student.cpp из каталога ~/work/study/2021-2022/Операционные системы в каталог ~/work.&lt;/p&gt;
+&lt;p&gt;г)С помощью клавиши f6 переместила файл Student.cpp из каталога ~/work в домашний каталог.&lt;/p&gt;
+&lt;p&gt;д)С помощью комбинации клавиш shift и space посмотрела размер домашнего каталога.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Выполнила команды:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;а)Быстрый просмотр. С её помощью вывела на левую панель содержание файла Student.cpp из домашнего каталога.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда быстрый просмотр&#34; srcset=&#34;
+               /ru/project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_504655fd78586e775e144d0f7dff971c.webp 400w,
+               /ru/project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_5f5f1dd9c1e773059ebeb22b8430560f.webp 760w,
+               /ru/project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_504655fd78586e775e144d0f7dff971c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;б)Информация. С её помощью вывела на экран информацию об одном из снимков экрана.&lt;/p&gt;
+&lt;p&gt;в)Дерево каталогов. С её помощью посмотрела содержание домашнего каталога в виде дерева каталогов.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Дерево каталогов&#34; srcset=&#34;
+               /ru/project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_22431283831521ed573bd2dab2f7196a.webp 400w,
+               /ru/project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_d15b29ff45ad6a782edcde54081fab01.webp 760w,
+               /ru/project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_22431283831521ed573bd2dab2f7196a.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;г)Формат списка. С её помощью я изменила формат выводимого списка файлов и каталогов на укороченный.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда формат списка&#34; srcset=&#34;
+               /ru/project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_c4252ed3a566a9354d032c17c763269e.webp 400w,
+               /ru/project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_01efcab7c43dd9fb3fee4b5cdb1ba920.webp 760w,
+               /ru/project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_c4252ed3a566a9354d032c17c763269e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;д)Порядок сортировки. С её помощью изменила порядок сортировки файлов и каталогов в домашнем каталоге.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда порядок сортировки&#34; srcset=&#34;
+               /ru/project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1c0e302f1047e51fc8cf9c30f94c948f.webp 400w,
+               /ru/project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_d84b4e13779357f55514fe4773ebfb8a.webp 760w,
+               /ru/project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1c0e302f1047e51fc8cf9c30f94c948f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;е)Фильтр. С её помощью вывела на экран файлы из домашнего каталога только с расширением .cpp.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда фильтр&#34; srcset=&#34;
+               /ru/project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_39f3ffa0fd2af29ba8ca89b69f3f3060.webp 400w,
+               /ru/project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_fb012088647cedef75ceecc337e52fad.webp 760w,
+               /ru/project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_39f3ffa0fd2af29ba8ca89b69f3f3060.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Используя возможности подменю файл, выполнила следующие операции:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;-Посмотрела содержимое файла Student.cpp c помощью команды просмотр файла.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Просмотр файла&#34; srcset=&#34;
+               /ru/project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_18957b5bb7731478691e1599b45c3b69.webp 400w,
+               /ru/project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_eafc1c40e4dd28ff716351a970861b86.webp 760w,
+               /ru/project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_18957b5bb7731478691e1599b45c3b69.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;-Отредактировала файл Student.cpp с помощью команды правка, не сохранив изменения.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда правка&#34; srcset=&#34;
+               /ru/project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_ef7c56a99c27606ef0002ebea2012a6f.webp 400w,
+               /ru/project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_8f2fb08e8115d42930213501e4adc12c.webp 760w,
+               /ru/project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_ef7c56a99c27606ef0002ebea2012a6f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;-С помощью команды создание каталога создала каталог ~/lab7.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда создание каталога&#34; srcset=&#34;
+               /ru/project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_082e779ad707535c92e31b1d4beed4df.webp 400w,
+               /ru/project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_3075d3e73ab124ed019bdb4f3ea85ba7.webp 760w,
+               /ru/project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_082e779ad707535c92e31b1d4beed4df.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;-С помощью команды копирование скопировала два выделенных мной снимка экрана в созданный мной в прошлом пункте каталог ~/lab7.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Копирование файлов в новый каталог&#34; srcset=&#34;
+               /ru/project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_8e70433ec1ac9f3821e80cbc6bec59b1.webp 400w,
+               /ru/project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_9653a657bb72fe9ba84073148451bc26.webp 760w,
+               /ru/project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_8e70433ec1ac9f3821e80cbc6bec59b1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Используя возможности подменю команда, выполнила следующие операции:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;-С помощью команды поиск файла в домашнем каталоге рекурсивно нашла все файлы с расширением .txt.&lt;/p&gt;
+&lt;p&gt;-С помощью команды история, посмотрела историю команд, однако не получила вывод ни одной команды, поэтому не смогла выполнить задание до конца.&lt;/p&gt;
+&lt;p&gt;-С помощью команды каталоги быстрого доступа, куда я предварительно добавила домашний каталог, переместилась в него.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда каталоги быстрого доступа&#34; srcset=&#34;
+               /ru/project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_ab8852d509075798b811e0462ebf6f54.webp 400w,
+               /ru/project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_9504df6a9fbfd238a4671afe20678e48.webp 760w,
+               /ru/project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_ab8852d509075798b811e0462ebf6f54.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;-С помощью команды редактировать файл меню посмотрела содержимое файла меню. Команда позволяет отредактировать контекстное меню пользователя, вызываемое по клавише F2. С помощью команды редактировать файл расширений посмотрела содержимое файла расширений. Команда позволяет позволяет задать с помощью определённого синтаксиса действия при запуске файлов с определённым расширением.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Файл меню&#34; srcset=&#34;
+               /ru/project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_626e84b0e696fe4f66348b930f32f986.webp 400w,
+               /ru/project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_878880e848bee472348e96d50b704203.webp 760w,
+               /ru/project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_626e84b0e696fe4f66348b930f32f986.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Файл расширений&#34; srcset=&#34;
+               /ru/project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_f0e8642c6eb8a4a7dedbb79987574df2.webp 400w,
+               /ru/project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_8b160e4dae0dda781f06653c45f1e044.webp 760w,
+               /ru/project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_f0e8642c6eb8a4a7dedbb79987574df2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Вызвала подменю настройки. В настройках панели нашла команду показывать скрытые файлы. и другие команды, определяющие структуру экрана mc.(Например, изменение темы mc)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Настройки панели&#34; srcset=&#34;
+               /ru/project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_f46206bfcf5695da2540cc63401c1e81.webp 400w,
+               /ru/project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_42b2aceee685b69dc8619df2a394d1e6.webp 760w,
+               /ru/project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_f46206bfcf5695da2540cc63401c1e81.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;задание-по-встроенному-редактору-mc&#34;&gt;Задание по встроенному редактору mc&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;С помощью команды touch создала файл text.txt в домашнем каталоге.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Открыла файл в редакторе с помощью команды mc -e(можно также использовать команду mcedit).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Открытие файла в редакторе mcedit&#34; srcset=&#34;
+               /ru/project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_6be9b9f5e37032fee00bf1a31872aeec.webp 400w,
+               /ru/project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_42ac213046fb1a9dfb795dd0791d88c6.webp 760w,
+               /ru/project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_6be9b9f5e37032fee00bf1a31872aeec.webp&#34;
+               width=&#34;330&#34;
+               height=&#34;27&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Вставила в файл текст шаблона по лабораторной работе.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;4.1. С помощью комбинации клавиш ctrl-y удалила первую строку в тексте файла.&lt;/p&gt;
+&lt;p&gt;4.2. С помощью клавиши f3 выделила фрагмент текста файла (один абзац) и с помощью клавиши f5 скопировала его на первую строку.&lt;/p&gt;
+&lt;p&gt;4.3. С помощью клавиши f3 выделила фрагмент текста файла (один абзац) и с помощью клавиши f6 переместила его на следующей строке после второго абзаца.&lt;/p&gt;
+&lt;p&gt;4.4. С помощью клавиши f2 сохранила изменения в файле.&lt;/p&gt;
+&lt;p&gt;4.5. С помощью комбинации клавиш ctrl-u отменила перемещение абзаца, сделанное в подпункте 4.3.&lt;/p&gt;
+&lt;p&gt;4.6. С помощью комбинации клавиш ctrl-end перешла в конец файла и ввела своё ФИО.&lt;/p&gt;
+&lt;p&gt;4.7. С помощью комбинации клавиш ctrl-home перешла в начало файла и ввела название своей группы.&lt;/p&gt;
+&lt;p&gt;4.8. Сохранила файл с помощью клавиши f2 и закрыла файл с помощью клавиши f10.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Открыла файл Student.cpp на языке С++.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Используя меню редактора(подменю команда), выключила подсветку синтаксиса, так как она изначально была включена.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда включения/выключения подсветки синтаксиса, подсвеченный синтаксис&#34; srcset=&#34;
+               /ru/project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_ef79f36779653ef7cca5e78235e117ac.webp 400w,
+               /ru/project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_6f4274db8d5b14d46a3924ca0f7d75c1.webp 760w,
+               /ru/project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_ef79f36779653ef7cca5e78235e117ac.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Выключение подсветки синтаксиса&#34; srcset=&#34;
+               /ru/project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_58a209fc73592935abe252f855a3ffb6.webp 400w,
+               /ru/project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_6a4124ee32d75e6393cdf670e20e0534.webp 760w,
+               /ru/project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_58a209fc73592935abe252f855a3ffb6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Пост по прошлой неделе</title>
       <link>https://EugeniaVel.github.io/ru/post/last-week-post/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       <guid>https://EugeniaVel.github.io/ru/post/last-week-post/</guid>
-      <description>&lt;h2 id=&#34;laboratory-work-5&#34;&gt;Laboratory work №5&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;лабораторная-работа-5&#34;&gt;Лабораторная работа №5&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;I studied Linux file systems, their structures, names and content of their directories.&lt;/li&gt;
-&lt;li&gt;I learned how to use commands for working with files and directories, how to manage processes and how to check disk usage.&lt;/li&gt;
+&lt;li&gt;Я изучила файловые системы Линукс, их структуры, имена и содержимое их каталогов.&lt;/li&gt;
+&lt;li&gt;Я научилась использовать команды для работы с файлами и каталогами, как управлять процессами и проверять использование диска.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;report-about-laboratory-work-5-in-russian&#34;&gt;Report about laboratory work №5 in Russian&lt;/h2&gt;
+&lt;h2 id=&#34;отчёт-по-лабораторной-работе-5&#34;&gt;Отчёт по лабораторной работе №5&lt;/h2&gt;
 &lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;Создала каталог lab5, в него скопировала шаблоны отчёта и презентации.(рис.1)&lt;/li&gt;
 &lt;/ol&gt;
@@ -3953,602 +4549,6 @@
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 { #fig:001 width=70% }&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Лабораторная работа №7</title>
-      <link>https://EugeniaVel.github.io/ru/project/lab7/</link>
-      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://EugeniaVel.github.io/ru/project/lab7/</guid>
-      <description>&lt;h1 id=&#34;теоретическое-введение&#34;&gt;Теоретическое введение&lt;/h1&gt;
-&lt;p&gt;Midnight Commander (или mc) — псевдографическая командная оболочка для UNIX/Linux
-систем.&lt;/p&gt;
-&lt;p&gt;Над панелями располагается меню, доступ к которому осуществляется с помощью
-клавиши F9 . Под панелями внизу расположены управляющие экранные кнопки, ассоци-
-ированные с функциональными клавишами F1 – F10. Над ними располагается
-командная строка, предназначенная для ввода команд.&lt;/p&gt;
-&lt;p&gt;Панель в mc отображает список файлов текущего каталога. Абсолютный путь к этому
-каталогу отображается в заголовке панели. У активной панели заголовок и одна из её
-строк подсвечиваются. Управление панелями осуществляется с помощью определённых
-комбинаций клавиш или пунктов меню mc.&lt;/p&gt;
-&lt;p&gt;Перейти в строку меню панелей mc можно с помощью функциональной клавиши F9 .
-В строке меню имеются пять меню: Левая панель , Файл , Команда , Настройки и Правая панель.&lt;/p&gt;
-&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;Изучила информацию о Midnight Commander, вызвав man mc в командной строке.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Информация о mc&#34; srcset=&#34;
-               /ru/project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_292d03d8dcb6c462d6b2eab265f665fe.webp 400w,
-               /ru/project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_b02011e86c5dc618cef5cf1429b2a53f.webp 760w,
-               /ru/project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc2_hud9948d202fb970954d153ad27711f9af_113678_292d03d8dcb6c462d6b2eab265f665fe.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;363&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Запустила из командной строки mc, изучила его структуру и меню.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Меню mc&#34; srcset=&#34;
-               /ru/project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_e65ccf13315f5e6914eb40deea5b97a3.webp 400w,
-               /ru/project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_76d9df1048d763c5d84a600bc99e2212.webp 760w,
-               /ru/project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc4_hub4a88fed5611321ddf585bca12403f1e_136668_e65ccf13315f5e6914eb40deea5b97a3.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;364&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;б)С помощью комбинации клавиш shift и стрелок вверх-вниз выделила каталог ~/work/study в правой панели, затем с помощью той же комбинации отменила выделение каталога.&lt;/p&gt;
-&lt;p&gt;в)С помощью клавиши f5 скопировала файл Student.cpp из каталога ~/work/study/2021-2022/Операционные системы в каталог ~/work.&lt;/p&gt;
-&lt;p&gt;г)С помощью клавиши f6 переместила файл Student.cpp из каталога ~/work в домашний каталог.&lt;/p&gt;
-&lt;p&gt;д)С помощью комбинации клавиш shift и space посмотрела размер домашнего каталога.&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Выполнила команды:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;а)Быстрый просмотр. С её помощью вывела на левую панель содержание файла Student.cpp из домашнего каталога.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда быстрый просмотр&#34; srcset=&#34;
-               /ru/project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_504655fd78586e775e144d0f7dff971c.webp 400w,
-               /ru/project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_5f5f1dd9c1e773059ebeb22b8430560f.webp 760w,
-               /ru/project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc12_hu88d1d8c7f13818799e09faab8fc8c4b9_305639_504655fd78586e775e144d0f7dff971c.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;б)Информация. С её помощью вывела на экран информацию об одном из снимков экрана.&lt;/p&gt;
-&lt;p&gt;в)Дерево каталогов. С её помощью посмотрела содержание домашнего каталога в виде дерева каталогов.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Дерево каталогов&#34; srcset=&#34;
-               /ru/project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_22431283831521ed573bd2dab2f7196a.webp 400w,
-               /ru/project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_d15b29ff45ad6a782edcde54081fab01.webp 760w,
-               /ru/project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc15_hu8603f9549f7488070f7324d0a2ab6147_280850_22431283831521ed573bd2dab2f7196a.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;г)Формат списка. С её помощью я изменила формат выводимого списка файлов и каталогов на укороченный.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда формат списка&#34; srcset=&#34;
-               /ru/project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_c4252ed3a566a9354d032c17c763269e.webp 400w,
-               /ru/project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_01efcab7c43dd9fb3fee4b5cdb1ba920.webp 760w,
-               /ru/project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc16_hu8603f9549f7488070f7324d0a2ab6147_294130_c4252ed3a566a9354d032c17c763269e.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;д)Порядок сортировки. С её помощью изменила порядок сортировки файлов и каталогов в домашнем каталоге.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда порядок сортировки&#34; srcset=&#34;
-               /ru/project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1c0e302f1047e51fc8cf9c30f94c948f.webp 400w,
-               /ru/project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_d84b4e13779357f55514fe4773ebfb8a.webp 760w,
-               /ru/project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc18_hu8603f9549f7488070f7324d0a2ab6147_293104_1c0e302f1047e51fc8cf9c30f94c948f.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;е)Фильтр. С её помощью вывела на экран файлы из домашнего каталога только с расширением .cpp.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда фильтр&#34; srcset=&#34;
-               /ru/project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_39f3ffa0fd2af29ba8ca89b69f3f3060.webp 400w,
-               /ru/project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_fb012088647cedef75ceecc337e52fad.webp 760w,
-               /ru/project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc21_hu88d1d8c7f13818799e09faab8fc8c4b9_297585_39f3ffa0fd2af29ba8ca89b69f3f3060.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Используя возможности подменю файл, выполнила следующие операции:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;-Посмотрела содержимое файла Student.cpp c помощью команды просмотр файла.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Просмотр файла&#34; srcset=&#34;
-               /ru/project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_18957b5bb7731478691e1599b45c3b69.webp 400w,
-               /ru/project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_eafc1c40e4dd28ff716351a970861b86.webp 760w,
-               /ru/project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc25_hu8603f9549f7488070f7324d0a2ab6147_157633_18957b5bb7731478691e1599b45c3b69.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;-Отредактировала файл Student.cpp с помощью команды правка, не сохранив изменения.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда правка&#34; srcset=&#34;
-               /ru/project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_ef7c56a99c27606ef0002ebea2012a6f.webp 400w,
-               /ru/project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_8f2fb08e8115d42930213501e4adc12c.webp 760w,
-               /ru/project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc26_hu8603f9549f7488070f7324d0a2ab6147_333664_ef7c56a99c27606ef0002ebea2012a6f.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;-С помощью команды создание каталога создала каталог ~/lab7.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда создание каталога&#34; srcset=&#34;
-               /ru/project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_082e779ad707535c92e31b1d4beed4df.webp 400w,
-               /ru/project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_3075d3e73ab124ed019bdb4f3ea85ba7.webp 760w,
-               /ru/project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc29_hu8603f9549f7488070f7324d0a2ab6147_297119_082e779ad707535c92e31b1d4beed4df.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;-С помощью команды копирование скопировала два выделенных мной снимка экрана в созданный мной в прошлом пункте каталог ~/lab7.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Копирование файлов в новый каталог&#34; srcset=&#34;
-               /ru/project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_8e70433ec1ac9f3821e80cbc6bec59b1.webp 400w,
-               /ru/project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_9653a657bb72fe9ba84073148451bc26.webp 760w,
-               /ru/project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc32_hu7374cb3c2b961ba23eb97f50d112c2f4_177381_8e70433ec1ac9f3821e80cbc6bec59b1.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Используя возможности подменю команда, выполнила следующие операции:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;-С помощью команды поиск файла в домашнем каталоге рекурсивно нашла все файлы с расширением .txt.&lt;/p&gt;
-&lt;p&gt;-С помощью команды история, посмотрела историю команд, однако не получила вывод ни одной команды, поэтому не смогла выполнить задание до конца.&lt;/p&gt;
-&lt;p&gt;-С помощью команды каталоги быстрого доступа, куда я предварительно добавила домашний каталог, переместилась в него.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда каталоги быстрого доступа&#34; srcset=&#34;
-               /ru/project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_ab8852d509075798b811e0462ebf6f54.webp 400w,
-               /ru/project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_9504df6a9fbfd238a4671afe20678e48.webp 760w,
-               /ru/project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc36_hu8603f9549f7488070f7324d0a2ab6147_334785_ab8852d509075798b811e0462ebf6f54.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;-С помощью команды редактировать файл меню посмотрела содержимое файла меню. Команда позволяет отредактировать контекстное меню пользователя, вызываемое по клавише F2. С помощью команды редактировать файл расширений посмотрела содержимое файла расширений. Команда позволяет позволяет задать с помощью определённого синтаксиса действия при запуске файлов с определённым расширением.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Файл меню&#34; srcset=&#34;
-               /ru/project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_626e84b0e696fe4f66348b930f32f986.webp 400w,
-               /ru/project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_878880e848bee472348e96d50b704203.webp 760w,
-               /ru/project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc38_hu8603f9549f7488070f7324d0a2ab6147_229262_626e84b0e696fe4f66348b930f32f986.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Файл расширений&#34; srcset=&#34;
-               /ru/project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_f0e8642c6eb8a4a7dedbb79987574df2.webp 400w,
-               /ru/project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_8b160e4dae0dda781f06653c45f1e044.webp 760w,
-               /ru/project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc39_hu8603f9549f7488070f7324d0a2ab6147_259226_f0e8642c6eb8a4a7dedbb79987574df2.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;Вызвала подменю настройки. В настройках панели нашла команду показывать скрытые файлы. и другие команды, определяющие структуру экрана mc.(Например, изменение темы mc)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Настройки панели&#34; srcset=&#34;
-               /ru/project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_f46206bfcf5695da2540cc63401c1e81.webp 400w,
-               /ru/project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_42b2aceee685b69dc8619df2a394d1e6.webp 760w,
-               /ru/project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc40_hu83353ac018c6401faaddca9c8016413b_189468_f46206bfcf5695da2540cc63401c1e81.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h1 id=&#34;задание-по-встроенному-редактору-mc&#34;&gt;Задание по встроенному редактору mc&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;С помощью команды touch создала файл text.txt в домашнем каталоге.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Открыла файл в редакторе с помощью команды mc -e(можно также использовать команду mcedit).&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Открытие файла в редакторе mcedit&#34; srcset=&#34;
-               /ru/project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_6be9b9f5e37032fee00bf1a31872aeec.webp 400w,
-               /ru/project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_42ac213046fb1a9dfb795dd0791d88c6.webp 760w,
-               /ru/project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc42_hu07a7c47b4902e17bc1162daa46c33a3d_5971_6be9b9f5e37032fee00bf1a31872aeec.webp&#34;
-               width=&#34;330&#34;
-               height=&#34;27&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;Вставила в файл текст шаблона по лабораторной работе.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;4.1. С помощью комбинации клавиш ctrl-y удалила первую строку в тексте файла.&lt;/p&gt;
-&lt;p&gt;4.2. С помощью клавиши f3 выделила фрагмент текста файла (один абзац) и с помощью клавиши f5 скопировала его на первую строку.&lt;/p&gt;
-&lt;p&gt;4.3. С помощью клавиши f3 выделила фрагмент текста файла (один абзац) и с помощью клавиши f6 переместила его на следующей строке после второго абзаца.&lt;/p&gt;
-&lt;p&gt;4.4. С помощью клавиши f2 сохранила изменения в файле.&lt;/p&gt;
-&lt;p&gt;4.5. С помощью комбинации клавиш ctrl-u отменила перемещение абзаца, сделанное в подпункте 4.3.&lt;/p&gt;
-&lt;p&gt;4.6. С помощью комбинации клавиш ctrl-end перешла в конец файла и ввела своё ФИО.&lt;/p&gt;
-&lt;p&gt;4.7. С помощью комбинации клавиш ctrl-home перешла в начало файла и ввела название своей группы.&lt;/p&gt;
-&lt;p&gt;4.8. Сохранила файл с помощью клавиши f2 и закрыла файл с помощью клавиши f10.&lt;/p&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;Открыла файл Student.cpp на языке С++.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Используя меню редактора(подменю команда), выключила подсветку синтаксиса, так как она изначально была включена.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Команда включения/выключения подсветки синтаксиса, подсвеченный синтаксис&#34; srcset=&#34;
-               /ru/project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_ef79f36779653ef7cca5e78235e117ac.webp 400w,
-               /ru/project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_6f4274db8d5b14d46a3924ca0f7d75c1.webp 760w,
-               /ru/project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc52_hu83353ac018c6401faaddca9c8016413b_134988_ef79f36779653ef7cca5e78235e117ac.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Выключение подсветки синтаксиса&#34; srcset=&#34;
-               /ru/project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_58a209fc73592935abe252f855a3ffb6.webp 400w,
-               /ru/project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_6a4124ee32d75e6393cdf670e20e0534.webp 760w,
-               /ru/project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://EugeniaVel.github.io/ru/project/lab7/image/oc53_hu83353ac018c6401faaddca9c8016413b_106778_58a209fc73592935abe252f855a3ffb6.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;376&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
 </description>
     </item>
     
